@@ -16,7 +16,7 @@ module.exports = {
       },
       
       fontFamily: {
-        serif: ['"Poppins", serif;'], // First font family
+        serif: ['"Mulish", serif;'], // First font family
         heading: ['"Syne", serif;'], // Second font family
       },
       

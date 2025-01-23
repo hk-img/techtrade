@@ -5,78 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/output.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
-      rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body class="font-heading">
-    <header class="w-full main-header fixed z-50 bg-white shadow">
-      <div
-        class="mx-auto max-w-7xl flex items-center justify-between container lg:px-8 px-4 py-4  relative">
-        <div class="flex flex-col flex-wrap lg:flex-nowrap">
-          <a href="#" class="logo">
-            <img class="md:h-20 md:w-auto" width="174" height="48"
-              src="assets/img/logo.png" data-src="assets/img/logo.png"
-              alt="IMG Global Infotech Logo" title="IMG Global Infotech Logo">
-          </a>
-        </div>
-        <div class="flex flex-col flex-wrap lg:flex-nowrap items-center">
-          <div
-            class="flex flex-col relative lg:gap-x-12 items-center">
-            <ul class="flex lg:flex-nowrap flex-wrap">
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">About</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Resoures</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Important
-                  Links</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Products</a>
-              </li>
-              <li class="relative px-2 py-2 group">
-                <a href="#"
-                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Back
-                  Office</a>
-              </li>
-              <li
-                class="request-btn flex items-center gap-2">
-                <!-- <a href="#"
-                  class="flex items-center text-sm px-4 py-4 relative 
-                  bg-secondary font-semibold uppercase rounded-md before:absolute before:content-[''] before:w-1 before:h-7 before:bg-white before:rounded-md before:left-[6px] before:top-[8px] after:content-[''] after:absolute after:bg-white after:w-[6px] after:h-[6px] after:rounded-full after:left-[5px] after:top-[40px]">
-                  start trading
-                </a> -->
-                <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                  <span class="select-nonee">Open a Demat A/C
-                    <span aria-hidden="true" class="">→</span> </span>
+     <header class="fixed top-0 w-full bg-white border-b border-slate-200 shadow-lg z-50">
+      <div class="max-2xl:max-w-7xl 2xl:px-24 3xl:px-36 mx-auto lg:pb-3 group-[]/nav:py-3 py-3 px-6 lg:px-8 z-50">
+          <div class="flex items-center justify-between relative">
+                <a href="#" class="logo">
+                  <img class="md:h-20 md:w-auto" width="174" height="48"
+                  src="assets/img/logo.png" data-src="assets/img/logo.png" alt="" title="">
                 </a>
-                <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-secondary text-themeColor1 md:hover:bg-themeColor1 md:hover:text-white">
-                  <span class="select-nonee">Start Tarding
-                    <span aria-hidden="true" class="">→</span> </span>
-                </a>
-              </li>
-            </ul>
+              <div class="flex items-center gap-4">
+                  <ul class="lg:flex gap-4 hidden items-center">
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                             About
+                          </a>
+                      </li>
+                      <li class="group ">
+                        <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                         Resources
+                       </a>
+                      </li>
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide ">
+                            Important Links
+                          </a>
+  
+                      </li>
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                            Products
+                          </a>
+  
+                      </li>
+                      <li class="group">
+                          <a href="#" class="flex items-center px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">
+                            Back
+                            Office
+                          </a>
+                      </li>
+                      <li class="request-btn flex items-center gap-2">
+                        <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                          <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#FFAF7A] text-sm uppercase">Open a Demat A/C</span>
+                        </a>
+                        <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-[#8E3800] flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#FFAF7A] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                          <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#8E3800] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#8E3800] text-sm uppercase">Start Trading</span>
+                        </a>
+                    </li>
+                  </ul>
+                  <div class="flex items-center gap-4">
+                     
+                      <div class="flex lg:hidden">
+                          <label for="sideToggle" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-black group-[]/nav:text-black">
+                              <span class="sr-only">Open menu</span>
+                              <svg class="size-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5">
+                                  </path>
+                              </svg>
+                          </label>
+                      </div>
+                  </div>
+              </div>
           </div>
-          <!-- <div class="toggle-btn">
-            <label for="sideToggle" class="*:size-6 *:text-themeColor1">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg>
-          </label>
-          </div> -->
-        </div>
-       
       </div>
     </header>
-    <div class="relative">
-    <div
-    class="w-full flex bg-none lg:bg-cover bg-center lg:h-[800px] pt-[60px] lg:pt-8 rounded-b-[57px] text-black mx-auto lg:bg-[url('../img/vector-bg.png')] ">
-    <div class="lg:mt-24 py-8 mx-auto max-w-7xl px-6 lg:px-8 ">
+    <input type="checkbox" class="peer/sideToggle hidden " name="sideToggle" id="sideToggle">
+    <label for="sideToggle" class="fixed inset-0 -z-[1011] pointer-events-none backdrop-blur-xl bg-theme1 peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"></label>
+    <div class="fixed flex flex-col h-full inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-black select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-theme1/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
+    <div class="flex items-center justify-between">
+        <a href="" class="-ml-1.5">
+            <span class="sr-only">Tech Trade</span>
+            <img class="h-12 w-auto" width="174" height="48" src="assets/img/logo.png" alt=" Logo">
+        </a>
+        <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 *:text-white">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </label>
+    </div>
+    <div class="mt-6 flow-root flex-fill -mr-4 pr-4">
+        <div class="-my-6 divide-y divide-white">
+            <div class="space-y-2 py-6">
+                <div class="flex flex-col gap-5 items-center">
+                    <div class="flex flex-col w-full gap-y-5">
+                        <a href="#" class="text-sm font-semibold text-white">About</a>
+                        <a href="#" class="text-sm font-semibold text-white">Resources</a>
+                        <a href="#" class="text-sm font-semibold text-white">Important Links</a>
+                        <a href="#" class="text-sm font-semibold text-white">Products</a>
+                        <a href="#" class="text-sm font-semibold text-white">Back Office</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <section class="relative">
+    <div class="w-full flex bg-none lg:bg-cover bg-center lg:h-[710px] pt-[60px] lg:pt-8 rounded-b-[57px] text-black mx-auto lg:bg-[url('../img/vector-bg.png')] ">
+    <div class="lg:mt-24 py-8 mx-auto rounded-[57px] max-w-7xl px-6 lg:px-8">
       <div class="swiper mySwiper relative overflow-hidden "
         data-swiper='{
        "slidesPerView": 1,
@@ -105,7 +133,7 @@
             <div
               class="w-full flex flex-wrap flex-col md:flex-row lg:flex-nowrap items-center justify-between">
               <div
-                class="flex flex-col w-full md:w-[50%] md:text-left">
+                class="flex flex-wrap lg:flex-nowrap flex-col w-full md:w-[50%] md:text-left">
                 <h1 class="font-bold text-[42px] leading-tight mb-3">Where Investments <span class="text-themeColor1 ">Meet Opportunities</span> </h1>
                 <p
                   class="text-themecolor3 text-sm font-normal leading-relaxed font-serif">Lorem
@@ -116,9 +144,8 @@
                   galley of type and scrambled it to make a type specimen
                   book.</p>
                   <div class="mt-6 flex gap-4">
-                    <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                      <span class="select-nonee">Open a Demat A/C
-                        <span aria-hidden="true" class="">→</span> </span>
+                    <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                      <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#C5D8F3]">Open a Demat A/C</span>
                     </a>
                   </div>
               </div>
@@ -134,9 +161,9 @@
             <div
               class="flex flex-wrap flex-col md:flex-row lg:flex-nowrap items-center justify-between">
               <div
-                class="flex flex-col  w-full md:w-[50%] md:text-left">
+                class="flex flex-col flex-wrap lg:flex-nowrap w-full md:w-[50%] md:text-left">
                 <h1 class="font-bold text-[42px] leading-tight mb-3">Empower
-                  Your Trades<span class="text-themeColor2">with
+                  Your Trades <span class="text-themeColor2">with
                     Precision</span> </h1>
                 <p
                   class="text-themecolor3 text-sm font-normal leading-relaxed">Lorem
@@ -147,10 +174,8 @@
                   galley of type and scrambled it to make a type specimen
                   book.</p>
                   <div class="mt-6 flex gap-4">
-                     
-                    <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                      <span class="select-nonee">Open a Demat A/C
-                        <span aria-hidden="true" class="">→</span> </span>
+                    <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                      <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
                     </a>
                   </div>
               </div>
@@ -166,7 +191,7 @@
             <div
               class="flex flex-wrap flex-col md:flex-row lg:flex-nowrap items-center justify-between">
               <div
-                class="flex flex-col w-full md:w-[50%] md:text-left">
+                class="flex flex-col w-full flex-wrap lg:flex-nowrap md:w-[50%] md:text-left">
                 <h1 class="font-bold text-[42px] leading-tight mb-3">Empowering Your Journey <span class="text-themeColor1">in the Markets</span> </h1>
                 <p
                   class="text-themecolor3 text-sm font-normal leading-relaxed">Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -177,13 +202,10 @@
                   book.</p>
                  
                     <div class="mt-6 flex gap-4">
-                     
-                      <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
-                        <span class="select-nonee">Open a Demat A/C
-                          <span aria-hidden="true" class="">→</span> </span>
+                      <a href="" class="group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[3px] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[66px] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[141px] after:hover:md:right-[10px] after:duration-300">
+                        <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-18px)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-18px)] after:rounded-full after:bg-[#C5D8F3]">Open a Demat A/C</span>
                       </a>
                     </div>
-                 
               </div>
               <div
                 class="flex flex-col items-center justify-center w-full md:w-[50%]">
@@ -206,11 +228,11 @@
       </div>
     </div>
     </div>
-    </div>
+    </section>
     <section class="relative w-full py-12">
       <div class="w-full mx-auto max-w-7xl px-4 lg:px-8">
         <div class="flex flex-wrap lg:flex-nowrap items-center">
-          <div class="w-full lg:w-1/2 p-4 lg:p-8 md:p-4">
+          <div class="w-full lg:w-1/2 p-4 lg:p-8 md:p-4 flex justify-center">
             <div class="mx-auto">
               <img class="about-img" width="500" height="487"
                 src="assets/img/about-us.png"
@@ -338,8 +360,7 @@
           </div>
           <div
             class="bg-[#953F07] z-10 opacity-100 rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
-            <div
-              class="bg-themeColor2 p-6 rounded-md flex items-center duration-300 justify-between group-hover:shadow-2xl group-hover:scale-95">
+            <div class="bg-themeColor2 p-6 rounded-md flex items-center duration-300 justify-between group-hover:shadow-2xl group-hover:scale-95">
               <div class="relative flex flex-col gap-3 p-2 before:absolute before:content-[''] before:bg-[#953F07] before:w-[1px] before:h-[165px] before:top-10 before:right-0">
                 <h3 class="text-white lg:text-base text-2xl font-semibold">Demat A/C</h3>
                 <div
@@ -1167,7 +1188,7 @@
             <a href="#" class="logo">
               <img class="md:h-20 md:w-auto" width="174" height="48"
                 src="assets/img/logo.png" data-src="assets/img/logo.png"
-                alt="IMG Global Infotech Logo" title="IMG Global Infotech Logo">
+                alt="" title="">
             </a>
           </div>
           <div class="flex flex-col flex-wrap lg:flex-nowrap ">

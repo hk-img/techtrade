@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/output.css">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap"
       rel="stylesheet">
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body class="font-heading">
     <header class="w-full main-header fixed z-50 bg-white shadow">
@@ -24,47 +22,64 @@
         </div>
         <div class="flex flex-col flex-wrap lg:flex-nowrap items-center">
           <div
-            class="hidden lg:flex lg:flex-col relative lg:gap-x-12 items-center">
+            class="lg:hidden flex flex-col relative lg:gap-x-12 items-center">
             <ul class="flex lg:flex-nowrap flex-wrap">
               <li class="relative px-2 py-2 group">
                 <a href="#"
-                  class="px-2 text-primary font-semibold opacity-100 text-sm tracking-wide duration-300 hover:md:text-themeColor1">About</a>
+                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">About</a>
               </li>
               <li class="relative px-2 py-2 group">
                 <a href="#"
-                  class="px-2 text-primary font-semibold opacity-100 text-sm tracking-wide duration-300 hover:md:text-themeColor1">Resoures</a>
+                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Resoures</a>
               </li>
               <li class="relative px-2 py-2 group">
                 <a href="#"
-                  class="px-2 text-primary font-semibold opacity-100 text-sm tracking-wide duration-300 hover:md:text-themeColor1">Important
+                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Important
                   Links</a>
               </li>
               <li class="relative px-2 py-2 group">
                 <a href="#"
-                  class="px-2 text-primary font-semibold opacity-100 text-sm tracking-wide duration-300 hover:md:text-themeColor1">Products</a>
+                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Products</a>
               </li>
               <li class="relative px-2 py-2 group">
                 <a href="#"
-                  class="px-2 text-primary font-semibold opacity-100 text-sm tracking-wide duration-300 hover:md:text-themeColor1">Back
+                  class="px-2 text-black font-semibold opacity-100 text-[13px] duration-300 hover:md:text-themeColor1 uppercase tracking-wide">Back
                   Office</a>
               </li>
               <li
-                class="request-btn flex lg:flex lg:flex-col lg:gap-x-12 gap-y-5 items-center">
-                <a href="#"
+                class="request-btn flex items-center gap-2">
+                <!-- <a href="#"
                   class="flex items-center text-sm px-4 py-4 relative 
                   bg-secondary font-semibold uppercase rounded-md before:absolute before:content-[''] before:w-1 before:h-7 before:bg-white before:rounded-md before:left-[6px] before:top-[8px] after:content-[''] after:absolute after:bg-white after:w-[6px] after:h-[6px] after:rounded-full after:left-[5px] after:top-[40px]">
                   start trading
+                </a> -->
+                <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
+                  <span class="select-nonee">Open a Demat A/C
+                    <span aria-hidden="true" class="">→</span> </span>
+                </a>
+                <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-secondary text-themeColor1 md:hover:bg-themeColor1 md:hover:text-white">
+                  <span class="select-nonee">Start Tarding
+                    <span aria-hidden="true" class="">→</span> </span>
                 </a>
               </li>
             </ul>
           </div>
+          <div class="toggle-btn">
+            <label for="sideToggle" class="*:size-6 *:text-themeColor1">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM64 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L96 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"></path></svg>
+          </label>
+          </div>
+        </div>
+        <div class="hidden lg:flex lg:flex-col lg:gap-x-8 gap-y-5 ml-auto mr-0 items-end">
+          
         </div>
       </div>
     </header>
+    
     <div class="relative">
       <div
         class="w-full flex bg-cover bg-center h-[700px] text-black mx-auto bg-[url('../img/vector-bg.png')]">
-        <div class="absolute lg:mt-24 py-8 mx-auto max-w-7xl px-6 lg:px-8 ">
+        <div class="lg:mt-24 py-8 mx-auto max-w-7xl px-6 lg:px-8 ">
           <div class="swiper mySwiper relative overflow-hidden "
             data-swiper='{
            "slidesPerView": 1,
@@ -96,7 +111,7 @@
                     class="flex flex-col  w-full md:w-[50%] md:text-left">
                     <h1 class="font-bold text-[42px] leading-tight mb-3">Where Investments <span class="text-themeColor1 ">Meet Opportunities</span> </h1>
                     <p
-                      class="text-themecolor3 text-sm font-normal leading-relaxed">Lorem
+                      class="text-themecolor3 text-sm font-normal leading-relaxed font-serif">Lorem
                       Ipsum is simply dummy text of the printing and typesetting
                       industry. Lorem Ipsum has been the industry's standard
                       dummy
@@ -104,7 +119,6 @@
                       galley of type and scrambled it to make a type specimen
                       book.</p>
                       <div class="mt-6 flex gap-4">
-                         
                         <a href="" class="inline-flex justify-center rounded-md text-sm font-semibold cursor-pointer py-2 md:py-3 px-3 md:px-4 bg-themeColor1 text-white hover:bg-slate-700">
                           <span class="select-nonee">Open a Demat A/C
                             <span aria-hidden="true" class="">→</span> </span>
@@ -196,7 +210,6 @@
         </div>
       </div>
     </div>
-
     <section class="relative w-full mx-auto px-4 lg:px-8 py-12">
       <div class="mx-auto container ">
         <div class="flex flex-wrap lg:flex-nowrap items-center">
@@ -213,9 +226,9 @@
               <div class="subtitle text-themeColor2 font-semibold">About
                 Us</div>
               <h2 class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black ">
-                <span class="font-normal">Welcome to Sanchit Financial &
-                  with</span> <span class="font-bold text-themeColor2">
+        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black ">
+                Welcome to Sanchit Financial &
+                  with <span class=" text-themeColor2">
                   Management Services Ltd.</span>
 
               </h2>
@@ -302,7 +315,7 @@
       </div>
     </section>
     <section
-      class="w-full pt-4 lg:pb-28 pb-16 sm:py-16 relative bg-[#FBE7DA] rounded-t-[57px] ">
+      class="w-full pt-4 lg:pb-28 pb-16 sm:py-16 relative bg-[#FBE7DA] rounded-t-[57px]">
       <div class="w-full mx-auto max-w-7xl px-4 lg:px-8">
         <div class="absolute inset-0 size-full overflow-hidden">
           <div
@@ -311,46 +324,13 @@
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">What We ‘re
             Offering</div>
-          <h2 class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight  text-black 
-
-       
-    ">
-            <span class="font-normal">Discover the Services That
-            </span> <span class="font-bold text-themeColor2">
+          <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black">
+            Discover the Services That<span class=" text-themeColor2">
               Drive Success</span>
-
           </h2>
         </div>
         <div
           class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 *:w-full gap-8 py-12">
-          <!-- <div class="relative lg:h- h-80 block bg-[#953F07] rounded-md overflow-hidden pt-4">
-            <div class="*:size-8 *:text-white absolute top-[54px] right-[20px] z-10">
-              <svg stroke="white" fill="currentColor" stroke-width="0"
-                viewBox="0 0 16 16" height="200px" width="200px"
-                xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd"
-                  clip-rule="evenodd"
-                  d="M1.5 14H15v-1H2V0H1v13.5l.5.5zM3 11.5v-8l.5-.5h2l.5.5v8l-.5.5h-2l-.5-.5zm2-.5V4H4v7h1zm6-9.5v10l.5.5h2l.5-.5v-10l-.5-.5h-2l-.5.5zm2 .5v9h-1V2h1zm-6 9.5v-6l.5-.5h2l.5.5v6l-.5.5h-2l-.5-.5zm2-.5V6H8v5h1z"></path></svg>
-            </div>
-            <div class="text relative block rounded-md bg-themeColor2 py-8 ps-6 pe-16 before:absolute before:content-[''] before:bg-[#953F07] before:w-[1px] before:h-[165px] before:top-10 before:right-16">
-              <h3 class="text-white lg:text-base text-2xl font-semibold">Equity</h3>
-              <div
-              class="mt-2 sm:text-base text-white text-sm leading-6">Tech Trade provides comprehensive Equity services, offering expert analysis, strategic insights, and personalized solutions to help clients navigate the complexities of the equity markets and achieve their financial goals.</div>
-            </div>
-            <div class="relative text-white px-3 pt-3 flex items-center">* Navigate the
-              Market with Ease.</div>
-              <div class="-rotate-90 absolute right-[7px] bottom-[150px]">
-                <a href="#"
-                  class="*:size-4 text-sm text-white inline-flex font-semibold *:-rotate-[40deg]">More
-                  <svg stroke="currentColor" fill="currentColor"
-                    stroke-width="0" viewBox="0 0 512 512" height="200px"
-                    width="200px" xmlns="http://www.w3.org/2000/svg"><path
-                      fill="none" stroke-linecap="round"
-                      stroke-linejoin="round" stroke-width="48"
-                      d="m112 268 144 144 144-144M256 392V100"></path></svg>
-                </a>
-              </div>
-          </div> -->
           <div
             class="bg-[#953F07] z-10 opacity-100 rounded-md duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group">
             <div
@@ -445,7 +425,6 @@
         </div>
       </div>
     </section>
-
     <section class="w-full relative bg-white rounded-t-[57px] -mt-14 px-8 lg:px-8">
       <div class="relative max-w-7xl px-8 py-20 mx-auto ">
         <div
@@ -459,10 +438,8 @@
             <div class="md:w-3/5 w-full">
               <div class="heading text-left">
                 <h2
-                  class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight  text-white  first:*:font-normal last:*:font-bold">
-                  <span class="font-extrabold">Begin your investing journey with
-                    TECH TRADE
-                  </span>
+                  class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-white  ">
+                 Begin your investing journey with TECH TRADE
                 </h2>
                 <div
                   class="mt-6 sm:text-base text-slate-100 font-medium text-sm leading-6">Sanchit
@@ -490,13 +467,9 @@
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">How it’s
             Work</div>
-          <h2 class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight  text-black 
-
-       
-    ">
-            <span class="font-normal">Start Trading on
-            </span> <span class="font-bold text-themeColor2">
+          <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black ">
+            Start Trading on
+            <span class="font-bold text-themeColor2">
               Your Terms</span>
           </h2>
         </div>
@@ -665,8 +638,8 @@
               <div class="md:w-3/5 w-full flex items-start">
                 <div class="heading text-left">
                   <h2
-                    class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight  text-black  first:*:font-normal last:*:font-bold">
-                    <span class="font-extrabold">Perform <span
+                    class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black ">
+                    Perform <span
                         class="text-themeColor2">Market Research</span> to gain
                       Insights into Industry Trends
                     </span>
@@ -721,12 +694,9 @@
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">Stocks</div>
           <h2 class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black 
-
-       
-    ">
-            <span class="font-normal">Transparent Pricing
-            </span> <span class="font-bold text-themeColor2">
+        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
+            Transparent Pricing
+            <span class="text-themeColor2">
               You Can Trust</span>
           </h2>
         </div>
@@ -735,7 +705,7 @@
             class="grid xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-5 justify-center py-10">
 
             <div
-              class="rounded-md grid items-center duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">IRFC</h4>
               <div
@@ -760,7 +730,7 @@
              
             </div>
             <div
-              class="rounded-md grid items-center duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">NHPC Ltd</h4>
               <div
@@ -784,7 +754,7 @@
               </div>
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Rail Vikas</h4>
               <div
@@ -799,7 +769,7 @@
               </div>
             </div>
               <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end duration-500 invisible opacity-0 md:group-hover:scale-100 md:group-hover:visible md:group-hover:opacity-100">
+                class="font-medium *:size-6 *:text-slate-600 flex bg-white justify-end duration-500 invisible opacity-0 md:group-hover:scale-100 md:group-hover:visible md:group-hover:opacity-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="200px" width="200px"
@@ -808,7 +778,7 @@
               </div>
 
             </div>
-            <div class="rounded-md grid items-center duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+            <div class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Vodafone Idea</h4>
               <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-red-500 py-1">−4.00
@@ -830,7 +800,7 @@
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
             </div>
-            <div class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Ircon
                 International</h4>
@@ -856,7 +826,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Rites</h4>
               <div
@@ -881,7 +851,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Titagarh Rail</h4>
               <div
@@ -906,7 +876,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Vodafone Idea</h4>
               <div
@@ -931,7 +901,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">SBI</h4>
               <div
@@ -956,7 +926,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">BSE</h4>
               <div
@@ -981,7 +951,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Yes Bank</h4>
               <div
@@ -1006,7 +976,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Reliance</h4>
               <div
@@ -1031,7 +1001,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">S&P 500</h4>
               <div
@@ -1056,7 +1026,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">IRFC</h4>
               <div
@@ -1081,7 +1051,7 @@
 
             </div>
             <div
-              class="rounded-md grid items-center  duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[10px]">
               <h4 class="text-lg font-semibold text-black text-center">Greaves Cotton</h4>
               <div
@@ -1119,9 +1089,9 @@
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">Faq's</div>
           <h2 class="
-        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight  text-black">
-            <span class="font-bold">Frequently Asked 
-            </span> <span class="font-bold text-themeColor2">
+        max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight font-bold text-black">
+            Frequently Asked 
+            <span class="text-themeColor2">
               Questions</span>
           </h2>
         </div>
@@ -1138,7 +1108,7 @@
                 <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                     <div class="w-full text-xs xl:text-sm pt-8">
                         <div class="flex items-center gap-x-3 py-2 relative">
-                            <div class="flex-auto text-slate-700 sm:text-sm text-sm">
+                            <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif ">
                               A trading strategy is a set of rules and techniques for analyzing markets and executing trades, such as trend-following, mean-reversion, or breakout strategies.
                             </div>
                         </div>
@@ -1157,7 +1127,7 @@
                   <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                       <div class="w-full text-xs xl:text-sm pt-8">
                           <div class="flex items-center gap-x-3 py-2 relative">
-                              <div class="flex-auto text-slate-700 sm:text-sm text-sm">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
                                 A trading strategy is a set of rules and techniques for analyzing markets and executing trades, such as trend-following, mean-reversion, or breakout strategies.
                               </div>
                           </div>
@@ -1175,7 +1145,7 @@
                   <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                       <div class="w-full text-xs xl:text-sm pt-8">
                           <div class="flex items-center gap-x-3 py-2 relative">
-                              <div class="flex-auto text-slate-700 sm:text-sm text-sm">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
                                 Candlestick charts represent price movements in a given period. Each "candlestick" shows the opening, closing, high, and low prices, making it easier to analyze market trends.
                               </div>
                           </div>
@@ -1192,7 +1162,7 @@
                   <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                       <div class="w-full text-xs xl:text-sm pt-8">
                           <div class="flex items-center gap-x-3 py-2 relative">
-                              <div class="flex-auto text-slate-700 sm:text-sm text-sm">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
                                 Leverage allows traders to control larger positions with less capital. For example, 10:1 leverage means you can trade $10,000 with $1,000. While it amplifies profits, it also increases risks.
                               </div>
                           </div>
@@ -1209,7 +1179,7 @@
                   <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                       <div class="w-full text-xs xl:text-sm pt-8">
                           <div class="flex items-center gap-x-3 py-2 relative">
-                              <div class="flex-auto text-gray-900 sm:text-sm text-sm">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
                                 A stop-loss automatically closes a trade to limit losses, while a take-profit closes a trade once a profit target is reached.
                               </div>
                           </div>
@@ -1221,9 +1191,9 @@
       </div>
       </div>
     </section>
-    <!-- footer -->
-    <!-- <footer class="bg-[#EAF1FA] rounded-t-[57px] mt-10 py-14 md:pt-16">
-       <div class="container mx-auto max-w-7xl px-8 py-4 ">
+     
+    <footer class="bg-[#EAF1FA] rounded-t-[57px] mt-10 py-10 md:pt-16">
+      <div class="container mx-auto max-w-7xl px-8 py-4 relative">
         <div class="w-full flex justify-between items-center">
           <div class="flex flex-col flex-wrap lg:flex-nowrap">
             <a href="#" class="logo">
@@ -1251,20 +1221,144 @@
               <svg class="group-hover/social:text-white group-hover/social:scale-100 scale-95 duration-300" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
             </a>
           </div>
+
           </div>
         </div>
-        <div class="w-full flex flex-wrap py-8 my-8 sm:gap-y-10 border-t border-dashed border-[#EAF1FA]">
-          <div class="w-full sm:w-1/2 lg:w-1/4 relative py-3 duration-300">
-            <h3 class="text-xl text-black font-semibold">Contact Info</h3>
-            <ul>
-              <li class="flex gap-2 items-center"><span class="*:size-6 text-themeColor1 *:text-themeColor1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M12,22 C12,22 4,16 4,10 C4,5 8,2 12,2 C16,2 20,5 20,10 C20,16 12,22 12,22 Z M12,13 C13.657,13 15,11.657 15,10 C15,8.343 13.657,7 12,7 C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 L12,13 Z"></path></svg></span>Address: <span>4th Malviya Nagar St 4th Jaipur (Raj.)</span></li>
-              <li><span></span>Contact No.: <span>(+91) 7792022561</span></li>
-              <li><span></span>Email: <span>info@techtrade.in</span></li>
-            </ul>
+        <div class="w-full flex flex-wrap py-8 gap-y-10 text-sm">
+          <div class="w-full md:w-1/2 lg:w-1/4">
+             <div class="flex flex-col w-full px-3">
+                  <div class="w-full font-bold text-lg lg:text-xl pb-4">Contact Info</div>
+                  <div class="flex flex-col">
+                      <div class="flex gap-2 py-2">
+                        <span class="*:size-6 inline-flex items-center gap-2 font-semibold text-base text-themeColor1 *:text-themeColor1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M12,22 C12,22 4,16 4,10 C4,5 8,2 12,2 C16,2 20,5 20,10 C20,16 12,22 12,22 Z M12,13 C13.657,13 15,11.657 15,10 C15,8.343 13.657,7 12,7 C10.343,7 9,8.343 9,10 C9,11.657 10.343,13 12,13 L12,13 Z"></path></svg>Contact No.:</span><span class="font-serif">(+91) 7792022561</span>
+                      </div>
+                      <div class="flex gap-2 py-2">
+                        <span class="*:size-6 inline-flex items-center gap-2 font-semibold text-base text-themeColor1 *:text-themeColor1"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"></path></svg>Email.:</span><span class="font-serif" >info@techtrade.in</span>
+                      </div>
+                  </div>
+             </div>
           </div>
+          <div class="w-full md:w-1/2 lg:w-1/4">
+            <div class="flex flex-col w-full">
+                 <div class="w-full font-bold text-lg lg:text-xl pb-4">Quick Links</div>
+                 <div class="flex flex-col">
+                     <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                         <span class="">About Us</span>
+                     </a>
+                     <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                       <span class="">Careers</span>
+                   </a>
+                   <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                     <span class="">Branch Locator</span>
+                 </a>
+                 <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                   <span class="">Investor Charter</span>
+                 </a>
+               <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                 <span class="">KMP</span>
+               </a>
+            
+           </div>
+            </div>
+         </div>
+         <div class="w-full md:w-1/2 lg:w-1/4">
+          <div class="flex flex-col w-full ">
+               <div class="w-full font-bold text-lg lg:text-xl pb-4">Important Links</div>
+               <div class="flex flex-col">
+                   <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                       <span class="">Fit and Proper Declaration</span>
+                   </a>
+                   <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                     <span class="">Freeze/Unfreeze Trading Account</span>
+                 </a>
+                 <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                   <span class="">Terms & Conditions</span>
+               </a>
+               <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                 <span class="">Privacy Policy</span>
+               </a>
+             <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+               <span class="">Risk Disclosure on Derivatives</span>
+             </a>
+          
+         </div>
+          </div>
+       </div>
+       <div class="w-full md:w-1/2 lg:w-1/4">
+        <div class="flex flex-col w-full">
+             <div class="font-bold text-lg lg:text-xl pb-4">Resources</div>
+             <div class="flex flex-col">
+                 <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                     <span class="">Account Opening Process</span>
+                 </a>
+                 <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                   <span class="">Downloads</span>
+               </a>
+               <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+                 <span class="">Funds Transfer</span>
+             </a>
+             <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+               <span class="">Investor Charter</span>
+             </a>
+           <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+             <span class="">Holiday Calendar</span>
+           </a>
+         <a href="#" class=" w-full duration-300 transition-all py-2 md:py-1 md:hover:text-themeColor1">
+           <span class="">Backoffice</span>
+         </a>
+         
+       </div>
         </div>
-       </div>	
-    </footer> -->
+     </div>
+        </div>
+      </div>
+    </footer>
+    <div class="w-full bg-slate-900 py-6 px-6 mx-auto">
+      <div class="container mx-auto max-w-7xl px-8 py-4 relative">
+      <div class="text-[12px] text-slate-100 leading-5 font-normal tracking-wide font-serif">
+        Sanchit Financial &amp; Management Services Limited: <strong>SEBI Reg. No.</strong> – INZ000295835 | <strong>DP ID</strong> – IN303253 | <strong>Membership No. – NSE </strong>– 08039 | <strong>CIN </strong>– U74140PB1994PLC014438 | <strong>GST No.</strong> – AAFCS1672N1Z6
+<br>
+<strong>Registered Address</strong>: U-6 Krishna Apartment, Hathi Babu Marg, Bani Park,
+Jaipur, Rajasthan- 302016, India | <strong>Compliance officer</strong>: Sapna Chouhan <strong>Phone</strong>: 7792022561 <strong>Email</strong>: compliance@techtrade.in
+
+<strong>Attention Investors:</strong> Prevent Unauthorised transactions in your Trading/Demat Account. Update your mobile numbers/email IDs with your stock brokers/Depository Participant. Receive alerts/information of your transaction/all debit and other important transactions in your Trading/ Demat Account directly from Exchange/CDSL at the end of the day | KYC is one time exercise while dealing in securities markets – once KYC is done through a SEBI registered intermediary (broker, DP, Mutual Fund etc.), you need not undergo the same process again when you approach another intermediary | No need to issue cheques by investors while subscribing to IPO. Just write the bank account number and sign in the application form to authorise your bank to make payment in case of allotment. No worries for refund as the money remains in investor’s account…… Issued in the interest of investor.
+
+Sanchit Financial &amp; Management Services Limited discloses herewith that it is undertaking proprietary trading in addition to trades done for its clients.
+<ul class="py-2">
+<li>1. Stock Brokers can accept securities as margin from clients only by way of pledge in the depository system w.e.f. September 1, 2020.</li>
+<li>2. Update your mobile number &amp; email Id with your stock broker/depository participant and receive OTP directly from depository on your email id and/or mobile number to create pledge.</li>
+<li>3. Pay 20% upfront margin of the transaction value to trade in cash market segment.</li>
+<li>4. Investors may please refer to the Exchange’s Frequently Asked Questions (FAQs) issued vide circular reference NSE/INSP/45191 dated July 31, 2020 and NSE/INSP/45534 dated August 31, 2020 and other guidelines issued from time to time in this regard.</li>
+<li>5.Check your Securities in the consolidated account statement issued by NSDL every month.</li>
+</ul>
+<div class="py-2">
+Kindly note that as per NSE circulars nos: NSE/INVG/36333 dated November 17, 2018, NSE/INVG/37765 dated May 15.2018 and BSE circular nos: 2017 1117-18 dated November 17, 2018, 2018 0515-39 dated May 15.2018, trading in securities in which unsolicited messages are being circulated is restricted. The list of such stocks are available on the website of NSE & BSE. Investors are advised not to blindly follow the unfounded rumors, Tips given in social networks, SMS, WhatsApp, Blogs etc. and invest only after conducting appropriate analysis of respective companies.
+</div>
+<div class="py-2">
+  “The Stock Exchange, Mumbai is not in any manner answerable, responsible or liable to any person or persons for any acts of omission or the commission, errors, mistakes and/or violation, actual or perceived, by us or our partners, agents, associates, etc., of any of the Rules, Regulations, Bye-laws of the Stock Exchange, Mumbai, SEBI Act or any other laws in force from time to time. The Stock Exchange, Mumbai is not answerable, responsible or liable for any information on this Website or for any services rendered by our employees, our servants, and us.”
+</div>
+  <div class="flex items-center gap-3 text-sm px-2 py-2 flex-wrap lg:flex-nowrap">
+    <span class="font-bold">IMPORTANT LINKS: </span>
+    <span>NSE</span>
+    <span>BSE</span>
+    <span>SEBI</span>
+    <span>MCX</span>
+    <span>NCDEX</span>
+    <span>MSEI</span>
+    <span>RBI</span>
+    <span>SCORES</span>
+    <span>SMART ODR</span>
+    <span>KMP</span>
+    <span>Investor Guide NSE</span>
+  </div>
+     </div>
+    </div>
+    </div>
+    <div class="footer-btm bg-themeColor1 px-2 py-2">
+      <div class="container mx-auto max-w-7xl px-8 py-2 relative">
+        <div class="text-white font-normal text-sm text-start font-serif">Copyright © 2024 <span class="text-themeColor2 font-bold">Sanchit Financial</span> & Management Services Limited.</div>
+      </div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>

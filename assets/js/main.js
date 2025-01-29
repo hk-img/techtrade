@@ -1,8 +1,7 @@
-
-var swiper = new Swiper(".testimonialsSwiper", {
+var swiper = new Swiper(".mySwiper ", {
 });
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll('.testimonialsSwiper').forEach(swiperEl => {
+  document.querySelectorAll('.mySwiper').forEach(swiperEl => {
     const config = JSON.parse(swiperEl.getAttribute('data-swiper'));
     new Swiper(swiperEl, config);
   });

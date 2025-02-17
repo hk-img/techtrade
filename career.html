@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   </head>
   <body class="font-heading">
-     <header class=" fixed top-0 w-full bg-white border-b border-slate-200 shadow-lg z-50">
+    <header class="fixed top-0 w-full bg-white border-b border-slate-200 shadow-lg z-50">
       <nav class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto flex items-center justify-between">
           <div class="flex items-start">
           <a href="javascript:;" class="logo">
@@ -435,6 +435,306 @@
       </nav>
     </header>
 
+    <input type="checkbox" class="peer/sideToggle hidden " name="sideToggle" id="sideToggle">
+    <label for="sideToggle" class="fixed inset-0 -z-[1011] pointer-events-none backdrop-blur-xl bg-theme1 peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"></label>
+    <div class="fixed flex flex-col h-full inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-black select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-theme1/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
+      <div class="flex items-center justify-between">
+        <a href="javascript:;" class="-ml-1.5">
+            <span class="sr-only">Tech Trade</span>
+            <img class="h-12 w-auto" width="174" height="48" src="assets/img/logo.png" alt=" Logo">
+        </a>
+        <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 *:text-white">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+        </label>
+      </div>
+      <div class="mt-6 flow-root flex-fill -mr-4 pr-4">
+          <div class="-my-6 divide-y divide-white">
+              <div class="space-y-2 py-6">
+                  <div class="flex flex-col gap-5 items-center">
+                      <div class="flex flex-col w-full gap-y-5">
+                        <div class="relative flex flex-col gap-y-3">
+                        <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmAbout">
+                        <label for="mmAbout" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          About Us
+                          <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
+                        </label>
+                <div class="w-full peer-checked/mm:block hidden">
+                  <div class="grid grid-cols-1 flex-wrap w-full gap-4">
+                    <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
+                      <div class="mb-2 p-2 ">
+                        <div class="flex-auto">
+                          <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                            Investor Grievance
+                            <span class="absolute inset-0 z-[1]"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="mb-2 p-2 ">
+                        <div class="flex-auto">
+                          <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                          Branch Locator
+                            <span class="absolute inset-0 z-[1]"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="mb-2 p-2 ">
+                        <div class="flex-auto">
+                          <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                          Career                            
+                          <span class="absolute inset-0 z-[1]"></span>
+                          </a>
+                        </div>
+                      </div>
+                      <div class="mb-2 p-2 ">
+                        <div class="flex-auto">
+                          <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                            Contact
+                            <span class="absolute inset-0 z-[1]"></span>
+                          </a>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div>
+                        </div>
+                        <div class="relative flex flex-col gap-y-3">
+                          <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmResources">
+                          <label for="mmResources" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                           Resources
+                            <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
+                          </label>
+                          <div class="w-full peer-checked/mm:block hidden">
+                            <div class="grid grid-cols-1 flex-wrap w-full gap-4">
+                              <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Account Opening Process
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Downloads
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Investor Charter                          
+                                    <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Holiday Calendar
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Fit and Proper Declaration
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="relative flex flex-col gap-y-3">
+                          <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmImp_links">
+                          <label for="mmImp_links" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          Important Links
+                            <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
+                          </label>
+                          <div class="w-full peer-checked/mm:block hidden">
+                            <div class="grid grid-cols-1 flex-wrap w-full gap-4">
+                              <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      NSE
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    BSE
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    SEBI                           
+                                    <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      MCX
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      NCDEX
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      MSEI
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      RBI
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      CDSL
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      NDSL
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Smart ODR
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      KMP
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Scores
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                     Investor Guide NSE
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>  
+                        <div class="relative flex flex-col gap-y-3">
+                          <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmProducts">
+                          <label for="mmProducts" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                            Products 
+                          </label>
+                        </div>   
+                        
+                        <div class="relative flex flex-col gap-y-3">
+                          <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmBackoffice">
+                          <label for="mmBackoffice" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                           Back Office
+                            <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
+                          </label>
+                          <div class="w-full peer-checked/mm:block hidden">
+                            <div class="grid grid-cols-1 flex-wrap w-full gap-4">
+                              <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Client login
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto ">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    Fund Transfer
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    Freeze/Unfreeze trading Account                            
+                                    <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="relative flex flex-col gap-y-3">
+                          <a href="javascript:;" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                           Open A Demat A/C
+                          </a>
+                        </div>
+                        <div class="relative flex flex-col gap-y-3">
+                          <a href="javascript:;" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                           Start Trading
+                          </a>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
     <div class="w-full bg-[linear-gradient(90deg,#004AAD_0%,#001E47_100%)] rounded-b-[57px] rounded-bl-[3.563rem] rounded-br-[3.563rem] py-12 lg:py-16 mt-24 relative overflow-hidden flex items-center justify-center">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto flex items-center relative z-10">
         <div class="flex flex-col justify-start font-serif space-y-3 text-white lg:text-left text-left">
@@ -457,7 +757,7 @@
     </div>
 
     <section class="w-full py-10 relative bg-white" >
-        <div class="2xl:px-24 lg:3xl:px-36 lg:pb-3    lg:w-full mx-auto">
+        <div class="2xl:px-24 lg:3xl:px-36 lg:pb-3 lg:w-full mx-auto">
 
           <div class="flex flex-col space-y-3 justify-center  items-center ">
             <h1 class="lg:text-lg text-base font-heading text-gray-500">Career</h1>
@@ -472,10 +772,9 @@
         <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 w-full">
           <div class="flex py-7">
             <h1 class="lg:text-[32px] text-xl font-semibold font-heading">
-              <span class="lg:text-[32px] text-xl hidden font-heading font-semibold text-[#C85103]">Current</span> Openings
+              <span class="lg:text-[32px] text-xl !inline-block font-heading font-semibold text-[#C85103]">Current</span> Openings
             </h1>
           </div>
-      
           <div class="flex flex-col rounded-lg shadow shadow-[#9C9292]">
             <div class="py-4 px-2 lg:px-10 border-b flex justify-between items-center cursor-pointer" onclick="toggleContent()">
               <h1 class="font-serif lg:text-xl flex flex-row text-lg font-semibold">

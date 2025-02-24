@@ -6,3 +6,4 @@ document.addEventListener("DOMContentLoaded", () => {
     new Swiper(swiperEl, config);
   });
 });
+

@@ -19,6 +19,7 @@ module.exports = {
         serif: ['"Mulish", serif;'], // First font family
         heading: ['"Syne", serif;'], // Second font family
         jost: ['Jost', 'serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       
       container: {

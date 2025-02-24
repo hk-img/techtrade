@@ -13,6 +13,7 @@ module.exports = {
       },
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, rgba(0,74,173,0.7) 0%, rgba(15,6,0,1) 100%)',
+        
       },
       
       fontFamily: {

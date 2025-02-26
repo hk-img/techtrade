@@ -3477,6 +3477,10 @@ video {
   padding-top: 8.5rem;
 }
 
+.pt-\[10rem\] {
+  padding-top: 10rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -5559,6 +5563,10 @@ video {
 
   .md\:h-20 {
     height: 5rem;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
   }
 
   .md\:w-1\/2 {

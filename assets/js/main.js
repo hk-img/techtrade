@@ -10,29 +10,60 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: 2,  
-  spaceBetween: 20,
-  // autoplay: {
-  //   delay: 3000, 
-  //   disableOnInteraction: false,
-  // },
+  slidesPerView: 1,  
+  spaceBetween: 10,
   speed: 1000, 
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    
   },
   breakpoints: {
-    640: { 
+    640: { // sm (>=640px)
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: { // md (>=768px)
+      slidesPerView: 1,
+      spaceBetween: 15,
+    },
+    1024: { // lg (>=1024px)
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    0: { 
-      slidesPerView: 1,
-      spaceBetween: 10,
+    1280: { // xl (>=1280px)
+      slidesPerView: 2,
+      spaceBetween: 20,
     }
   }
 });
+
+// downloadpagejs
+function toggleAccordion(id) {
+  let content = document.getElementById("content-" + id);
+  let icon = document.getElementById("icon-" + id);
+
+  let isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
+
+  document.querySelectorAll("[id^='content-']").forEach((el) => {
+      el.style.maxHeight = null;
+  });
+
+  document.querySelectorAll("[id^='icon-']").forEach((el) => {
+      el.classList.remove("rotate-180");
+  });
+
+  if (!isOpen) {
+      content.style.maxHeight = content.scrollHeight + "px";
+      icon.classList.add("rotate-180");
+  }
+}
+
+window.onload = function () {
+  toggleAccordion(1);
+};
+
+
+
 
 
 // investor grievance togglebutton

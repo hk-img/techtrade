@@ -37,6 +37,18 @@ var swiper = new Swiper(".mySwiper2", {
   }
 });
 
+
+// irfcclick
+document.querySelectorAll(".rounded-md").forEach(div => {
+  div.addEventListener("click", function () {
+    window.location.href = "irfc.html";
+  });
+});
+
+
+
+
+
 // downloadpagejs
 function toggleAccordion(id) {
   let content = document.getElementById("content-" + id);

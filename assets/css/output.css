@@ -949,6 +949,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mb-\[-0\.75rem\] {
   margin-bottom: -0.75rem;
 }
@@ -1021,16 +1025,12 @@ video {
   margin-top: 1.75rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-\[-2\.688rem\] {
   margin-top: -2.688rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .\!mt-8 {

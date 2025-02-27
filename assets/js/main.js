@@ -65,6 +65,43 @@ window.onload = function () {
 
 
 
+   // Show popup on page load
+   window.onload = function() {
+    document.getElementById('popup').classList.remove('hidden');
+};
+
+// Function to close popup
+function closePopup() {
+    document.getElementById('popup').classList.add('hidden');
+}
+
+
+
+const modal = document.getElementById("modal");
+const openModalBtns = document.querySelectorAll(".openModal");
+const closeModalBtn = document.getElementById("closeModal");
+
+// Open modal on any button click
+openModalBtns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        modal.classList.remove("hidden");
+    });
+});
+
+// Close modal when clicking on close button
+closeModalBtn.addEventListener("click", () => {
+    modal.classList.add("hidden");
+});
+
+// Close modal when clicking outside modal content
+window.addEventListener("click", (event) => {
+    if (event.target === modal) {
+        modal.classList.add("hidden");
+    }
+});
+
+
+
 
 // investor grievance togglebutton
 const levelButtons = document.querySelectorAll('.level-btn');

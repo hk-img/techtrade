@@ -38,12 +38,37 @@ var swiper = new Swiper(".mySwiper2", {
 });
 
 
-// irfcclick
-document.querySelectorAll(".rounded-md").forEach(div => {
-  div.addEventListener("click", function () {
-    window.location.href = "irfc.html";
-  });
-});
+// // irfcclick
+// document.querySelectorAll(".rounded-md").forEach(div => {
+//   div.addEventListener("click", function () {
+//     window.location.href = "irfc.html";
+//   });
+// });
+
+
+function toggleActive(selected) {
+  let nseBtn = document.getElementById("nseBtn");
+  let bseBtn = document.getElementById("bseBtn");
+
+  if (selected === "NSE") {
+      nseBtn.classList.add("bg-white", "text-[#425061]");
+      nseBtn.classList.remove("bg-slate-600", "text-white");
+
+      bseBtn.classList.add("bg-slate-600", "text-white");
+      bseBtn.classList.remove("bg-white", "text-[#425061]");
+  } else {
+      bseBtn.classList.add("bg-white", "text-[#425061]");
+      bseBtn.classList.remove("bg-slate-600", "text-white");
+
+      nseBtn.classList.add("bg-slate-600", "text-white");
+      nseBtn.classList.remove("bg-white", "text-[#425061]");
+  }
+}
+
+
+
+
+
 
 
 

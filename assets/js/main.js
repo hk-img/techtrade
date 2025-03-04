@@ -67,8 +67,50 @@ function toggleActive(selected) {
 
 
 
+document.querySelectorAll(".underline-effect").forEach(button => {
+  button.addEventListener("click", function () {
+      // Sabhi buttons ka underline remove karna
+      document.querySelectorAll(".underline-effect").forEach(btn => {
+          btn.classList.remove("active");
+          btn.querySelector("span").classList.remove("w-full");
+          btn.querySelector("span").classList.add("w-0");
+      });
+
+      // Clicked button pe underline lagana
+      this.classList.add("active");
+      let underline = this.querySelector("span");
+      underline.classList.remove("w-0");
+      underline.classList.add("w-full");
+
+      // Sabhi content hide karna
+      document.querySelectorAll(".tab-content").forEach(content => {
+          content.classList.add("hidden");
+      });
+
+      // Clicked button ke content ko show karna
+      let tabId = this.getAttribute("data-tab");
+      document.getElementById(tabId).classList.remove("hidden");
+  });
+});
 
 
+
+
+const contentBox = document.getElementById("content-box");
+const toggleBtn = document.getElementById("toggle-btn");
+
+let isExpanded = false;
+
+toggleBtn.addEventListener("click", () => {
+    if (isExpanded) {
+        contentBox.style.maxHeight = "120px"; // Collapsed height
+        toggleBtn.textContent = "Read More";
+    } else {
+        contentBox.style.maxHeight = contentBox.scrollHeight + "px"; // Auto height based on content
+        toggleBtn.textContent = "Read Less";
+    }
+    isExpanded = !isExpanded;
+});
 
 
 

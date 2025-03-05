@@ -4834,6 +4834,11 @@ video {
   height: calc(100% - 18px);
 }
 
+.before\:h-\[calc\(100\%-1rem\)\]::before {
+  content: var(--tw-content);
+  height: calc(100% - 1rem);
+}
+
 .before\:w-0::before {
   content: var(--tw-content);
   width: 0px;
@@ -5079,6 +5084,11 @@ video {
   top: -2.5rem !important;
 }
 
+.after\:-top-\[3\.5rem\]::after {
+  content: var(--tw-content);
+  top: -3.5rem;
+}
+
 .after\:-top-\[4\.125rem\]::after {
   content: var(--tw-content);
   top: -4.125rem;
@@ -5143,6 +5153,12 @@ video {
   content: var(--tw-content);
   width: 1rem;
   height: 1rem;
+}
+
+.after\:size-60::after {
+  content: var(--tw-content);
+  width: 15rem;
+  height: 15rem;
 }
 
 .after\:size-80::after {
@@ -5495,6 +5511,11 @@ video {
 .group\/btn:hover .group-hover\/btn\:after\:h-\[calc\(100\%-18px\)\]::after {
   content: var(--tw-content);
   height: calc(100% - 18px);
+}
+
+.group\/btn:hover .group-hover\/btn\:after\:h-\[calc\(100\%-1rem\)\]::after {
+  content: var(--tw-content);
+  height: calc(100% - 1rem);
 }
 
 .group\/nav .group-\[\]\/nav\:text-black {
@@ -5860,9 +5881,19 @@ video {
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 
+  .sm\:px-6 {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .sm\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
+  }
+
+  .sm\:py-3 {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
   }
 
   .sm\:text-center {
@@ -5889,6 +5920,11 @@ video {
     box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   }
 
+  .sm\:after\:-top-\[4\.125rem\]::after {
+    content: var(--tw-content);
+    top: -4.125rem;
+  }
+
   .sm\:after\:right-7::after {
     content: var(--tw-content);
     right: 1.75rem;
@@ -5897,6 +5933,12 @@ video {
   .sm\:after\:top-\[1\.6rem\]::after {
     content: var(--tw-content);
     top: 1.6rem;
+  }
+
+  .sm\:after\:size-72::after {
+    content: var(--tw-content);
+    width: 18rem;
+    height: 18rem;
   }
 
   .sm\:after\:h-3::after {
@@ -5994,6 +6036,11 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:text-lg {
@@ -6123,6 +6170,11 @@ video {
     bottom: 0px;
   }
 
+  .md\:after\:-top-\[5rem\]::after {
+    content: var(--tw-content);
+    top: -5rem;
+  }
+
   .md\:after\:bottom-1\/2::after {
     content: var(--tw-content);
     bottom: 50%;
@@ -6157,6 +6209,18 @@ video {
     content: var(--tw-content);
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .md\:after\:size-80::after {
+    content: var(--tw-content);
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .md\:after\:size-72::after {
+    content: var(--tw-content);
+    width: 18rem;
+    height: 18rem;
   }
 
   .md\:after\:-translate-y-\[calc\(50\%-2px\)\]::after {
@@ -6313,9 +6377,19 @@ video {
     top: -141px;
   }
 
+  .after\:hover\:md\:-top-\[7rem\]:hover::after {
+    content: var(--tw-content);
+    top: -7rem;
+  }
+
   .after\:hover\:md\:-top-\[8\.813rem\]:hover::after {
     content: var(--tw-content);
     top: -8.813rem;
+  }
+
+  .after\:hover\:md\:right-\[0\.5rem\]:hover::after {
+    content: var(--tw-content);
+    right: 0.5rem;
   }
 
   .after\:hover\:md\:right-\[0\.625rem\]:hover::after {
@@ -6840,6 +6914,11 @@ video {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .lg\:py-5 {

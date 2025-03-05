@@ -139,14 +139,16 @@ var swiper = new Swiper(".mySwiper2", {
 
 
    
-   window.onload = function() {
-    document.getElementById('popup').classList.remove('hidden');
+window.onload = function() {
+  setTimeout(function() {
+      document.getElementById('popup').classList.remove('hidden');
+  }, 2000); // 2000 milliseconds = 2 seconds
 };
 
-
 function closePopup() {
-    document.getElementById('popup').classList.add('hidden');
+  document.getElementById('popup').classList.add('hidden');
 }
+
 
 
 

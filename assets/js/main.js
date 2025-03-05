@@ -9,6 +9,97 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".underline-effect");
+  const contents = document.querySelectorAll(".tab-content");
+
+  buttons.forEach(button => {
+      button.addEventListener("click", function () {
+          // Remove active class from all buttons
+          buttons.forEach(btn => {
+              btn.classList.remove("active");
+              btn.querySelector("span").classList.remove("w-full");
+              btn.querySelector("span").classList.add("w-0");
+          });
+
+          // Add active class to clicked button
+          this.classList.add("active");
+          let underline = this.querySelector("span");
+          underline.classList.remove("w-0");
+          underline.classList.add("w-full");
+
+          // Hide all content
+          contents.forEach(content => content.classList.add("hidden"));
+
+          // Show selected content
+          const tabId = this.getAttribute("data-tab");
+          document.getElementById(tabId).classList.remove("hidden");
+      });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const contentBox = document.getElementById("content-box");
+  const toggleBtn = document.getElementById("toggle-btn");
+
+  let isExpanded = false; // Default collapsed
+
+  toggleBtn.addEventListener("click", () => {
+      if (isExpanded) {
+          contentBox.style.maxHeight = "120px"; // Collapsed height
+          toggleBtn.textContent = "Read More";
+      } else {
+          contentBox.style.maxHeight = contentBox.scrollHeight + "px"; // Full height based on content
+          toggleBtn.textContent = "Read Less";
+      }
+      isExpanded = !isExpanded;
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  let nseBtn = document.getElementById("nseBtn");
+  let bseBtn = document.getElementById("bseBtn");
+
+  if (nseBtn && bseBtn) { 
+      // Click event listener add kar rahe hain
+      nseBtn.addEventListener("click", function () {
+          toggleActive("NSE");
+      });
+
+      bseBtn.addEventListener("click", function () {
+          toggleActive("BSE");
+      });
+
+      // Function ko define kar rahe hain
+      function toggleActive(selected) {
+        let nseBtn = document.getElementById("nseBtn");
+        let bseBtn = document.getElementById("bseBtn");
+    
+        if (selected === "NSE") {
+            nseBtn.classList.add("bg-slate-600", "text-white");
+            nseBtn.classList.remove("bg-white", "text-[#425061]");
+    
+            bseBtn.classList.add("bg-white", "text-[#425061]");
+            bseBtn.classList.remove("bg-slate-600", "text-white");
+        } else {
+            bseBtn.classList.add("bg-slate-600", "text-white");
+            bseBtn.classList.remove("bg-white", "text-[#425061]");
+    
+            nseBtn.classList.add("bg-white", "text-[#425061]");
+            nseBtn.classList.remove("bg-slate-600", "text-white");
+        }
+    }
+    
+  }
+});
+
+
+
+
+
 var swiper = new Swiper(".mySwiper2", {
   slidesPerView: 1,  
   spaceBetween: 10,
@@ -46,6 +137,49 @@ var swiper = new Swiper(".mySwiper2", {
 // });
 
 
+
+   
+window.onload = function() {
+  setTimeout(function() {
+      document.getElementById('popup').classList.remove('hidden');
+  }, 2000); // 2000 milliseconds = 2 seconds
+};
+
+function closePopup() {
+  document.getElementById('popup').classList.add('hidden');
+}
+
+
+
+
+const modal = document.getElementById("modal");
+const openModalBtns = document.querySelectorAll(".openModal");
+const closeModalBtn = document.getElementById("closeModal");
+
+// Open modal on any button click
+openModalBtns.forEach((item) => {
+
+    item.addEventListener("click", () => {
+        modal.classList.remove("hidden");
+    });
+});
+
+// Close modal when clicking on close button
+closeModalBtn.addEventListener("click", () => {
+  modal.classList.add("hidden");
+});
+
+// Close modal when clicking outside modal content
+window.addEventListener("click", (event) => {
+  if (event.target === modal) {
+      modal.classList.add("hidden");
+  }
+});
+
+
+
+
+
 function toggleActive(selected) {
   let nseBtn = document.getElementById("nseBtn");
   let bseBtn = document.getElementById("bseBtn");
@@ -63,57 +197,7 @@ function toggleActive(selected) {
       nseBtn.classList.add("bg-slate-600", "text-white");
       nseBtn.classList.remove("bg-white", "text-[#425061]");
   }
-}
-
-
-
-document.querySelectorAll(".underline-effect").forEach(button => {
-  button.addEventListener("click", function () {
-      // Sabhi buttons ka underline remove karna
-      document.querySelectorAll(".underline-effect").forEach(btn => {
-          btn.classList.remove("active");
-          btn.querySelector("span").classList.remove("w-full");
-          btn.querySelector("span").classList.add("w-0");
-      });
-
-      // Clicked button pe underline lagana
-      this.classList.add("active");
-      let underline = this.querySelector("span");
-      underline.classList.remove("w-0");
-      underline.classList.add("w-full");
-
-      // Sabhi content hide karna
-      document.querySelectorAll(".tab-content").forEach(content => {
-          content.classList.add("hidden");
-      });
-
-      // Clicked button ke content ko show karna
-      let tabId = this.getAttribute("data-tab");
-      document.getElementById(tabId).classList.remove("hidden");
-  });
-});
-
-
-
-
-const contentBox = document.getElementById("content-box");
-const toggleBtn = document.getElementById("toggle-btn");
-
-let isExpanded = false;
-
-toggleBtn.addEventListener("click", () => {
-    if (isExpanded) {
-        contentBox.style.maxHeight = "120px"; // Collapsed height
-        toggleBtn.textContent = "Read More";
-    } else {
-        contentBox.style.maxHeight = contentBox.scrollHeight + "px"; // Auto height based on content
-        toggleBtn.textContent = "Read Less";
-    }
-    isExpanded = !isExpanded;
-});
-
-
-
+}  
 
 
 // downloadpagejs
@@ -137,50 +221,11 @@ function toggleAccordion(id) {
   }
 }
 
-window.onload = function () {
-  toggleAccordion(1);
-};
 
 
 
 
-   // Show popup on page load
-   window.onload = function() {
-    document.getElementById('popup').classList.remove('hidden');
-};
-
-// Function to close popup
-function closePopup() {
-    document.getElementById('popup').classList.add('hidden');
-}
-
-
-
-const modal = document.getElementById("modal");
-const openModalBtns = document.querySelectorAll(".openModal");
-const closeModalBtn = document.getElementById("closeModal");
-
-// Open modal on any button click
-openModalBtns.forEach((btn) => {
-    btn.addEventListener("click", () => {
-        modal.classList.remove("hidden");
-    });
-});
-
-// Close modal when clicking on close button
-closeModalBtn.addEventListener("click", () => {
-    modal.classList.add("hidden");
-});
-
-// Close modal when clicking outside modal content
-window.addEventListener("click", (event) => {
-    if (event.target === modal) {
-        modal.classList.add("hidden");
-    }
-});
-
-
-
+ 
 
 // investor grievance togglebutton
 const levelButtons = document.querySelectorAll('.level-btn');

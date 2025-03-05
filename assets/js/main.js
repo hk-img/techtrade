@@ -9,31 +9,221 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const buttons = document.querySelectorAll(".underline-effect");
+  const contents = document.querySelectorAll(".tab-content");
+
+  buttons.forEach(button => {
+      button.addEventListener("click", function () {
+          // Remove active class from all buttons
+          buttons.forEach(btn => {
+              btn.classList.remove("active");
+              btn.querySelector("span").classList.remove("w-full");
+              btn.querySelector("span").classList.add("w-0");
+          });
+
+          // Add active class to clicked button
+          this.classList.add("active");
+          let underline = this.querySelector("span");
+          underline.classList.remove("w-0");
+          underline.classList.add("w-full");
+
+          // Hide all content
+          contents.forEach(content => content.classList.add("hidden"));
+
+          // Show selected content
+          const tabId = this.getAttribute("data-tab");
+          document.getElementById(tabId).classList.remove("hidden");
+      });
+  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const contentBox = document.getElementById("content-box");
+  const toggleBtn = document.getElementById("toggle-btn");
+
+  let isExpanded = false; // Default collapsed
+
+  toggleBtn.addEventListener("click", () => {
+      if (isExpanded) {
+          contentBox.style.maxHeight = "120px"; // Collapsed height
+          toggleBtn.textContent = "Read More";
+      } else {
+          contentBox.style.maxHeight = contentBox.scrollHeight + "px"; // Full height based on content
+          toggleBtn.textContent = "Read Less";
+      }
+      isExpanded = !isExpanded;
+  });
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  let nseBtn = document.getElementById("nseBtn");
+  let bseBtn = document.getElementById("bseBtn");
+
+  if (nseBtn && bseBtn) { 
+      // Click event listener add kar rahe hain
+      nseBtn.addEventListener("click", function () {
+          toggleActive("NSE");
+      });
+
+      bseBtn.addEventListener("click", function () {
+          toggleActive("BSE");
+      });
+
+      // Function ko define kar rahe hain
+      function toggleActive(selected) {
+        let nseBtn = document.getElementById("nseBtn");
+        let bseBtn = document.getElementById("bseBtn");
+    
+        if (selected === "NSE") {
+            nseBtn.classList.add("bg-slate-600", "text-white");
+            nseBtn.classList.remove("bg-white", "text-[#425061]");
+    
+            bseBtn.classList.add("bg-white", "text-[#425061]");
+            bseBtn.classList.remove("bg-slate-600", "text-white");
+        } else {
+            bseBtn.classList.add("bg-slate-600", "text-white");
+            bseBtn.classList.remove("bg-white", "text-[#425061]");
+    
+            nseBtn.classList.add("bg-white", "text-[#425061]");
+            nseBtn.classList.remove("bg-slate-600", "text-white");
+        }
+    }
+    
+  }
+});
+
+
+
+
+
 var swiper = new Swiper(".mySwiper2", {
-  slidesPerView: 2,  
-  spaceBetween: 20,
-  // autoplay: {
-  //   delay: 3000, 
-  //   disableOnInteraction: false,
-  // },
+  slidesPerView: 1,  
+  spaceBetween: 10,
   speed: 1000, 
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    
   },
   breakpoints: {
-    640: { 
+    640: { // sm (>=640px)
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+    768: { // md (>=768px)
+      slidesPerView: 1,
+      spaceBetween: 15,
+    },
+    1024: { // lg (>=1024px)
       slidesPerView: 2,
       spaceBetween: 20,
     },
-    0: { 
-      slidesPerView: 1,
-      spaceBetween: 10,
+    1280: { // xl (>=1280px)
+      slidesPerView: 2,
+      spaceBetween: 20,
     }
   }
 });
 
+
+// // irfcclick
+// document.querySelectorAll(".rounded-md").forEach(div => {
+//   div.addEventListener("click", function () {
+//     window.location.href = "irfc.html";
+//   });
+// });
+
+
+
+   
+   window.onload = function() {
+    document.getElementById('popup').classList.remove('hidden');
+};
+
+
+function closePopup() {
+    document.getElementById('popup').classList.add('hidden');
+}
+
+
+
+const modal = document.getElementById("modal");
+const openModalBtns = document.querySelectorAll(".openModal");
+const closeModalBtn = document.getElementById("closeModal");
+
+// Open modal on any button click
+openModalBtns.forEach((item) => {
+
+    item.addEventListener("click", () => {
+        modal.classList.remove("hidden");
+    });
+});
+
+// Close modal when clicking on close button
+closeModalBtn.addEventListener("click", () => {
+  modal.classList.add("hidden");
+});
+
+// Close modal when clicking outside modal content
+window.addEventListener("click", (event) => {
+  if (event.target === modal) {
+      modal.classList.add("hidden");
+  }
+});
+
+
+
+
+
+function toggleActive(selected) {
+  let nseBtn = document.getElementById("nseBtn");
+  let bseBtn = document.getElementById("bseBtn");
+
+  if (selected === "NSE") {
+      nseBtn.classList.add("bg-white", "text-[#425061]");
+      nseBtn.classList.remove("bg-slate-600", "text-white");
+
+      bseBtn.classList.add("bg-slate-600", "text-white");
+      bseBtn.classList.remove("bg-white", "text-[#425061]");
+  } else {
+      bseBtn.classList.add("bg-white", "text-[#425061]");
+      bseBtn.classList.remove("bg-slate-600", "text-white");
+
+      nseBtn.classList.add("bg-slate-600", "text-white");
+      nseBtn.classList.remove("bg-white", "text-[#425061]");
+  }
+}  
+
+
+// downloadpagejs
+function toggleAccordion(id) {
+  let content = document.getElementById("content-" + id);
+  let icon = document.getElementById("icon-" + id);
+
+  let isOpen = content.style.maxHeight && content.style.maxHeight !== "0px";
+
+  document.querySelectorAll("[id^='content-']").forEach((el) => {
+      el.style.maxHeight = null;
+  });
+
+  document.querySelectorAll("[id^='icon-']").forEach((el) => {
+      el.classList.remove("rotate-180");
+  });
+
+  if (!isOpen) {
+      content.style.maxHeight = content.scrollHeight + "px";
+      icon.classList.add("rotate-180");
+  }
+}
+
+
+
+
+
+ 
 
 // investor grievance togglebutton
 const levelButtons = document.querySelectorAll('.level-btn');

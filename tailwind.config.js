@@ -21,6 +21,7 @@ module.exports = {
         heading: ['"Syne", serif;'], // Second font family
         jost: ['Jost', 'serif'],
         poppins: ['Poppins', 'sans-serif'],
+        barlow: ['Barlow', 'sans-serif'],
       },
       
       container: {

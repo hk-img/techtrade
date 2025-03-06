@@ -8,9 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
   const buttons = document.querySelectorAll(".underline-effect");
   const contents = document.querySelectorAll(".tab-content");
@@ -127,55 +124,6 @@ var swiper = new Swiper(".mySwiper2", {
     }
   }
 });
-
-
-// // irfcclick
-// document.querySelectorAll(".rounded-md").forEach(div => {
-//   div.addEventListener("click", function () {
-//     window.location.href = "irfc.html";
-//   });
-// });
-
-
-
-   
-window.onload = function() {
-  setTimeout(function() {
-      document.getElementById('popup').classList.remove('hidden');
-  }, 2000); // 2000 milliseconds = 2 seconds
-};
-
-function closePopup() {
-  document.getElementById('popup').classList.add('hidden');
-}
-
-
-
-
-const modal = document.getElementById("modal");
-const openModalBtns = document.querySelectorAll(".openModal");
-const closeModalBtn = document.getElementById("closeModal");
-
-// Open modal on any button click
-openModalBtns.forEach((item) => {
-
-    item.addEventListener("click", () => {
-        modal.classList.remove("hidden");
-    });
-});
-
-// Close modal when clicking on close button
-closeModalBtn.addEventListener("click", () => {
-  modal.classList.add("hidden");
-});
-
-// Close modal when clicking outside modal content
-window.addEventListener("click", (event) => {
-  if (event.target === modal) {
-      modal.classList.add("hidden");
-  }
-});
-
 
 
 
@@ -360,7 +308,6 @@ levelButtons.forEach(button => {
     contentDiv.innerHTML = contents[level] || `<h1 class="text-[#666666]">No content for Level ${level}</h1>`;
   });
 });
-
 
 
 let isOpen = true;

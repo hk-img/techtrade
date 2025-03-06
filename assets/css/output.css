@@ -1415,10 +1415,6 @@ video {
   width: 2.25rem;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
 .w-\[109px\] {
   width: 109px;
 }
@@ -4616,6 +4612,10 @@ video {
 
 .forced-color-adjust-none {
   forced-color-adjust: none;
+}
+
+.\[hostname\:port\] {
+  hostname: port;
 }
 
 @media (min-width: 640px) {

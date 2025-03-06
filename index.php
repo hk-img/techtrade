@@ -1,3 +1,23 @@
+<?php
+$metaTags = '
+  <meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Tech Trade" />
+	<meta property="og:description" content="Begin your investing journey with TECH TRADE Start investing in stocks, derivatives, and more.. Register for Free Welcome to Sanchit Financial &amp; Management Services Ltd. Sanchit Financial &amp; Management Services Ltd. is a leading financial services company headquartered in Punjab, committed to excellence and focused on client satisfaction. The company has established itself as a [&hellip;]" />
+	<meta property="og:url" content="https://techtrade.in/" />
+	<meta property="og:site_name" content="Tech Trade" />
+	<meta property="article:publisher" content="https://www.facebook.com/Hensex/" />
+	<meta property="article:modified_time" content="2025-01-23T04:47:16+00:00" />
+	<meta property="og:image" content="https://techtrade.in/wp-content/uploads/banner.jpg" />
+	<meta property="og:image:width" content="1920" />
+	<meta property="og:image:height" content="700" />
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:site" content="@HensexSecurity" />
+  <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://techtrade.in/","url":"https://techtrade.in/","name":"Home - Tech Trade","isPartOf":{"@id":"https://techtrade.in/#website"},"about":{"@id":"https://techtrade.in/#organization"},"primaryImageOfPage":{"@id":"https://techtrade.in/#primaryimage"},"image":{"@id":"https://techtrade.in/#primaryimage"},"thumbnailUrl":"https://techtrade.in/wp-content/uploads/banner.jpg","datePublished":"2024-02-03T03:05:37+00:00","dateModified":"2025-01-23T04:47:16+00:00","breadcrumb":{"@id":"https://techtrade.in/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://techtrade.in/"]}]},{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techtrade.in/#primaryimage","url":"https://techtrade.in/wp-content/uploads/banner.jpg","contentUrl":"https://techtrade.in/wp-content/uploads/banner.jpg","width":1920,"height":700,"caption":"homepage banner"},{"@type":"BreadcrumbList","@id":"https://techtrade.in/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://techtrade.in/#website","url":"https://techtrade.in/","name":"Tech Trade","description":"Seize the Trade","publisher":{"@id":"https://techtrade.in/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://techtrade.in/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"en-US"},{"@type":"Organization","@id":"https://techtrade.in/#organization","name":"Hensex Securities","url":"https://techtrade.in/","logo":{"@type":"ImageObject","inLanguage":"en-US","@id":"https://techtrade.in/#/schema/logo/image/","url":"https://techtrade.in/wp-content/uploads/logo.png","contentUrl":"https://techtrade.in/wp-content/uploads/logo.png","width":547,"height":308,"caption":"Hensex Securities"},"image":{"@id":"https://techtrade.in/#/schema/logo/image/"},"sameAs":["https://www.facebook.com/Hensex/","https://x.com/HensexSecurity","https://in.linkedin.com/company/hensex-securities"]}]}</script>
+';
+?>
+
 <?php include_once('header.php'); ?>
     
   <div class="w-full relative flex bg-cover bg-center pt-[8.5rem] pb-[3rem] rounded-b-[3.563rem] text-black mx-auto bg-[url('../img/vector-bg.png')] "> 

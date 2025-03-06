@@ -808,10 +808,6 @@ video {
   top: 35px;
 }
 
-.top-\[4\.675rem\] {
-  top: 4.675rem;
-}
-
 .top-\[4\.688rem\] {
   top: 4.688rem;
 }
@@ -1085,14 +1081,6 @@ video {
   margin-top: -2.688rem;
 }
 
-.mt-\[10rem\] {
-  margin-top: 10rem;
-}
-
-.mt-\[5rem\] {
-  margin-top: 5rem;
-}
-
 .mt-\[4rem\] {
   margin-top: 4rem;
 }
@@ -1355,6 +1343,10 @@ video {
   width: 0px;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .w-1\/5 {
   width: 20%;
 }
@@ -1415,6 +1407,10 @@ video {
   width: 2.25rem;
 }
 
+.w-96 {
+  width: 24rem;
+}
+
 .w-\[109px\] {
   width: 109px;
 }
@@ -1437,10 +1433,6 @@ video {
 
 .w-\[17\.5rem\] {
   width: 17.5rem;
-}
-
-.w-\[19\.125rem\] {
-  width: 19.125rem;
 }
 
 .w-\[20\%\] {
@@ -1562,6 +1554,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-7xl {
+  max-width: 80rem;
 }
 
 .flex-auto {
@@ -3543,10 +3539,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-\[10px\] {
-  padding-bottom: 10px;
-}
-
 .pb-\[34px\] {
   padding-bottom: 34px;
 }
@@ -3923,6 +3915,10 @@ video {
 
 .leading-tight {
   line-height: 1.25;
+}
+
+.tracking-\[-0\.04em\] {
+  letter-spacing: -0.04em;
 }
 
 .text-\[\#004AAD\] {
@@ -5380,6 +5376,10 @@ video {
   content: var(--tw-content);
 }
 
+.empty\:hidden:empty {
+  display: none;
+}
+
 .hover\:border:hover {
   border-width: 1px;
 }
@@ -6012,6 +6012,11 @@ video {
     padding-bottom: 5rem;
   }
 
+  .md\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -6025,6 +6030,11 @@ video {
   .md\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .md\:before\:inset-y-0::before {
@@ -6530,10 +6540,6 @@ video {
     height: 38px;
   }
 
-  .lg\:h-\[4\.375rem\] {
-    height: 4.375rem;
-  }
-
   .lg\:h-\[63px\] {
     height: 63px;
   }
@@ -6853,6 +6859,11 @@ video {
     padding-bottom: 1.25rem;
   }
 
+  .lg\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
   .lg\:pb-28 {
     padding-bottom: 7rem;
   }
@@ -6871,6 +6882,10 @@ video {
 
   .lg\:pt-\[20\%\] {
     padding-top: 20%;
+  }
+
+  .lg\:pl-8 {
+    padding-left: 2rem;
   }
 
   .lg\:text-left {
@@ -6926,10 +6941,6 @@ video {
 
   .lg\:text-\[4\.375rem\] {
     font-size: 4.375rem;
-  }
-
-  .lg\:text-\[40px\] {
-    font-size: 40px;
   }
 
   .lg\:text-base {

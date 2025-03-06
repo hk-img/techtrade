@@ -10,10 +10,10 @@
           <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
             <li>Home</li>
             <li class="-mt-2">.</li>
-            <li class="font-bold text-[#1B1E31]">Funds Transfer</li>
+            <li class="font-bold text-[#1B1E31]"><a href="funds-transfer">Funds Transfer</a></li>
           </ul>
         </div>
-        <img src="assets/img/fundsbg.png" alt="" class="w-[84%] lg:w-[35%]" >
+        <img src="assets/img/fundsbg.png" alt="" class="w-1/2 lg:w-[35%]" >
       </div>
     
       <img src="assets/img/headside-img.png" 

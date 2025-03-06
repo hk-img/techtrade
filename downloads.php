@@ -12,10 +12,10 @@
         <ul class="flex font-serif space-x-2 items-center lg:text-[1.2rem]">
           <li>Home</li>
           <li class="-mt-2">.</li>
-          <li class="text-[#1B1E31] font-bold"> Downloads</li>
+          <li class="text-[#1B1E31] font-bold"><a href="downloads">Downloads</a></li>
         </ul>
       </div>
-      <img src="assets/img/downbg.png" alt="" class="w-[84%] lg:w-[35%]">
+      <img src="assets/img/downbg.png" alt="" class="w-1/2 lg:w-[35%]">
     </div>
 
     <img src="assets/img/headside-img.png" alt="" class=" h-full absolute top-0 right-0  z-0">

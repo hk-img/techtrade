@@ -10,10 +10,10 @@
         <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
           <li class="font-semibold">Home</li>
           <li class="-mt-2">.</li>
-          <li class="font-bold text-[#1B1E31]">About Us</li>
+          <li class="font-bold text-[#1B1E31]"><a href="about">About Us</a></li>
         </ul>
       </div>
-      <img src="assets/img/headbg.png" alt="" class="w-[84%] lg:w-[35%]">
+      <img src="assets/img/headbg.png" alt="" class="w-1/2 lg:w-[35%]">
     </div>
 
     <img src="assets/img/headside-img.png" alt="" class=" h-full absolute lg:top-0 top-4 lg:right-0 z-0">
@@ -27,7 +27,7 @@
       <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">About Us</div>
           <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
-          Welcome to >Sanchit Financial
+          Welcome to Sanchit Financial
             <span class="text-themeColor2">
             & Management Services Ltd.</span>
           </h2>
@@ -99,8 +99,8 @@
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M10.3248685,14.7630919 C7.82620532,14.038202 6,11.7325889 6,9 L6,1 L18,1 L18,10 M6,3 L1,3 L1,7 C1,9.509 2.791,11 5,11 L6,11 M20.0335555,10.884915 C21.7416567,10.4908882 23,9.10306372 23,7 L23,3 L18,3 M10,19 L5,19 L5,23 L16.5,23 M16.5,10 C12.9101429,10 10,12.9101429 10,16.5 C10,20.0898571 12.9101429,23 16.5,23 C20.0898571,23 23,20.0898571 23,16.5 C23,12.9101429 20.0898571,10 16.5,10 L16.5,10 Z M20,14 L15.5,18.5 L13,16 M10.2056405,15.4240751 C8.89754812,16.0817472 8,17.4360568 8,19"></path></svg>
             </span>
             <div class="flex flex-col w-full h-auto justify-center items-center text-center">
-              <div class="font-poppins font-semibold text-xl text-[#004AAD]">Our Vision</div>
-              <div class="font-serif text-sm text-[#666666] font-normal py-2">Our vision is to be a global leader in innovative and technology-driven trading solutions. We aim to empower businesses and investors with seamless, efficient, and transparent trading experiences.</div>
+              <div class="font-poppins font-semibold text-xl text-[#004AAD] py-2">Our Vision</div>
+              <div class="font-serif text-sm text-[#666666] font-normals">Our vision is to be a global leader in innovative and technology-driven trading solutions. We aim to empower businesses and investors with seamless, efficient, and transparent trading experiences.</div>
             </div>
           </div>
         </div>

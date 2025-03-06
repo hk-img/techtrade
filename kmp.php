@@ -12,10 +12,10 @@
             <li class="font-bold text-[#1B1E31] "><a href="kmp">KMP</a></li>
           </ul>
         </div>
-        <img src="assets/img/inves-g.png" alt="" class="w-[84%] lg:w-[35%]" >
+        <img src="assets/img/kmp-img.webp" alt="" class="w-1/2 lg:w-[35%]">
       </div>
     
-      <img src="assets/img/headside-img.png" 
+      <img src="assets/img/headside-img.png"  
            alt="" 
            class=" h-full absolute lg:top-0 top-4 lg:right-0 z-0">
            <img src="assets/img/headbg2.png" alt=""  class="w-[90%] top-[35px] left-[150px] absolute    z-0" >

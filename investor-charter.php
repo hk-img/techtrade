@@ -12,7 +12,7 @@
             <li class="font-bold text-[#1B1E31] ">Investor Charter</li> 
           </ul> 
         </div>
-        <img src="assets/img/invheadbg.png" alt="" class="w-[84%] lg:w-[35%]" >
+        <img src="assets/img/invheadbg.png" alt="" class="w-1/2 lg:w-[35%]" >
       </div>
     
       <img src="assets/img/headside-img.png" 
@@ -26,7 +26,7 @@
       <section class="w-full py-[80px] relative bg-white" >
         <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto  flex flex-col space-y-[14px] ">
           <div class="  ">
-            <h1 class="font-heading text-2xl font-bold text-[#1B1E31]">Investor Charter</h1> 
+            <h1 class="font-heading text-2xl font-bold text-[#1B1E31]"><a href="investor-charter">Investor Charter</a></h1> 
           </div> 
              
             <div class="grid grid-cols-1  gap-2  lg:grid-cols-3">

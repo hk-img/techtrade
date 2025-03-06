@@ -335,7 +335,7 @@
                       </div>
                   </li>
                   <li class="relative group">
-                      <a href="javascript:;" class="flex items-center px-2 lg:px-1 text-black font-semibold opacity-100 text-[0.813rem] duration-300 group-hover:md:text-themeColor1 uppercase lg:max-xl:text-[0.75rem]  gap-1">
+                      <a href="product" class="flex items-center px-2 lg:px-1 text-black font-semibold opacity-100 text-[0.813rem] duration-300 group-hover:md:text-themeColor1 uppercase lg:max-xl:text-[0.75rem]  gap-1">
                         Products</a>
                   </li>
                   <li class="relative group">

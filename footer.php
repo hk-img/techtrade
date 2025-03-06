@@ -108,9 +108,9 @@
            <a href="holiday-calendar" class="w-full duration-300 transition-all py-2 md:py-1 text-sm md:hover:text-themeColor1">
              Holiday Calendar
            </a>
-         <a href="javascript:;" class="w-full duration-300 transition-all py-2 md:py-1 text-sm md:hover:text-themeColor1">
+         <!-- <a href="javascript:;" class="w-full duration-300 transition-all py-2 md:py-1 text-sm md:hover:text-themeColor1">
            Backoffice
-         </a>
+         </a> -->
          
        </div>
         </div>

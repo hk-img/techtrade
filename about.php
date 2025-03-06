@@ -23,12 +23,15 @@
 
   <section class="w-full pt-[60px] relative bg-white">
     <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full   justify-center items-center flex flex-col space-y-[22px] ">
-      <div class="justify-center items-center lg:w-full w-full h-auto flex  flex-col  ">
-        <div class="text-[#6E6E6E] text-lg font-heading font-semibold">About Us</div>
-        <div class="font-heading text-xl lg:text-4xl text-center leading-9 font-bold text-[#1B1E31]"> Welcome to <span
-            class="text-[#C85103]">Sanchit Financial</span> & Management Services Ltd.
+      
+      <div class="heading text-center">
+          <div class="subtitle text-themecolor3 font-semibold">About Us</div>
+          <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
+          Welcome to >Sanchit Financial
+            <span class="text-themeColor2">
+            & Management Services Ltd.</span>
+          </h2>
         </div>
-      </div>
 
       <div class="lg:w-[860px] w-full ">
         <img src="assets/img/intro-img.png" alt="" class="w-full h-full rounded-sm">
@@ -78,7 +81,7 @@
         <div class="w-full lg:w-2/3 flex justify-center space-x-0 sm:space-x-2 sm:space-y-0 space-y-5 md:space-y-0 lg:mt-[-35px]  mt-10    lg:space-y-0 lg:space-x-14 flex-col sm:flex-row md:flex-row  lg:flex-row  xl:flex-row">
           <div
             class="w-auto space-y-2  h-auto border border-[#004AAD] flex-col flex justify-center items-center p-4">
-            <span class="w-[86px] text-white items-center flex justify-center rounded-full h-[81px] bg-[#004AAD]">
+            <span class="w-[86px] *:size-8 text-white items-center flex justify-center rounded-full h-[81px] bg-[#004AAD]">
               <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round"
                 stroke-linejoin="round" height="1.5em" width="1.5em" xmlns="http://www.w3.org/2000/svg">
                 <path d="m8 3 4 8 5-5 5 15H2L8 3z"></path>
@@ -92,13 +95,8 @@
           </div>
           <div
             class=" w-auto  h-auto h-autospace-y-2 border border-[#004AAD] flex-col flex justify-center items-center p-5">
-            <span class="w-[86px] text-white items-center flex justify-center rounded-full h-[81px] bg-[#004AAD]">
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1.5em"
-                width="1.5em" xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M240 96h64a16 16 0 0 0 16-16V48a16 16 0 0 0-16-16h-64a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm0 128div28a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zm256 192H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h256a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm-256-64div92a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H240a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16zM16 160h48v304a16 16 0 0 0 16 16h32a16 16 0 0 0 16-16V160h48c14.21 0 21.39-17.24 11.31-27.31l-80-96a16 16 0 0 0-22.62 0l-80 96C-5.35 142.74 1.78 160 16 160z">
-                </path>
-              </svg>
+            <span class="w-[86px] *:size-8 text-white items-center flex justify-center rounded-full h-[81px] bg-[#004AAD]">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-width="2" d="M10.3248685,14.7630919 C7.82620532,14.038202 6,11.7325889 6,9 L6,1 L18,1 L18,10 M6,3 L1,3 L1,7 C1,9.509 2.791,11 5,11 L6,11 M20.0335555,10.884915 C21.7416567,10.4908882 23,9.10306372 23,7 L23,3 L18,3 M10,19 L5,19 L5,23 L16.5,23 M16.5,10 C12.9101429,10 10,12.9101429 10,16.5 C10,20.0898571 12.9101429,23 16.5,23 C20.0898571,23 23,20.0898571 23,16.5 C23,12.9101429 20.0898571,10 16.5,10 L16.5,10 Z M20,14 L15.5,18.5 L13,16 M10.2056405,15.4240751 C8.89754812,16.0817472 8,17.4360568 8,19"></path></svg>
             </span>
             <div class="flex flex-col w-full h-auto justify-center items-center text-center">
               <div class="font-poppins font-semibold text-xl text-[#004AAD]">Our Vision</div>
@@ -127,22 +125,24 @@
 
   <section class="w-full  lg:mb-10 mb-0 ">
     <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 flex flex-col px-6 lg:px-8 w-full justify-center items-center">
+      <div class="heading text-center">
+          <div class="subtitle text-themecolor3 font-semibold">Our Founders</div>
+          <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
+          The Experts
+            <span class="text-themeColor2">
+            Who
+            Make It Happen</span>
+          </h2>
+        </div>
 
-      <div class="lg:w-full lg:h-auto justify-center text-center flex flex-col items-center">
-        <div class="font-heading text-lg font-semibold text-[#6E6E6E]">Our Founders</div>
-        <div class="font-bold font-heading lg:text-[40px] text-2xl"><span class="text-[#C85103]">The Experts</span> Who
-          Make It Happen</div>
-      </div>
-
-
-    <div class="flex lg:flex-row flex-col space-x-0 space-y-4 lg:space-y-0 lg:space-x-[100px] py-[60px] justify-between">
-      <div class="flex flex-col shadow justify-center py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-full">
-          <div class="lg:w-80 w-full overflow-hidden rounded-[20px] border border-[#DDDDDD] lg:h-auto">
-            <img src="assets/img/founder-img1.jpg" alt="" class="w-full h-full">
+    <div class="flex lg:flex-row flex-col space-x-0 space-y-4 lg:space-y-0 lg:space-x-[100px] py-[60px] justify-between items-stretch">
+      <div class="flex flex-col shadow py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-auto">
+          <div class="lg:w-80 w-full overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
+            <img src="assets/img/founder-img1.jpg" alt="" class="w-full aspect-square">
           </div>
           <div class=" flex flex-col py-6 text-center justify-center">
             <div class="font-bold font-heading text-[22px] text-[#1B1E31]">Praveen Kumar Agarwal</div>
-            <div class="font-medium font-serif text-lg text-[#C85103]">Chief Executive Officer (CEO) </div>
+            <div class="font-medium font-serif text-lg text-[#C85103]">Founder</div>
           </div>
           <div class="lg:text-base text-sm font-medium font-serif text-[#666666] py-2">Driven by a deep understanding of financial markets and a strong enthusiasm for trading, Praveen Agrawal has been actively involved in jobbing and arbitrage since 2004, utilizing leading trading platforms such as <b>NCDEX,</b> <b>MCX,</b> <b>NSE,</b> and <b>BSE.</b>
             His journey in trading began with a sharp focus on <b>commodity markets,</b> seizing opportunities within speculative trades through electronic exchanges. Over the past <b>18+ years,</b> he has navigated the ever-evolving financial landscape, gaining deep market insights and hands-on experience in risk management and strategy.<br>
@@ -150,9 +150,9 @@
             Under his leadership, the company continues to <b>set new industry benchmarks,</b> embracing innovation and technology to provide seamless, efficient, and growth-driven trading solutions.
           </div>
       </div>
-      <div class="flex flex-col shadow justify-center py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-full">
-        <div class="lg:w-80 w-full overflow-hidden rounded-[20px] border border-[#DDDDDD] lg:h-auto">
-          <img src="assets/img/founder-img2.jpg" alt="" class="w-full h-full">
+      <div class="flex flex-col shadow  py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-auto">
+        <div class="lg:w-80 w-full overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
+          <img src="assets/img/founder-img2.jpg" alt="" class="w-full aspect-square">
         </div>
         <div class=" flex flex-col py-6 text-center justify-center">
           <div class="font-bold font-heading text-[22px] text-[#1B1E31]">Sharmila Agarwal</div>
@@ -202,14 +202,14 @@
 
   <section class="w-full   mb-28 ">
     <div class="2xl:px-24 3xl:px-36 lg:pb-3  flex flex-col px-6 lg:px-8 w-full justify-center items-center">
-
-      <div class="w-full h-auto justify-center pb-[10px] text-center flex flex-col items-center">
-        <div class="font-heading text-lg font-semibold text-[#6E6E6E]">Client’ s feedback</div>
-        <div class="font-bold font-heading lg:text-[40px] text-2xl"><span class="text-[#C85103]">Customer Reviews</span>
-          & Experiences</div>
-      </div>
-
-
+      <div class="heading text-center">
+          <div class="subtitle text-themecolor3 font-semibold">Client’ s feedback</div>
+          <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
+          Customer Reviews
+            <span class="text-themeColor2">
+            & Experiences</span>
+          </h2>
+        </div>
       <div class="w-full ">
         <div class="swiper mySwiper2">
           <div class="swiper-wrapper">

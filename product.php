@@ -13,7 +13,7 @@
               <li class="font-bold text-[#1B1E31] ">How to Download</li>
             </ul>
           </div>
-          <img src="assets/img/inves-g.png" alt="" class="w-[84%] lg:w-[35%]" >
+          <img src="assets/img/products.webp" alt="" class="w-[84%] lg:w-[35%]" >
         </div>
       
         <img src="assets/img/headside-img.png" 
@@ -24,26 +24,9 @@
       </div>
 
 
-    <section class="w-full pt-[10px] mb-[63px] relative bg-white mt-[5rem]" >
-      <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto ">
-       <div class="grid grid-cols-1 lg:grid-cols-2 shadow-sm rounded-xl px-3 bg-[#EAF1FA] mb-6 lg:mb-9">
-      <div class="py-5 px-6 flex flex-col space-y-3 justify-center ">
-          <h1 class="text-2xl lg:text-4xl font-medium text-start">
-              Download Now and Get <br>
-              Start Immeeditly
-          </h1>
-          <p class="text-[rgb(0 74 173 )] text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita omnis labore ipsum eos nobis sed laboriosam ad eligendi obcaecati dolores adipisci dolore aperiam nam vero repellat distinctio cumque, ipsam at!</p>
-          <div>
-              <button class="px-5 py-3 lg:py-4  flex justify-center items-center space-x-2 border border-black rounded-md font-semibold">
-                  <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path></svg></span>
-                  <span>Play Store</span>
-              </button>
-          </div>
-      </div>
-        <div class="flex justify-center items-center">
-            <img src="assets/img/mobile.png" alt="">
-        </div>
-       </div>
+    <section class="w-full pt-[10px] relative bg-white mt-[4rem]" >
+      <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8  lg:w-full mx-auto ">
+      
        <div class="grid grid-cols-1 lg:grid-cols-2 shadow-sm rounded-xl px-3 bg-[#EAF1FA] ">
           <div class="flex justify-center items-center">
               <img src="assets/img/mobile.png" alt="">
@@ -62,6 +45,24 @@
                         </button>
             </div>
 
+        </div>
+       </div>
+       <div class="grid grid-cols-1 lg:grid-cols-2 shadow-sm rounded-xl px-3 mt-6 bg-[#EAF1FA] mb-6 lg:mb-9">
+      <div class="py-5 px-6 flex flex-col space-y-3 justify-center ">
+          <h1 class="text-2xl lg:text-4xl font-medium text-start">
+              Download Now and Get <br>
+              Start Immeeditly
+          </h1>
+          <p class="text-[rgb(0 74 173 )] text-base ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita omnis labore ipsum eos nobis sed laboriosam ad eligendi obcaecati dolores adipisci dolore aperiam nam vero repellat distinctio cumque, ipsam at!</p>
+          <div>
+              <button class="px-5 py-3 lg:py-4  flex justify-center items-center space-x-2 border border-black rounded-md font-semibold">
+                  <span><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path></svg></span>
+                  <span>Play Store</span>
+              </button>
+          </div>
+      </div>
+        <div class="flex justify-center items-center">
+            <img src="assets/img/mobile.png" alt="">
         </div>
        </div>
         </div>

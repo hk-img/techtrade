@@ -30,6 +30,7 @@
       <section class="w-full pt-[60px] relative bg-white" >
         <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto  flex flex-col space-y-[22px] ">
           <div class="  ">
+            
             <h1 class="font-heading text-xl lg:text-2xl font-bold text-[#1B1E31]"><span class="text-[#C85103]">Eligibility for</span> acquiring or holding shares</h1> 
           </div> 
              

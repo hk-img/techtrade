@@ -170,7 +170,7 @@
     <div class="fixed px-4 w-full inset-0 z-50 bg-black bg-opacity-50 hidden peer-checked/lead:!flex h-full flex-col justify-center items-center transition-opacity duration-300">
       <div class="grow w-full py-2"></div>
       <div class="bg-white p-6 rounded-lg w-full md:w-1/2 lg:w-[68rem] justify-between grid grid-cols-1 lg:grid-cols-2 overflow-y-auto relative">
-          
+      <form action="" id="contact-form">
           <div class="space-y-3 flex flex-col">
             <h2 class="text-[1.75rem] text-[#1B1E31] font-bold mb-5">Open a Demat <span class="text-[#C85103]">Acccount</span> Today!</h2>
             <div class="flex flex-col space-y-2">
@@ -182,7 +182,11 @@
                   <path d="M7.22244 7.2221C8.94066 7.2221 10.3335 5.82923 10.3335 4.11105C10.3335 2.39286 8.94066 1 7.22244 1C5.50422 1 4.11133 2.39286 4.11133 4.11105C4.11133 5.82923 5.50422 7.2221 7.22244 7.2221Z" stroke="#1B2336" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                   </span>
-                <input type="text" placeholder="Your Name" class="w-full text-base font-serif font-normal border-none outline-none ">
+                <input type="text" required placeholder="Your Name" id="fullName" class="w-full text-base font-serif font-normal border-none outline-none ">
+                
+              </div>
+              <div>
+                <span class="err-fullname text-red-500 text-sm">  </span>
               </div>
             </div>
             <div class="flex flex-col space-y-2">
@@ -211,7 +215,10 @@
                 
                 
               </span>
-            <input type="text" placeholder="Your Email" class="w-full text-base font-serif font-normal border-none outline-none ">
+            <input type="email" required placeholder="Your Email" id="emailid" class="w-full text-base font-serif font-normal border-none outline-none ">
+          </div>
+          <div>
+            <span class="err-emailid text-red-500 text-sm">  </span>
           </div>
         </div>
 
@@ -224,7 +231,10 @@
                   </svg>
                   
                 </span>
-              <input type="text" placeholder="+91 12345 54321" class="w-full text-base font-serif font-normal border-none outline-none ">
+              <input type="text" id="mobilenumber" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required placeholder="+91 12345 54321" class="w-full text-base font-serif font-normal border-none outline-none ">
+            </div>
+            <div>
+                <span class="err-mobilenumber text-red-500 text-sm">  </span>
             </div>
           </div>
 
@@ -242,12 +252,22 @@
                   </svg>
                   
                 </span>
-              <input type="text" placeholder="your City" class="w-full text-base font-serif font-normal border-none outline-none ">
+              <input type="text" placeholder="your City" required id="message" class="w-full text-base font-serif font-normal border-none outline-none ">
+            </div>
+            <div>
+                <span class="err-message text-red-500 text-sm">  </span>
             </div>
           </div>
-
-            <button class="bg-orange-600 text-white font-poppins text-lg font-semibold w-[13rem] py-3 rounded-3xl">Get Started</button>
+            <div>
+                <span class="err-recapcha text-red-500 text-sm">  </span>
+            </div>
+            <button id="formsubmit" class="bg-orange-600 text-white font-poppins text-lg font-semibold w-[13rem] py-3 rounded-3xl">Get Started</button>
+            <div>
+            <span id="success-message" class="text-green-500 text-sm"> </span>
+            
+            </div>
           </div>
+        </form>
 
           <div class="overflow-hidden flex justify-center items-center">
             <label for="leadPopup" class="cursor-pointer absolute top-2 right-2 p-3 text-gray-600 text-xl">            
@@ -266,7 +286,7 @@
         <div class="w-full grow py-2"></div>
         <div class="bg-white p-6 rounded-lg mx-auto shadow-lg w-full md:w-1/2 lg:w-[39rem] relative overflow-y-auto">
             <!-- Close Button -->
-            <label for="disclosurePopup" class="cursor-pointer absolute top-3 right-2 p-4 text-black text-2xl" onclick="closePopup()">
+            <button class="absolute top-3 right-2 p-4 text-black text-2xl" onclick="closePopup()">
               <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="m289.94 256 95-95A24 24 0 0 0 351 127l-95 95-95-95a24 24 0 0 0-34 34l95 95-95 95a24 24 0 1 0 34 34l95-95 95 95a24 24 0 0 0 34-34z"></path></svg>
             </button>
             <div class="flex justify-center py-7"><h2 class="text-3xl font-semibold  mb-2">Risk Disclosure <span class="text-[#C85103]">on Derivatives</span></h2></div>
@@ -298,5 +318,140 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+            //alert('test');
+            // Get form values
+            let fullName = document.getElementById("fullName").value.trim();
+            let email = document.getElementById("emailid").value.trim();
+            let mobile = document.getElementById("mobilenumber").value.trim();
+            let message = document.getElementById("message").value.trim();
+            
+            // Clear previous error messages
+            document.querySelector(".err-fullname").textContent = "";
+            document.querySelector(".err-emailid").textContent = "";
+            document.querySelector(".err-mobilenumber").textContent = "";
+            document.querySelector(".err-message").textContent = "";
+            document.querySelector(".err-recapcha").textContent = "";
+
+            let isValid = true;
+
+            // Validate Full Name
+            if (fullName === "") {
+                //alert('Full Name is required.');
+                document.querySelector(".err-fullname").textContent = "Full Name is required.";
+                isValid = false;
+            }
+
+            // Validate Mobile No (assume 10-digit format)
+            let mobilePattern = /^[0-9]{10}$/;
+            if (mobile === "") {
+                //alert('Mobile No is required.');
+                document.querySelector(".err-recapcha").textContent = "reCAPTCHA V3 validation failed, suspected as abusive usageYour submission failed because of an error.";
+                document.querySelector(".err-mobilenumber").textContent = "Mobile No is required.";
+                isValid = false;
+            } else if (!mobilePattern.test(mobile)) {
+                //alert('Please enter a valid 10-digit Mobile No.');
+                document.querySelector(".err-recapcha").textContent = "reCAPTCHA V3 validation failed, suspected as abusive usageYour submission failed because of an error.";
+                document.querySelector(".err-mobilenumber").textContent = "Please enter a valid 10-digit Mobile No.";
+                isValid = false;
+            }
+
+            // Validate E-mail (if provided)
+            if (email === "") {
+                //alert('Email address is required.');
+                document.querySelector(".err-recapcha").textContent = "reCAPTCHA V3 validation failed, suspected as abusive usageYour submission failed because of an error.";
+                document.querySelector(".err-emailid").textContent = "Email address is required.";
+                isValid = false;
+            } else {
+                let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                if (!emailPattern.test(email)) {
+                    //alert('Please enter a valid E-mail address.');
+                    document.querySelector(".err-recapcha").textContent = "reCAPTCHA V3 validation failed, suspected as abusive usageYour submission failed because of an error.";
+                    document.querySelector(".err-emailid").textContent = "Please enter a valid E-mail address.";
+                    isValid = false;
+                }
+            }
+
+            // Validate Message
+            if (message === "") {
+                //alert('City is required.');
+                document.querySelector(".err-message").textContent = "City is required.";
+                isValid = false;
+            }
+
+            // If validation failed, do not submit
+            if (!isValid) {
+                return;
+            } else {
+                //$('.loader').addClass("loading");
+                $.ajax({
+                    url: 'sendmail.php', // Path to your email.php file
+                    type: 'POST', // Send data using POST method
+                    data: {
+                        fullName: fullName,
+                        email: email,
+                        mobile: mobile,
+                        message: message
+                    },
+                    beforeSend: function () {
+                        // Disable the button to prevent multiple clicks
+                        $("#formsubmit").prop("disabled", true).text("Sending...");
+                    },
+                    success: function(response) {
+                        var resp = JSON.parse(response)
+                        if(resp.success){
+                            //alert('From has been submitted we will get back to you.');
+                            //Swal.fire(  'Success!','From has been submitted we will get back to you.','success');
+                            document.getElementById("contact-form").reset();
+                            $("#success-message").text("Your submission was successful.").fadeIn();
+
+                            setTimeout(function(){
+                                $("#success-message").fadeOut();
+                            }, 10000); // Hide message after 10 seconds
+                        }else{
+                            alert('Something went wrong.');
+                            //Swal.fire(  'Error!','Something went wrong.',
+                            //                    'error'
+                            //                );
+                        }
+                        //$('.loader').removeClass("loading");
+                        $("#formsubmit").prop("disabled", false).text("Get Started");
+                    },
+                    error: function(xhr, status, error) {
+                        // Handle error
+                        console.error("Form submission failed:", error);
+                        alert('Something went wrong.');
+                        $("#formsubmit").prop("disabled", false).text("Get Started");
+                        // Swal.fire(  'Error!','Something went wrong.',
+                        //                     'error'
+                        //                 );
+                    }
+                });
+                
+                // this.submit(); // Proceed with form submission
+            }
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const popup = document.getElementById("disclosurePopup");
+            const lastShown = localStorage.getItem("lastPopupTime");
+            const now = new Date().getTime();
+            const oneDay = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
+
+            if (!lastShown || now - lastShown > oneDay) {
+                popup.checked = true; // Show the popup
+                localStorage.setItem("lastPopupTime", now); // Update last shown time
+            }
+        });
+
+        function closePopup() {
+            document.getElementById("disclosurePopup").checked = false;
+        }
+    </script>
+
   </body>
 </html>

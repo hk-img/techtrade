@@ -1,5 +1,6 @@
 <?php include_once('header.php'); ?>
-<div class="w-full relative flex bg-cover bg-center pt-[8.5rem] pb-[3rem] rounded-b-[3.563rem] text-black mx-auto bg-[url('../img/vector-bg.png')] ">
+    
+  <div class="w-full relative flex bg-cover bg-center pt-[8.5rem] pb-[3rem] rounded-b-[3.563rem] text-black mx-auto bg-[url('../img/vector-bg.png')] "> 
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto relative [&_.swiper-pagination-bullet]:!size-3 [&_.swiper-pagination-bullet]:rounded-full [&_.swiper-pagination-bullet]:!bg-gray-900 [&_.swiper-pagination-bullet.swiper-pagination-bullet-active]:!w-8">
         <div class="swiper mySwiper rounded-3xl" data-swiper='{
           "slidesPerView": 1,
@@ -74,15 +75,13 @@
             <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
             <div class="swiper-pagination swiper-pagination-1 !-bottom-8 md:hidden block"></div>
           </div>
-    </div>
-
-
+  </div>
     <section class="relative w-full py-12">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
-          <div class="flex flex-wrap lg:flex-nowrap items-center">
+        <div class="flex flex-wrap lg:flex-nowrap items-center">
               <div class="w-full lg:w-1/2 p-4 lg:p-8 md:p-4 flex justify-center">
                   <div class="mx-auto w-full">
-                      <img class="about-img w-full" width="500" height="487"
+                      <img class="about-img lg:w-full w-96 mx-auto" width="500" height="487"
                           src="assets/img/about-us.png"
                           data-src="assets/img/about-us.png"
                           alt="about-us">
@@ -100,19 +99,15 @@
                   <p class="mt-4 text-sm leading-6 text-slate-600 font-serif">
                       At Sanchit Financial & Management Services Ltd., we are committed to providing expert financial solutions tailored to your needs. With a focus on wealth management, investment planning, risk assessment, and business consulting, we empower individuals and businesses to achieve their financial goals with confidence.
                   </p>
-                  
                   <div class="mt-4 flex gap-4">
                       <label for="leadPopup" class="group/btn cursor-pointer rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-3 text-sm lg:text-base lg:py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
                           <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
                       </l>
                   </div>
               </div>
-          </div>
+        </div>
       </div>
     </section>
-  
-
-
     <section class="w-full pt-4 lg:pb-28 pb-16 sm:py-16 relative bg-[#FBE7DA] rounded-t-[3.563rem]">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div class="absolute inset-0 size-full overflow-hidden pointer-events-none">
@@ -126,12 +121,9 @@
               Drive Success</span>
           </h2>
         </div>
-        <div
-          class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 *:w-full gap-8 py-12 items-stretch">
-          <div
-            class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col">
-            <div
-              class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow">
+        <div class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 *:w-full gap-8 py-12 items-stretch">
+          <div class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col">
+            <div class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow">
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
                   <div><h3 class="text-white md:text-xl text-lg font-bold">Equity</h3></div>
@@ -195,7 +187,6 @@
         </div>
       </div>
     </section>
-
     <section class="w-full bg-gradient-to-l from-[#FBE8DC] to-[rgba(251, 232, 220, 0.9)] pb-14 relative mb-20">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-28 px-6 lg:px-8 w-full mx-auto relative overflow-hidden">
         <div class="text-center">
@@ -378,13 +369,10 @@
   
       </div>
     </section>
-
-
     <section class="w-full relative rounded-t-[3.563rem]">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div class="absolute inset-0 size-full overflow-hidden pointer-events-none">
-          <div
-            class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
+          <div class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
         </div>
         <div class="heading text-center">
           <div class=" subtitle text-themecolor3 font-semibold">How it’s Work</div>
@@ -561,7 +549,6 @@
         </div>
       </div>
     </section>
-
     <section class="w-full relative py-6 ">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div
@@ -582,9 +569,9 @@
               </div>
               <div class="md:grow flex items-end justify-end">
                 <div class="mt-6 flex gap-4">
-                  <a href="javascript:;" class="  group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-3 text-sm lg:text-base lg:py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
+                  <label for="leadPopup" class="cursor-pointer group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-3 text-sm lg:text-base lg:py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
                     <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#C5D8F3]">Open a Demat A/C</span>
-                  </a>
+                  </label>
                 </div>
               </div>
             </div>
@@ -614,12 +601,10 @@
         </div>
       </div>
     </section>
-
     <section class="w-full py-10 relative bg-white rounded-t-[3.563rem]">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div class="absolute inset-0 size-full overflow-hidden pointer-events-none">
-          <div
-            class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
+          <div class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
         </div>
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">Stocks</div>
@@ -630,15 +615,11 @@
           </h2>
         </div>
         <div class="relative flex-shrink-0 w-full">
-          <div
-            class="grid grid-cols-2 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-5 justify-center py-10">
-
-            <div
-              class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
+          <div class="grid grid-cols-2 xl:grid-cols-5 lg:grid-cols-5 md:grid-cols-3 gap-5 justify-center py-10">
+            <div class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">IRFC</h4>
-              <div
-                class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
+              <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
                 (2.73%)
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                   viewBox="0 0 20 20" aria-hidden="true" height="12.5rem"
@@ -647,22 +628,19 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-             
             </div>
             <div
               class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">NHPC Ltd</h4>
-              <div
-                class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
+              <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
                 (2.73%)
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                   viewBox="0 0 20 20" aria-hidden="true" height="12.5rem"
@@ -672,8 +650,7 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
@@ -681,12 +658,10 @@
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Rail Vikas</h4>
-              <div
-                class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
+              <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
                 (2.73%)
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                   viewBox="0 0 20 20" aria-hidden="true" height="12.5rem"
@@ -696,15 +671,13 @@
                     clip-rule="evenodd"></path></svg>
               </div>
             </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex bg-white justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex bg-white justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
             <div class="rounded-md grid items-center duration-300 bg-white p-2 border border-[#C1B8B8] group md:hover:shadow-xl">
               <div class="relative top-[0.625rem]">
@@ -714,8 +687,7 @@
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 268 144 144 144-144M256 392V100"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
@@ -727,28 +699,23 @@
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Ircon
                 International</h4>
-              <div
-                class="*:size-4 text-xs font-serif font-semibold flex justify-center text-red-500 py-1">−4.00
+              <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-red-500 py-1">−4.00
                 (2.73%)
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 268 144 144 144-144M256 392V100"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Rites</h4>
-              <div
-                class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
+              <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
                 (2.73%)
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                   viewBox="0 0 20 20" aria-hidden="true" height="12.5rem"
@@ -758,18 +725,15 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Titagarh Rail</h4>
               <div
@@ -778,18 +742,15 @@
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 268 144 144 144-144M256 392V100"></path></svg>
               </div>
             </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Vodafone Idea</h4>
               <div
@@ -803,22 +764,18 @@
                     clip-rule="evenodd"></path></svg>
               </div>
             </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">SBI</h4>
-              <div
-                class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
+              <div class="*:size-4 text-xs font-serif font-semibold flex justify-center text-green-500 py-1">−4.00
                 (2.73%)
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0"
                   viewBox="0 0 20 20" aria-hidden="true" height="12.5rem"
@@ -828,18 +785,15 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">BSE</h4>
               <div
@@ -853,18 +807,15 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Yes Bank</h4>
               <div
@@ -878,18 +829,15 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Reliance</h4>
               <div
@@ -903,8 +851,7 @@
                     clip-rule="evenodd"></path></svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
@@ -912,8 +859,7 @@
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">S&P 500</h4>
               <div
@@ -924,8 +870,7 @@
                 </svg>
               </div>
               </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
@@ -933,8 +878,7 @@
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">IRFC</h4>
               <div
@@ -943,8 +887,7 @@
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 268 144 144 144-144M256 392V100"></path></svg>
               </div>
             </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
@@ -952,8 +895,7 @@
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
             </div>
-            <div
-              class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
+            <div class="rounded-md grid items-center bg-white duration-300 p-2 border border-[#C1B8B8] group md:hover:shadow-xl ">
               <div class="relative top-[0.625rem]">
               <h4 class="text-lg font-semibold text-black text-center">Greaves Cotton</h4>
               <div
@@ -962,123 +904,115 @@
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="48" d="m112 268 144 144 144-144M256 392V100"></path></svg>
               </div>
             </div>
-              <div
-                class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
+              <div class="font-medium *:size-6 *:text-slate-600 flex justify-end *:duration-500 *:scale-0 md:*:group-hover:scale-100">
                 <svg stroke="currentColor" fill="none" stroke-width="2"
                   viewBox="0 0 24 24" stroke-linecap="round"
                   stroke-linejoin="round" height="12.5rem" width="12.5rem"
                   xmlns="http://www.w3.org/2000/svg"><path
                     d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
               </div>
-
             </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section class="w-full py-10 relative bg-white rounded-t-[3.563rem] ">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
-      <div class="heading text-center">
-        <div class="subtitle text-themecolor3 font-semibold">Faq's</div>
-        <h2 class="max-md:text-2xl max-xl:text-3xl text-4xl font-bold text-black">
-          Frequently Asked 
-          <span class="text-themeColor2">
-            Questions</span>
-        </h2>
-      </div>
-      <div class="lg:w-4/5 w-full mx-auto md:mt-10 mt-6">
-      
-        <div class="relative flex flex-col mb-5">
-            <input class="peer/mm hidden" type="radio" checked="" name="mmMenu" id="mmCompany1">
-
-            <label for="mmCompany1" class="flex items-center gap-x-[0.125rem] bg-gray-100 sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
-                <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">01</span><h3 class="font-semibold">What is cryptocurrency trading?</h3>
-            </label>
-           
-            <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
-              <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
-                  <div class="w-full text-xs xl:text-sm pt-8">
-                      <div class="flex items-center gap-x-3 py-2 relative">
-                          <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif ">
-                            A trading strategy is a set of rules and techniques for analyzing markets and executing trades, such as trend-following, mean-reversion, or breakout strategies.
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
+    <section class="w-full py-10 relative bg-white rounded-t-[3.563rem]">
+      <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
+        <div class="heading text-center">
+          <div class="subtitle text-themecolor3 font-semibold">Faq's</div>
+          <h2 class="max-md:text-2xl max-xl:text-3xl text-4xl font-bold text-black">
+            Frequently Asked 
+            <span class="text-themeColor2">
+              Questions</span>
+          </h2>
         </div>
-        <div class="relative flex flex-col mb-5">
-            <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany2">
-            
-            <label for="mmCompany2" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
-              <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">02</span><h3 class="font-semibold">What is a trading strategy?</h3>
-            </label>
-            <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
+        <div class="lg:w-4/5 w-full mx-auto md:mt-10 mt-6">
+          <div class="relative flex flex-col mb-5">
+              <input class="peer/mm hidden" type="radio" checked="" name="mmMenu" id="mmCompany1">
+              <label for="mmCompany1" class="flex items-center gap-x-[0.125rem] bg-gray-100 sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
+                  <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">01</span><h3 class="font-semibold">What is cryptocurrency trading?</h3>
+              </label>
+              <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
                 <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                     <div class="w-full text-xs xl:text-sm pt-8">
                         <div class="flex items-center gap-x-3 py-2 relative">
-                            <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
+                            <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif ">
                               A trading strategy is a set of rules and techniques for analyzing markets and executing trades, such as trend-following, mean-reversion, or breakout strategies.
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="relative flex flex-col mb-5">
-            <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany3">
-            <label for="mmCompany3" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
-              <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">03</span><h3 class="font-semibold">What are candlestick charts?</h3>
-            </label>
-            <div class="w-full mt-[-2.688rem] rounded-md  bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
-                <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
-                    <div class="w-full text-xs xl:text-sm pt-8">
-                        <div class="flex items-center gap-x-3 py-2 relative">
-                            <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
-                              Candlestick charts represent price movements in a given period. Each "candlestick" shows the opening, closing, high, and low prices, making it easier to analyze market trends.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="relative flex flex-col mb-5">
-            <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany4">
-            <label for="mmCompany4" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
-              <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">04</span><h3 class="font-semibold">What is leverage in trading?</h3>
-            </label>
-            <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
-                <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
-                    <div class="w-full text-xs xl:text-sm pt-8">
-                        <div class="flex items-center gap-x-3 py-2 relative">
-                            <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
-                              Leverage allows traders to control larger positions with less capital. For example, 10:1 leverage means you can trade $10,000 with $1,000. While it amplifies profits, it also increases risks.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="relative flex flex-col mb-5">
-            <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany5">
-            <label for="mmCompany5" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
-              <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">05</span><h3 class="font-semibold">What are stop-loss and take-profit orders?</h3>
-            </label>
-            <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
-                <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
-                    <div class="w-full text-xs xl:text-sm pt-8">
-                        <div class="flex items-center gap-x-3 py-2 relative">
-                            <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
-                              A stop-loss automatically closes a trade to limit losses, while a take-profit closes a trade once a profit target is reached.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-    </div>
+          </div>
+          <div class="relative flex flex-col mb-5">
+              <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany2">
+              <label for="mmCompany2" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
+                <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">02</span><h3 class="font-semibold">What is a trading strategy?</h3>
+              </label>
+              <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
+                  <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
+                      <div class="w-full text-xs xl:text-sm pt-8">
+                          <div class="flex items-center gap-x-3 py-2 relative">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
+                                A trading strategy is a set of rules and techniques for analyzing markets and executing trades, such as trend-following, mean-reversion, or breakout strategies.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="relative flex flex-col mb-5">
+              <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany3">
+              <label for="mmCompany3" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
+                <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">03</span><h3 class="font-semibold">What are candlestick charts?</h3>
+              </label>
+              <div class="w-full mt-[-2.688rem] rounded-md  bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
+                  <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
+                      <div class="w-full text-xs xl:text-sm pt-8">
+                          <div class="flex items-center gap-x-3 py-2 relative">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
+                                Candlestick charts represent price movements in a given period. Each "candlestick" shows the opening, closing, high, and low prices, making it easier to analyze market trends.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="relative flex flex-col mb-5">
+              <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany4">
+              <label for="mmCompany4" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
+                <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">04</span><h3 class="font-semibold">What is leverage in trading?</h3>
+              </label>
+              <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
+                  <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
+                      <div class="w-full text-xs xl:text-sm pt-8">
+                          <div class="flex items-center gap-x-3 py-2 relative">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
+                                Leverage allows traders to control larger positions with less capital. For example, 10:1 leverage means you can trade $10,000 with $1,000. While it amplifies profits, it also increases risks.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="relative flex flex-col mb-5">
+              <input class="peer/mm hidden" type="radio" name="mmMenu" id="mmCompany5">
+              <label for="mmCompany5" class="flex items-center gap-x-[0.125rem] bg-gray-100  sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
+                <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">05</span><h3 class="font-semibold">What are stop-loss and take-profit orders?</h3>
+              </label>
+              <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
+                  <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
+                      <div class="w-full text-xs xl:text-sm pt-8">
+                          <div class="flex items-center gap-x-3 py-2 relative">
+                              <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif">
+                                A stop-loss automatically closes a trade to limit losses, while a take-profit closes a trade once a profit target is reached.
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
     </section>
     <?php include_once('footer.php'); ?>

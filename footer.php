@@ -3,8 +3,8 @@
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div class="w-full lg:flex lg:justify-between  md:justify-between sm:justify-between  items-center py-6 border-b border-dashed border-blue-300">
           <div class="flex flex-col flex-wrap lg:flex-nowrap">
-            <a href="javascript:;" class="logo">
-              <img class="md:h-[5rem] md:w-[5rem]" width="174" height="48"
+            <a href="/" class="logo">
+              <img class="md:h-[5rem] md:w-[8rem]" width="174" height="48"
                 src="assets/img/logo.png" data-src="assets/img/logo.png"
                 alt="" title="">
             </a>
@@ -153,6 +153,9 @@
       <span>KMP</span>
       <span>Investor Guide NSE</span>
     </div>
+    <div class="py-2">
+    <b>BSE:</b> 6929 | <b>MCX:</b> 57415 | <b>CIN:</b> U74140RJ1994PLC097929 | <b>GST No.</b>: 08AAFCS1672N1ZW
+  </div>
         </div>
         </div>
       </div>

@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="min-[7680px]:text-[80px] min-[5760px]:text-[60px] min-[3840px]:text-[40px] min-[2880px]:text-[28px] min-[2560px]:text-[26px] min-[2400px]:text-[24px] min-[2133px]:text-[22px] min-[1920px]:text-[20px] min-[1745px]:text-[18px] 2xl:text-[16px] xl:text-[14px] lg:text-[12px]">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Trade</title>
     <link rel="stylesheet" href="assets/css/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -204,8 +201,6 @@
                                       </a>
                                   </div>
                                 </div>
-                              </div>
-                              <div class="w-full grid p-2">
                                 <div class="relative group/hvr">
                                   <div class="flex-auto  px-2 py-2 rounded-md duration-300 group-hover/hvr:md:bg-[#f0f6ff] ">
                                       <a href="https://www.rbi.org.in/" target="_blank" class="text-[0.813rem] text-black font-medium flex items-center leading-tight whitespace-nowrap lg:text-left ">
@@ -220,6 +215,9 @@
                                       </a>
                                   </div>
                                 </div>
+                              </div>
+                              <div class="w-full grid p-2">
+                                
                                 <div class="relative group/hvr">
                                   <div class="flex-auto  px-2 py-2 rounded-md duration-300 group-hover/hvr:md:bg-[#f0f6ff] ">
                                       <a href="https://www.cdslindia.com/index.html" target="_blank" class="text-[0.813rem] text-black font-medium flex items-center leading-tight whitespace-nowrap lg:text-left ">
@@ -298,6 +296,35 @@
                                               <div>
                                                   <span class="font-bold text-sm font-serif duration-300 group-hover/hvr:text-themeColor1 "
                                                   >Investor Guide NSE</span>
+                                              </div>
+                                          </div>
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="relative group/hvr">
+                                  <div class="flex-auto  px-2 py-2 rounded-md duration-300 group-hover/hvr:md:bg-[#f0f6ff] ">
+                                      <a href="https://www.evoting.nsdl.com/" target="_blank" class="text-[0.813rem] text-black font-medium flex items-center leading-tight whitespace-nowrap lg:text-left ">
+                                          <div class="flex items-center gap-3 ">
+                                            <div class=" *:size-3 *:text-black/90 duration-300 *:group-hover/hvr:md:text-themeColor1 ">
+                                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path></svg></div>
+                                              <div>
+                                                  <span class="font-bold text-sm font-serif duration-300 group-hover/hvr:text-themeColor1 "
+                                                  >NSDL E-Voting
+                                                  </span>
+                                              </div>
+                                          </div>
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="relative group/hvr">
+                                  <div class="flex-auto  px-2 py-2 rounded-md duration-300 group-hover/hvr:md:bg-[#f0f6ff] ">
+                                      <a href="https://investorhelpline.nseclearing.in/ClientCollateral/welcomeCLUser" target="_blank" class="text-[0.813rem] text-black font-medium flex items-center leading-tight whitespace-nowrap lg:text-left ">
+                                          <div class="flex items-center gap-3 ">
+                                            <div class=" *:size-3 *:text-black/90 duration-300 *:group-hover/hvr:md:text-themeColor1 ">
+                                              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12Z"></path></svg></div>
+                                              <div>
+                                                  <span class="font-bold text-sm font-serif duration-300 group-hover/hvr:text-themeColor1 "
+                                                  >Client Collateral Details</span>
                                               </div>
                                           </div>
                                       </a>
@@ -634,6 +661,22 @@
                                   <div class="flex-auto">
                                     <a href="https://www.nseindia.com/invest/investors-home" target="_blank" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                      Investor Guide NSE
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="https://www.evoting.nsdl.com/" target="_blank" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    NSDL E-Voting
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="https://investorhelpline.nseclearing.in/ClientCollateral/welcomeCLUser" target="_blank" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    Client Collateral Details
                                       <span class="absolute inset-0 z-[1]"></span>
                                     </a>
                                   </div>

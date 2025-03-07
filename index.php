@@ -370,14 +370,7 @@ $metaTags = '
   
             </div>
           </div>
-  
         </div>
-  
-  
-  
-  
-  
-  
       </div>
       <div class="absolute w-full top-0 h-full flex justify-center flex-col items-center -z-10 ">
         <img src="assets/img/shape22.png" alt="">
@@ -385,9 +378,6 @@ $metaTags = '
           style="color: white; text-shadow: 1px 1px 0 #C8510380, -1px -1px 0 #C8510380, 1px -1px 0 #C8510380, -1px 1px 0 #C8510380;">
           Tech Trade
         </h1>
-  
-  
-  
       </div>
     </section>
     <section class="w-full relative rounded-t-[3.563rem]">

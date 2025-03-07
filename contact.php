@@ -36,8 +36,11 @@
       
           <div class="2xl:px-24 3xl:px-36 lg:pb-3  lg:py-5 px-6 lg:px-8 w-full ">
             <div class="flex flex-col  px-2 lg:px-10  rounded-lg shadow shadow-[#9C9292]">
+            <form action="" id="contact-formn">
               <div class="flex flex-col lg:flex-row w-full gap-8  lg:px-3 py-10 justify-between">
-                  <div class="flex space-y-7 w-full flex-col">
+                  
+              
+              <div class="flex space-y-7 w-full flex-col">
                     <h1 class="lg:text-2xl text-xl  text-black font-bold">
                       <span class="lg:text-2xl text-xl font-heading  text-[#C85103]"> Sent</span>
                       An Message
@@ -46,32 +49,53 @@
                           <div class=" bg-white w-24 text-center font-serif -mt-6  ">
                             <h1 class="font-serif text-base font-normal">Your Name</h1>
                           </div>
-                        <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Name">
+                        <input type="text" required id="fullNamen" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Name">
                      </div>
+                     <div>
+                      <span class="err-fullnamen text-red-500 text-sm">  </span>
+                    </div>
                      <div class="border py-4 rounded-lg px-4">
                           <div class=" bg-white w-[8rem] text-center font-serif -mt-6">
                             <h1 class="font-serif text-base font-normal">Your Phone No.</h1>
                           </div>
-                        <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your No.">
+                        <input type="text" id="mobilenumbern" oninput="this.value = this.value.replace(/[^0-9]/g, '')" required class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your No.">
                      </div>
+                     <div>
+                        <span class="err-mobilenumbern text-red-500 text-sm">  </span>
+                      </div>
                      <div class="border py-4  rounded-lg px-4">
                           <div class=" bg-white w-24 font-serif text-center  -mt-6">
                             <h1 class="font-serif text-base font-normal">Your Email</h1>
                           </div>
-                        <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Mail">
+                        <input type="email" id="emailidn" required class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Mail">
                      </div>
+                     <div>
+                        <span class="err-emailidn text-red-500 text-sm">  </span>
+                      </div>
                      <div class="border py-4 rounded-lg px-4">
                           <div class=" bg-white w-24 text-center  -mt-6  ">
                             <h1 class="font-serif text-base font-normal">Subject</h1>
                           </div>
-                        <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Write Your Subject">
+                        <input type="text" required id="subjectn" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Write Your Subject">
                      </div>
+                     <div>
+                      <span class="err-subjectn text-red-500 text-sm">  </span>
+                    </div>
                      <div class="border  py-5 h-32   rounded-lg px-4">
                           <div class=" bg-white w-24 text-center  -mt-6  ">
                             <h1 class="font-serif text-base font-normal">Message</h1>
                           </div>
-                        <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Write Your Message"></div><button class="bg-[#C85103] px-7 h-14 py-3 w-56 lg:w-64 text-white text-lg font-semibold rounded-lg ">Send Message</button>
-                      </div>  
+                        <input type="text" required id="messagen" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Write Your Message"></div>
+                        <div>
+                          <span class="err-messagen text-red-500 text-sm">  </span>
+                        </div>
+                        <button id="formsubmitn" class="bg-[#C85103] px-7 h-14 py-3 w-56 lg:w-64 text-white text-lg font-semibold rounded-lg ">Send Message</button>
+                        <span id="success-messagen" class="text-green-500 text-sm"> </span>
+                        <div>
+                          <span class="err-recapchan text-red-500 text-sm">  </span>
+                        </div>
+                      </div> 
+ 
                   <div class="w-full py-12 flex space-y-2 flex-col">
                     <div class="flex rounded-lg shadow space-x-3 shadow-[#9C9292] px-4 py-5 h-32 flex-row">
 
@@ -116,6 +140,7 @@
                     </div> 
                   </div> 
               </div>
+              </form>
                 
               <div class="h-96 w-full overflow-hidden border-dashed border-gray-400 px-2 mb-10  py-3 border-[2px]">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3556.9856605068194!2d75.79180492000768!3d26.93566906296804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3eed2255cbd%3A0xbe980d5d70708d61!2sINOX%20City%20Plaza!5e0!3m2!1sen!2sin!4v1739424446141!5m2!1sen!2sin" class="w-full h-full" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -290,3 +315,123 @@
             </div>
           </section>
   <?php include_once('footer.php'); ?>
+
+  <script>
+        document.getElementById("contact-formn").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent form submission
+            //alert('test');
+            // Get form values
+            let fullName = document.getElementById("fullNamen").value.trim();
+            let email = document.getElementById("emailidn").value.trim();
+            let mobile = document.getElementById("mobilenumbern").value.trim();
+            let message = document.getElementById("messagen").value.trim();
+            let subject = document.getElementById("subjectn").value.trim();
+            
+            // Clear previous error messages
+            document.querySelector(".err-fullnamen").textContent = "";
+            document.querySelector(".err-emailidn").textContent = "";
+            document.querySelector(".err-mobilenumbern").textContent = "";
+            document.querySelector(".err-messagen").textContent = "";
+            document.querySelector(".err-subjectn").textContent = "";
+            document.querySelector(".err-recapchan").textContent = "";
+
+            let isValid = true;
+
+            // Validate Full Name
+            if (fullName === "") {
+                //alert('Full Name is required.');
+                document.querySelector(".err-fullnamen").textContent = "Full Name is required.";
+                isValid = false;
+            }
+
+            // Validate Mobile No (assume 10-digit format)
+            let mobilePattern = /^[0-9]{10}$/;
+            if (mobile === "") {
+                //alert('Mobile No is required.');
+                document.querySelector(".err-recapchan").textContent = "Your submission failed because of an error.";
+                document.querySelector(".err-mobilenumbern").textContent = "Mobile No is required.";
+                isValid = false;
+            } else if (!mobilePattern.test(mobile)) {
+                //alert('Please enter a valid 10-digit Mobile No.');
+                document.querySelector(".err-recapchan").textContent = "Your submission failed because of an error.";
+                document.querySelector(".err-mobilenumbern").textContent = "Please enter a valid 10-digit Mobile No.";
+                isValid = false;
+            }
+
+            // Validate E-mail (if provided)
+            if (email === "") {
+                //alert('Email address is required.');
+                document.querySelector(".err-recapchan").textContent = "Your submission failed because of an error.";
+                document.querySelector(".err-emailidn").textContent = "Email address is required.";
+                isValid = false;
+            } else {
+                let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+                if (!emailPattern.test(email)) {
+                    //alert('Please enter a valid E-mail address.');
+                    document.querySelector(".err-recapchan").textContent = "Your submission failed because of an error.";
+                    document.querySelector(".err-emailidn").textContent = "Please enter a valid E-mail address.";
+                    isValid = false;
+                }
+            }
+
+            // Validate Message
+            if (message === "") {
+                //alert('City is required.');
+                document.querySelector(".err-messagen").textContent = "Message is required.";
+                isValid = false;
+            }
+
+            // If validation failed, do not submit
+            if (!isValid) {
+                return;
+            } else {
+                //$('.loader').addClass("loading");
+                $.ajax({
+                    url: 'sendmailContact.php', // Path to your email.php file
+                    type: 'POST', // Send data using POST method
+                    data: {
+                        fullName: fullName,
+                        email: email,
+                        mobile: mobile,
+                        message: message,
+                        subject:subject
+                    },
+                    beforeSend: function () {
+                        // Disable the button to prevent multiple clicks
+                        $("#formsubmitn").prop("disabled", true).text("Sending...");
+                    },
+                    success: function(response) {
+                        var resp = JSON.parse(response)
+                        if(resp.success){
+                            //alert('From has been submitted we will get back to you.');
+                            //Swal.fire(  'Success!','From has been submitted we will get back to you.','success');
+                            document.getElementById("contact-formn").reset();
+                            $("#success-messagen").text("Your submission was successful.").fadeIn();
+
+                            setTimeout(function(){
+                                $("#success-messagen").fadeOut();
+                            }, 10000); // Hide message after 10 seconds
+                        }else{
+                            alert('Something went wrong.');
+                            //Swal.fire(  'Error!','Something went wrong.',
+                            //                    'error'
+                            //                );
+                        }
+                        //$('.loader').removeClass("loading");
+                        $("#formsubmitn").prop("disabled", false).text("Send Message");
+                    },
+                    error: function(xhr, status, error) {
+                        // Handle error
+                        console.error("Form submission failed:", error);
+                        alert('Something went wrong.');
+                        $("#formsubmitn").prop("disabled", false).text("Send Message");
+                        // Swal.fire(  'Error!','Something went wrong.',
+                        //                     'error'
+                        //                 );
+                    }
+                });
+                
+                // this.submit(); // Proceed with form submission
+            }
+        });
+    </script>

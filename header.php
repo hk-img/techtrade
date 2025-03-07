@@ -11,7 +11,13 @@
     <header class="fixed top-0 w-full bg-white border-b border-slate-200 shadow-lg z-50">
       <nav class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto flex items-center justify-between">
           <div class="flex items-start">
-          <a href="index" class="logo">
+          <?php 
+            $base_url = isset($_SERVER['HTTPS']) && strtolower($_SERVER['HTTPS']) == 'on' ? 'https' : 'http';
+            $base_url .= '://' . $_SERVER['HTTP_HOST'];
+            $base_url .= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
+            $base_url = preg_replace('/install.*/', '', $base_url);
+          ?>  
+          <a href="<?php echo $base_url; ?>" class="logo">
               <img class="md:h-20 md:w-auto h-20 w-auto" width="174" height="48"
               src="assets/img/logo.png" data-src="assets/img/logo.png" alt="" title="">
           </a>

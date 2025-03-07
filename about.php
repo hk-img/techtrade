@@ -21,7 +21,7 @@
   </div>
 
   <section class="w-full pt-[60px] relative bg-white">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full   justify-center items-center flex flex-col space-y-[22px] ">
+    <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 lg:w-full justify-center items-center flex flex-col space-y-[22px] ">
       <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">About Us</div>
           <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
@@ -31,7 +31,7 @@
           </h2>
         </div>
       <div class="lg:w-[860px] w-full ">
-        <img src="assets/img/intro-img.png" alt="" class="w-full h-full rounded-sm">
+        <img src="assets/img/aboutimg.png" alt="" class="w-full h-full rounded-sm">
       </div>
 
       <div class=" lg:w-full">
@@ -103,21 +103,18 @@
         </div>
       </div>
 
-      <div class=" relative w-full h-[15.563rem]  px-4 lg:px-10 border-l border-r overflow-hidden ">
-        <img src="assets/img/aboutbig.png" alt="About Image" class="w-full h-full object-cover">
+      <div class="relative w-full h-[28rem] px-4 lg:px-10 border-l border-r overflow-hidden">
+        <img src="assets/img/intro-img.jpg" alt="About Image" class="w-full h-full object-cover aspect-sqaure">
       </div>
-
       <div
         class="w-[109px] h-[96px] bg-[#C85103E5] z-10 absolute  hidden sm:right-[30px] sm:top-[200px] md:right-[0px] md:top-[388px] lg:right-[13px] lg:top-[388px]  xl:right-[30px] right-[20px] top-[150px]">
       </div>
-
     </div>
 
     <div class="w-full h-full flex flex-row absolute top-0 -z-10 py-[80px]">
-      <div class=" w-full lg:w-1/3 h-[300px] lg:h-full rounded-bl-[57px] md:mb-5 sm:mb-6   rounded-tl-[57px]  bg-blue-700"></div>
-      <div class=" lg:w-2/3"></div>
-
-    </div>
+      <div class="w-full lg:w-1/3 h-[300px] lg:h-full rounded-bl-[57px] md:mb-5 sm:mb-6 rounded-tl-[57px] bg-blue-700"></div>
+      <div class="lg:w-2/3"></div>
+      </div>
   </section>
 
   <section class="w-full  lg:mb-10 mb-0 ">

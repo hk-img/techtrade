@@ -94,6 +94,7 @@
        <section class="w-full py-7 relative bg-white">
       
         <div class="2xl:px-24 3xl:px-36 lg:pb-3  lg:py-5 px-6 lg:px-8 w-full ">
+        <form action="" id="career-form" enctype="multipart/form-data">
           <div class="flex flex-col  py-7 px-2 lg:px-10  rounded-lg shadow shadow-[#9C9292]">
             <h1 class="lg:text-2xl text-xl  text-black font-bold">
                 <span class="lg:text-2xl text-xl font-heading font-bold   text-[#C85103]"> Submit </span>
@@ -106,26 +107,41 @@
                         <div class=" bg-white w-36 text-center font-serif  -mt-6  ">
                           <h1 class="font-serif text-base font-normal">Your Name</h1>
                         </div>
-                      <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Name">
+                      <input type="text" required name="fullName" id="fullNameCareer" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Name">
+                      
                    </div>
+                   <div>
+                      <span class="err-fullnameCareer text-red-500 text-sm">  </span>
+                    </div>
                    <div class="border py-4   rounded-lg px-4">
                         <div class=" bg-white w-28 text-center  font-serif -mt-6 ">
                           <h1 class="font-serif text-base font-normal">Your Email</h1>
                         </div>
-                      <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Email.">
+                      <input type="email" name="email" required id="emailidCareer" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your Email.">
+                      
                    </div>
+                   <div>
+                      <span class="err-emailidCareer text-red-500 text-sm">  </span>
+                    </div>
                    <div class="border py-4   rounded-lg px-4">
                         <div class=" bg-white w-36 font-serif text-center  -mt-6  ">
                           <h1 class="font-serif text-base font-normal">Your Qualification</h1>
                         </div>
-                      <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Your Qualification">
+                      <input type="text" name="qualification" required id="qualificationCareer" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Your Qualification">
+                      
                    </div>
+                   <div>
+                      <span class="err-qualificationCareer text-red-500 text-sm">  </span>
+                    </div>
                    
                    <div class="flex space-y-3 flex-col">
                     <h1 class="font-serif font-normal text-sm">Upload Your Resume / Cv</h1>
 
-                    <input type="file" name="" id="">
+                    <input type="file" name="resumeCareer" id="resumeCareer">
                    </div>
+                   <div>
+                    <span class="err-resumeCareer text-red-500 text-sm">  </span>
+                  </div>
                 </div>  
                 <div class="flex space-y-7 w-full flex-col">
                
@@ -134,19 +150,31 @@
                         <div class=" bg-white w-24 text-center font-serif  -mt-6 ">
                           <h1 class="font-serif text-base font-normal">Contact No.</h1>
                         </div>
-                      <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your No.">
+                      <input type="text" name="mobile" required id="mobilenumberCareer" oninput="this.value = this.value.replace(/[^0-9]/g, '')" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter your No.">
+                      
                    </div>
+                   <div>
+                      <span class="err-mobilenumberCareer text-red-500 text-sm">  </span>
+                    </div>
                    <div class="border py-4   rounded-lg px-4">
                         <div class=" bg-white w-28 text-center  font-serif -mt-6  ">
                           <h1 class="font-serif text-base font-normal">Your City</h1>
                         </div>
-                      <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter Your City ">
+                      <input type="text" name="message" required id="messageCareer" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Enter Your City ">
+                      
+                   </div>
+                   <div>
+                    <span class="err-messageCareer text-red-500 text-sm">  </span>
                    </div>
                    <div class="border py-4   rounded-lg px-4">
                         <div class=" bg-white w-40  font-serif text-center  -mt-6  ">
                           <h1 class="font-serif text-base font-normal">Years of Experience</h1>
                         </div>
-                      <input type="text" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Work Experience">
+                      <input type="text" name="experience" required id="experienceCareer" class="border-none py-1 outline-none placeholder:text-sm font-normal font-serif w-full" placeholder="Work Experience">
+                      
+                   </div>
+                   <div>
+                    <span class="err-experienceCareer text-red-500 text-sm">  </span>
                    </div>
                   
 
@@ -157,14 +185,118 @@
                 
                
             </div>
+            
               
             <div class="mx-auto ">
-                <button class="bg-[#C85103] text-lg text-white font-semibold font-serif w-48 h-14 rounded-md border-none outline-none"  >Submit</button>
+                <button id="formsubmitCareer" class="bg-[#C85103] text-lg text-white font-semibold font-serif w-48 h-14 rounded-md border-none outline-none"  >Submit</button>
             </div>
+            <div>
+              <span class="err-recapchaCareer text-red-500 text-sm">  </span>
+            </div>
+            <span id="success-messageCareer" class="text-green-500 text-sm"> </span>
 
 
           </div>
+          </form>
         </div>
 
        </section>
 <?php include_once('footer.php'); ?>
+
+<script>
+    document.getElementById("career-form").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+
+    let form = document.getElementById("career-form");
+    let formData = new FormData(form); // Automatically captures all form fields including files
+
+    // Validate inputs
+    let fullName = document.getElementById("fullNameCareer").value.trim();
+    let email = document.getElementById("emailidCareer").value.trim();
+    let mobile = document.getElementById("mobilenumberCareer").value.trim();
+    let message = document.getElementById("messageCareer").value.trim();
+    let qualification = document.getElementById("qualificationCareer").value.trim();
+    let experience = document.getElementById("experienceCareer").value.trim();
+    let fileInput = document.getElementById("resumeCareer"); // File input field
+    let file = fileInput.files[0]; // Get the selected file
+
+    // Validate required fields
+    let isValid = true;
+    document.querySelector(".err-fullnameCareer").textContent = fullName ? "" : "Full Name is required.";
+    document.querySelector(".err-emailidCareer").textContent = email ? "" : "Email is required.";
+    document.querySelector(".err-mobilenumberCareer").textContent = mobile ? "" : "Mobile is required.";
+    document.querySelector(".err-messageCareer").textContent = message ? "" : "City is required.";
+    document.querySelector(".err-qualificationCareer").textContent = qualification ? "" : "Qualification is required.";
+    document.querySelector(".err-experienceCareer").textContent = experience ? "" : "Experience is required.";
+    document.querySelector(".err-recapchaCareer").textContent = "";
+    document.querySelector(".err-resumeCareer").textContent = "";
+
+    if (!fullName || !email || !mobile || !message || !qualification || !experience) {
+        isValid = false;
+        document.querySelector(".err-recapchaCareer").textContent = "Your submission failed because of an error.";
+    }
+
+    // Validate mobile number (10 digits)
+    let mobilePattern = /^[0-9]{10}$/;
+    if (!mobilePattern.test(mobile)) {
+        document.querySelector(".err-mobilenumberCareer").textContent = "Please enter a valid 10-digit Mobile No.";
+        document.querySelector(".err-recapchaCareer").textContent = "Your submission failed because of an error.";
+        isValid = false;
+    }
+
+    // Validate email format
+    let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    if (!emailPattern.test(email)) {
+        document.querySelector(".err-emailidCareer").textContent = "Please enter a valid Email.";
+        document.querySelector(".err-recapchaCareer").textContent = "Your submission failed because of an error.";
+        isValid = false;
+    }
+
+    // Validate file size (Max 5MB)
+    // if (file && file.size > 5 * 1024 * 1024) {
+    //     document.querySelector(".err-resumeCareer").textContent = "File size should be less than 5MB.";
+    //     isValid = false;
+    // }
+
+    // Check file extention
+    if (file) {
+        let fileName = file.name.toLowerCase(); // Convert filename to lowercase for case-insensitive check
+        if (!(fileName.endsWith(".pdf") || fileName.endsWith(".doc") || fileName.endsWith(".docx"))) {
+            document.querySelector(".err-resumeCareer").textContent = "This file type is not allowed.";
+            document.querySelector(".err-recapchaCareer").textContent = "Your submission failed because of an error.";
+            isValid = false;
+        }
+    }
+
+    if (!isValid) return;
+
+    $.ajax({
+        url: 'sendmailCareer.php', 
+        type: 'POST',
+        data: formData,
+        processData: false, // Prevent jQuery from converting the data into a string
+        contentType: false, // Let the browser set the content type
+        beforeSend: function () {
+            $("#formsubmitCareer").prop("disabled", true).text("Sending...");
+        },
+        success: function(response) {
+            var resp = JSON.parse(response);
+            if(resp.success){
+                document.getElementById("career-form").reset();
+                $("#success-messageCareer").text("Your submission was successful.").fadeIn();
+                setTimeout(function(){
+                    $("#success-messageCareer").fadeOut();
+                }, 10000);
+            } else {
+                alert('Something went wrong.');
+            }
+            $("#formsubmitCareer").prop("disabled", false).text("Submit");
+        },
+        error: function() {
+            alert('Something went wrong.');
+            $("#formsubmitCareer").prop("disabled", false).text("Submit");
+        }
+    });
+});
+
+</script>

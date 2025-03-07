@@ -8,7 +8,6 @@
         <p class="lg:text-[1.25rem] text-lg font-serif font-medium ">
           Listed here are some important forms, documents and software setups.
         </p>
-        
         <ul class="flex font-serif space-x-2 items-center lg:text-[1.2rem]">
           <li>Home</li>
           <li class="-mt-2">.</li>
@@ -17,22 +16,20 @@
       </div>
       <img src="assets/img/downbg.png" alt="" class="w-1/2 lg:w-[35%]">
     </div>
-
     <img src="assets/img/headside-img.png" alt="" class=" h-full absolute top-0 right-0  z-0">
     <img src="assets/img/headbg2.png" alt="" class="w-[93%] top-[50px] left-[150px] absolute    z-0">
     <img src="assets/img/headbg3.png" alt="" class=" w-[67%] left-[6px] -bottom-[81px]  absolute    z-0">
   </div>
 
   <section class="w-full  relative bg-white pt-[72px]">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto flex flex-col space-y-5">
+    <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 lg:w-full mx-auto flex flex-col space-y-5 bg-gray-100 py-4  mb-2">
       <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(1)">
         <h1 class="font-heading text-2xl font-bold text-[#1B1E31]">Forms</h1>
         <svg  id="icon-1" class="w-5 h-5 text-gray-500 transition-transform duration-300" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 9l-7 7-7-7"></path>
-      </svg>
+        </svg>
       </div>
-
-      <div class="grid grid-cols-1  gap-2  lg:grid-cols-3  max-h-0 overflow-hidden transition-all duration-500" id="content-1" style="max-height: auto;">
+      <div class="grid grid-cols-1 gap-2 lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500 " id="content-1" style="max-height: auto;">
         <div class="flex space-y-3 flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
             <div class="flex space-x-2">
@@ -476,21 +473,18 @@
         </div>
 
       </div>
-
     </div>
   </section>
 
-  <section class="w-full py-6 relative bg-white">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto flex flex-col space-y-[14px]">
-      <div class="flex justify-between items-center cursor-pointer " onclick="toggleAccordion(2)">
+  <section class="w-full relative bg-white">
+    <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 lg:w-full mx-auto flex flex-col space-y-[14px] bg-gray-100 py-4  mb-2">
+      <div class="flex justify-between items-center cursor-pointer" onclick="toggleAccordion(2)">
         <h1 class="font-heading text-2xl font-bold text-[#1B1E31]">Policies</h1>
         <svg  id="icon-2" class="w-5 h-5 text-gray-500 transition-transform duration-300" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 9l-7 7-7-7"></path>
-      </svg>
+        </svg>
       </div>
-
-      <div class="grid grid-cols-1  gap-2  lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500" id="content-2">
-
+      <div class="grid grid-cols-1  gap-2  lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500 " id="content-2">
         <div class="flex space-y-3  flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
             <div class="flex space-x-2">
@@ -1621,13 +1615,11 @@
 
 
       </div>
-
     </div>
   </section>
 
-
-  <section class="w-full py-3 relative bg-white">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto flex flex-col space-y-[14px]">
+  <section class="w-full relative bg-white">
+    <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 lg:w-full mx-auto flex flex-col space-y-[14px] bg-gray-100 py-4  mb-2 ">
       <div class="flex justify-between items-center cursor-pointer " onclick="toggleAccordion(3)">
         <h1 class="font-heading text-2xl font-bold text-[#1B1E31]">Cyber Policy</h1>
         <svg  id="icon-3" class="w-5 h-5 text-gray-500 transition-transform duration-300" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
@@ -1635,7 +1627,7 @@
       </svg>
       </div>
 
-      <div class="grid lg:grid-cols-3 grid-cols-1    max-h-0 overflow-hidden transition-all duration-500" id="content-3">
+      <div class="grid lg:grid-cols-3 grid-cols-1    max-h-0 overflow-hidden transition-all duration-500 " id="content-3">
 
         <div class="flex space-y-3  flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
@@ -1692,18 +1684,15 @@
     </div>
   </section>
 
-
-  <section class="w-full py-[10px] relative bg-white">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto  flex flex-col space-y-[14px] ">
+  <section class="w-full relative bg-white">
+    <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 lg:w-full mx-auto  flex flex-col space-y-[14px] bg-gray-100 py-4  mb-2">
       <div class=" flex justify-between items-center cursor-pointer " onclick="toggleAccordion(4)">
         <h1 class="font-heading text-2xl font-bold text-[#1B1E31]">Account Related Form</h1>
         <svg  id="icon-4" class="w-5 h-5 text-gray-500 transition-transform duration-300" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 9l-7 7-7-7"></path>
       </svg>
       </div>
-
-      <div class="grid grid-cols-1  gap-2  lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500" id="content-4">
-
+      <div class="grid grid-cols-1  gap-2  lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500 " id="content-4">
         <div class="flex space-y-3  flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
             <div class="flex space-x-2">
@@ -1870,18 +1859,17 @@
     </div>
   </section>
 
-  <section class="w-full py-4  relative bg-white">
-    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8 flex flex-col space-y-[14px]   lg:w-full mx-auto">
-      <div class="flex justify-between items-center cursor-pointer  " onclick="toggleAccordion(5)">
+  <section class="w-full relative bg-white">
+    <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8 flex flex-col space-y-[14px] lg:w-full mx-auto bg-gray-100 py-4  mb-2">
+      <div class="flex justify-between items-center cursor-pointer " onclick="toggleAccordion(5)">
         <h1 class="font-heading text-2xl font-bold text-[#1B1E31]">Vernacular Language</h1>
         <svg  id="icon-5" class="w-5 h-5 text-gray-500 transition-transform duration-300" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
           <path d="M19 9l-7 7-7-7"></path>
       </svg>
       </div>
 
-      <div class="grid grid-cols-1  lg:px-0 gap-2  lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500" id="content-5" >
-
-        <div class="flex space-y-3  flex-col">
+      <div class="grid grid-cols-1 lg:px-0 gap-2 lg:grid-cols-3 max-h-0 overflow-hidden transition-all duration-500 " id="content-5" >
+        <div class="flex space-y-3 flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
             <div class="flex space-x-2">
               <div class="w-9 h-9 overflow-hidden">
@@ -2437,8 +2425,7 @@
           </div>
 
         </div>
-
-        <div class="flex space-y-3  flex-col">
+        <div class="flex space-y-3 flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
             <div class="flex space-x-2">
               <div class="w-9 h-9 overflow-hidden">
@@ -2994,7 +2981,6 @@
           </div>
 
         </div>
-
         <div class="flex space-y-3  flex-col">
           <div class="flex rounded-md border w-full px-4 py-4 border-[#E6E6E6] justify-between items-center">
             <div class="flex space-x-2">
@@ -3551,11 +3537,7 @@
           </div>
 
         </div>
-
-
-
       </div>
-
     </div>
   </section>
 <?php include_once('footer.php'); ?>

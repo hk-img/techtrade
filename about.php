@@ -134,7 +134,7 @@
 
     <div class="flex lg:flex-row flex-col space-x-0 space-y-4 lg:space-y-0 lg:space-x-[100px] py-[60px] justify-between items-stretch">
       <div class="flex flex-col shadow py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-auto">
-          <div class="lg:w-80 w-full overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
+          <div class="lg:w-80 w-1/2 overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
             <img src="assets/img/founder-img1.jpg" alt="" class="w-full aspect-square">
           </div>
           <div class=" flex flex-col py-6 text-center justify-center">
@@ -148,7 +148,7 @@
           </div>
       </div>
       <div class="flex flex-col shadow  py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-auto">
-        <div class="lg:w-80 w-full overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
+        <div class="lg:w-80 w-1/2 overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
           <img src="assets/img/founder-img2.jpg" alt="" class="w-full aspect-square">
         </div>
         <div class=" flex flex-col py-6 text-center justify-center">
@@ -176,8 +176,8 @@
           </div>
           <div class="lg:w-3/5 w-full flex items-center justify-center px-4 lg:py-10 py-6">
             <div>
-            <div class="heading text-center lg:text-left ">
-              <h2 class="max-md:text-2xl max-xl:text-3xl text-4xl/tight font-bold text-white  ">
+            <div class="heading text-center lg:text-left lg:pt-0 pt-8">
+              <h2 class="max-md:text-2xl max-xl:text-3xl text-4xl/tight font-bold text-white">
                Begin your investing journey with TECH TRADE
               </h2>
               <div

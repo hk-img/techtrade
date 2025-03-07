@@ -186,7 +186,7 @@
                 services company headquartered in Punjab.</div>
               <div class="lg:mt-6 mt-3 flex gap-4 justify-center lg:justify-start">
                 <label for="leadPopup" class="group/btn cursor-pointer rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-4 ps-6 pe-8 text-[#004AAD] flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#C5D8F3] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
-                  <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#fff] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#fff]">Open a Demat A/C</span>
+                  <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#fff] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#fff]">Register for Free</span>
                 </label>
               </div>
             </div>
@@ -227,9 +227,7 @@
                 </div>
 
                 <div class="w-auto py-6 h-auto">
-                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“Consectetur adipisicing
-                    elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim adena minim veniam quis
-                    nostrud”</div>
+                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“Tech Trade has completely transformed our trading experience. The platform is fast, reliable, and easy to use, making it perfect for both beginners and experienced traders.”</div>
                 </div>
               </div>
             </div>
@@ -247,13 +245,10 @@
                     </div>
                     <div class="text-[14px] font-medium font-serif text-[#C85103]">USA</div>
                   </div>
-
                 </div>
 
                 <div class="w-auto py-6 h-auto">
-                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“Consectetur adipisicing
-                    elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim adena minim veniam quis
-                    nostrud”</div>
+                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“I have tried several trading platforms, but none compare to Tech Trade. Their technology-driven solutions provide real-time insights, security, and a user-friendly interface that makes trading stress-free.”</div>
                 </div>
               </div>
             </div>
@@ -274,9 +269,7 @@
                 </div>
 
                 <div class="w-auto py-6 h-auto">
-                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“Consectetur adipisicing
-                    elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim adena minim veniam quis
-                    nostrud”</div>
+                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“Tech Trade has completely transformed our trading experience. The platform is fast, reliable, and easy to use, making it perfect for both beginners and experienced traders.”</div>
                 </div>
               </div>
             </div>
@@ -290,16 +283,14 @@
                   </div>
 
                   <div class="flex flex-col">
-                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Amenda Wigh</div>
-                    <div class="text-[14px] font-medium font-serif text-[#C85103]">United Arab Emirates</div>
+                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">William Brooks</div>
+                    <div class="text-[14px] font-medium font-serif text-[#C85103]">USA</div>
                   </div>
 
                 </div>
 
                 <div class="w-auto py-6 h-auto">
-                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“Consectetur adipisicing
-                    elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim adena minim veniam quis
-                    nostrud”</div>
+                  <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">“I have tried several trading platforms, but none compare to Tech Trade. Their technology-driven solutions provide real-time insights, security, and a user-friendly interface that makes trading stress-free.”</div>
                 </div>
               </div>
             </div>

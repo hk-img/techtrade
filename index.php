@@ -19,7 +19,6 @@ $metaTags = '
 ?>
 
 <?php include_once('header.php'); ?>
-    
   <div class="w-full relative flex bg-cover bg-center pt-[8.5rem] pb-[3rem] rounded-b-[3.563rem] text-black mx-auto bg-[url('../img/vector-bg.png')] "> 
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto relative [&_.swiper-pagination-bullet]:!size-3 [&_.swiper-pagination-bullet]:rounded-full [&_.swiper-pagination-bullet]:!bg-gray-900 [&_.swiper-pagination-bullet.swiper-pagination-bullet-active]:!w-8">
         <div class="swiper mySwiper rounded-3xl" data-swiper='{
@@ -122,8 +121,8 @@ $metaTags = '
                   The company commenced its operations in 1995 and has continuously expanded its presence across India. Our goal is to emerge as a financial powerhouse offering a comprehensive range of solutions, all conveniently accessible in one place. With expanded reach and enhanced capabilities, we serve clients worldwide with integrity and professionalism.                  </p>
                   <div class="mt-4 flex gap-4">
                       <label for="leadPopup" class="group/btn cursor-pointer rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-3 text-sm lg:text-base lg:py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
-                          <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
-                      </l>
+                          <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#FFAF7A]">Register for Free</span>
+                      </label>
                   </div>
               </div>
         </div>
@@ -552,7 +551,6 @@ $metaTags = '
                     success.</div>
                   </div>
                 </div>
-                
               </div>
             </div>
             </div>
@@ -581,7 +579,7 @@ $metaTags = '
               <div class="md:grow flex items-end justify-end">
                 <div class="mt-6 flex gap-4">
                   <label for="leadPopup" class="cursor-pointer group/btn rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-3 text-sm lg:text-base lg:py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#C5D8F3] before:bg-[#C5D8F3] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#004AAD] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
-                    <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#C5D8F3]">Open a Demat A/C</span>
+                    <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#C5D8F3] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#C5D8F3]">Register for Free</span>
                   </label>
                 </div>
               </div>

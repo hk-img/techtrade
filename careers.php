@@ -9,7 +9,7 @@
           <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
             <li>Home</li>
             <li class="-mt-2">.</li>
-            <li class="text-[#1B1E31] font-bold"><a href="careers"> Careers</a></li>
+            <li class="text-[#1B1E31] font-bold"><a href="careers">Careers</a></li>
           </ul>
         </div>
         <img src="assets/img/careerbg.png" alt="" class="w-1/2 lg:w-[35%]" >
@@ -22,17 +22,15 @@
            <img src="assets/img/headbg3.png" alt=""  class=" w-[60%] left-[6px] -bottom-[81px]  absolute    z-0" >
     </div>
 
-    <section class="w-full py-10 relative bg-white" >
+    <section class="w-full py-10 relative bg-white">
         <div class="2xl:px-24 lg:3xl:px-36 lg:pb-3 lg:w-full mx-auto">
-
-          <div class="flex flex-col space-y-3 justify-center  items-center ">
+          <div class="flex flex-col space-y-3 justify-center items-center">
             <h1 class="lg:text-lg text-base font-heading text-gray-500">Career</h1>
-
             <h2 class="lg:text-4xl text-xl font-heading text-black font-bold text-center"><span class="lg:text-4xl text-xl font-heading font-bold text-[#C85103]">Job openings</span>  and career <br>opportunities </h2>
-              <h3 class="lg:text-4xl text-xl font-heading text-black font-bold"></h3>  
-       </div>
+            <h3 class="lg:text-4xl text-xl font-heading text-black font-bold"></h3>  
+          </div>
         </div>
-       </section>
+    </section>
 
        <section class="w-full h-auto relative bg-white">
         <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 h-full lg:px-8 w-full">

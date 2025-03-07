@@ -109,7 +109,7 @@ $metaTags = '
               </div>
               <div class="w-full lg:w-1/2 p-4 lg:p-8 md:p-4">
                   <div class="heading">
-                      <div class="subtitle text-themeColor2 font-semibold">About Us</div>
+                      <div class="subtitle text-[#6E6E6E] font-semibold">About Us</div>
                       <h2 class=" text-black font-bold text-2xl md:text-2xl lg:text-4xl text-balance">
                           Welcome to Sanchit Financial &
                           with <span class=" text-themeColor2">
@@ -117,8 +117,9 @@ $metaTags = '
                       </h2>
                   </div>
                   <p class="mt-4 text-sm leading-6 text-slate-600 font-serif">
-                      At Sanchit Financial & Management Services Ltd., we are committed to providing expert financial solutions tailored to your needs. With a focus on wealth management, investment planning, risk assessment, and business consulting, we empower individuals and businesses to achieve their financial goals with confidence.
-                  </p>
+                  Sanchit Financial & Management Services Ltd. is a leading financial services company headquartered in Punjab, committed to excellence and focused on client satisfaction. The company has established itself as a trusted partner for investors seeking to navigate the complexities of the global financial markets.
+                   <br><br>
+                  The company commenced its operations in 1995 and has continuously expanded its presence across India. Our goal is to emerge as a financial powerhouse offering a comprehensive range of solutions, all conveniently accessible in one place. With expanded reach and enhanced capabilities, we serve clients worldwide with integrity and professionalism.                  </p>
                   <div class="mt-4 flex gap-4">
                       <label for="leadPopup" class="group/btn cursor-pointer rounded-lg overflow-hidden max-w-full w-fit origin-bottom py-3 text-sm lg:text-base lg:py-4 ps-6 pe-8 text-white flex font-semibold relative z-10 hover:md:scale-95 duration-300 before:absolute before:inset-1 before:ring-[0.188rem] before:ring-inset before:ring-[#FFAF7A] before:bg-[#FFAF7A] before:rounded-lg before:-z-[2] after:absolute after:size-80 after:right-0 after:-top-[4.125rem] after:-rotate-[41deg] after:bg-[#C85103] after:rounded-lg after:-z-[1] after:hover:md:-top-[8.813rem] after:hover:md:right-[0.625rem] after:duration-300">
                           <span class="before:absolute before:left-1 before:top-1 before:w-1.5 before:h-[calc(100%-1.125rem)] before:duration-300 group-hover/btn:before:h-1.5 before:rounded-full before:bg-[#FFAF7A] after:absolute after:left-1 after:bottom-1 after:w-1.5 after:h-1.5 after:duration-300 group-hover/btn:after:h-[calc(100%-1.125rem)] after:rounded-full after:bg-[#FFAF7A]">Open a Demat A/C</span>
@@ -209,11 +210,11 @@ $metaTags = '
     </section>
     <section class="w-full bg-gradient-to-l from-[#FBE8DC] to-[rgba(251, 232, 220, 0.9)] pb-14 relative mb-20">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-28 px-6 lg:px-8 w-full mx-auto relative overflow-hidden">
-        <div class="text-center">
-          <span class="text-[1.125rem] font-semibold text-[#6E6E6E]">Why Choose Us</span>
-          <h1 class=" lg:text-[2.5rem] text-3xl font-bold">Innovating <span class="text-themeColor2">Solutions</span> for
-            Your Success
-          </h1>
+        <div class="heading text-center">
+          <div class="subtitle text-themecolor3 font-semibold">Why Choose Us</div>
+          <h2 class="max-md:text-2xl max-xl:text-3xl text-4xl font-bold text-black">
+          Innovating Solutions<span class=" text-themeColor2">for Your Success</span>
+          </h2>
         </div>
         <div class="flex flex-col space-y-3 pt-10">
   

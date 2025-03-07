@@ -560,7 +560,7 @@ $metaTags = '
         </div>
       </div>
     </section>
-    <section class="w-full relative py-6 ">
+    <section class="w-full relative py-6">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div
           class="overflow-hidden w-full mx-auto rounded-[44px] bg-cover bg-center bg-no-repeat bg-[url('../img/cta2-bg.png')] ">
@@ -612,7 +612,7 @@ $metaTags = '
         </div>
       </div>
     </section>
-    <section class="w-full py-10 relative bg-white rounded-t-[3.563rem]">
+    <!-- <section class="w-full py-10 relative bg-white rounded-t-[3.563rem]">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div class="absolute inset-0 size-full overflow-hidden pointer-events-none">
           <div class="absolute w-full bg-cover bg-center h-screen bg-[url('../img/shape-1.png')]"></div>
@@ -926,7 +926,7 @@ $metaTags = '
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="w-full py-10 relative bg-white rounded-t-[3.563rem]">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
         <div class="heading text-center">

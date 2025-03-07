@@ -5,7 +5,6 @@
       <div class="flex flex-col justify-start  font-serif space-y-3 text-black lg:text-left text-left">
         <div class="text-xl lg:text-[2.5rem]  font-serif font-bold">About Us</div>
         <p class="lg:text-[1.125rem] font-serif font-medium"> We are available in 2 states and 2 cities in India
-
         </p>
         <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
           <li class="font-semibold">Home</li>
@@ -23,7 +22,6 @@
 
   <section class="w-full pt-[60px] relative bg-white">
     <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full   justify-center items-center flex flex-col space-y-[22px] ">
-      
       <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">About Us</div>
           <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
@@ -32,7 +30,6 @@
             & Management Services Ltd.</span>
           </h2>
         </div>
-
       <div class="lg:w-[860px] w-full ">
         <img src="assets/img/intro-img.png" alt="" class="w-full h-full rounded-sm">
       </div>

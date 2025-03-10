@@ -118,7 +118,7 @@
         </div>
         <div class="w-full bg-[#EAF1FA] py-2 px-6 mx-auto">
         <div class="text-[0.75rem] text-black leading-5 font-normal  font-serif">
-          Sanchit Financial & Management Services Limited: <strong>SEBI Reg. No.</strong> – INZ000295835 | <strong>DP ID</strong> – IN303253 | <strong>Membership No. – NSE </strong>– 08039 | <strong>CIN </strong>– U74140PB1994PLC014438 | <strong>GST No.</strong> – AAFCS1672N1Z6
+          Sanchit Financial & Management Services Limited: <strong>SEBI Reg. No.</strong> – INZ000295835 | <strong>DP ID</strong> – IN303253 | <strong>Membership No. – NSE </strong>– 08039 | <b>BSE:</b> 6929 | <b>MCX:</b> 57415 | <b>CIN:</b> U74140RJ1994PLC097929 | <b>GST No.</b>: 08AAFCS1672N1ZW
   <br>
   <strong>Registered Address</strong>: U-6 Krishna Apartment, Hathi Babu Marg, Bani Park,
   Jaipur, Rajasthan- 302016, India | <strong>Compliance officer</strong>: Sapna Chouhan <strong>Phone</strong>: 7792022561 <strong>Email</strong>: compliance@techtrade.in
@@ -153,9 +153,7 @@
       <span>KMP</span>
       <span>Investor Guide NSE</span>
     </div>
-    <div class="py-2">
-    <b>BSE:</b> 6929 | <b>MCX:</b> 57415 | <b>CIN:</b> U74140RJ1994PLC097929 | <b>GST No.</b>: 08AAFCS1672N1ZW
-  </div>
+    
         </div>
         </div>
       </div>

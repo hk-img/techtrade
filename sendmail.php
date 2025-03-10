@@ -26,16 +26,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // SMTP Configuration
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com';
+        $mail->Host = 'mail.techtrade.in';
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'ssl';
         $mail->Port = '465';
-        $mail->Username = 'udit.img@gmail.com'; // Your Gmail address
-        $mail->Password = 'ncofrmkxvsrkmtyn';   // Your Gmail App Password
+        $mail->Username = 'hr@techtrade.in'; // Your Gmail address
+        $mail->Password = 'Human_Resource@#2025$';   // Your Gmail App Password
 
         // Email Headers
-        $mail->setFrom('udit.img@gmail.com', 'Tech Trade');
-        $mail->addAddress('udit.img@gmail.com');
+        $mail->setFrom('hr@techtrade.in', 'Tech Trade');
+        $mail->addAddress('hr@techtrade.in');
 
         // Email Content
         $mail->isHTML(true);

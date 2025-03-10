@@ -4511,6 +4511,10 @@ video {
   forced-color-adjust: none;
 }
 
+.\[filter\:brightness\(0\)contrast\(0\)\] {
+  filter: brightness(0)contrast(0);
+}
+
 .\[hostname\:port\] {
   hostname: port;
 }
@@ -5233,6 +5237,67 @@ video {
 .hover\:text-blue-600:hover {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+}
+
+.hover\:brightness-0:hover {
+  --tw-brightness: brightness(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:brightness-100:hover {
+  --tw-brightness: brightness(1);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:contrast-100:hover {
+  --tw-contrast: contrast(1);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:invert:hover {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:invert-0:hover {
+  --tw-invert: invert(0);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:filter:hover {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.hover\:\[filter\:brightness\(0\)contrast\(0\)\]:hover {
+  filter: brightness(0)contrast(0);
+}
+
+.hover\:\[filter\:brightness\(0\)contrast\(1\)\]:hover {
+  filter: brightness(0)contrast(1);
+}
+
+.hover\:\[filter\:brightness\(0\)contrast\]:hover {
+  filter: brightness(0)contrast;
+}
+
+.hover\:\[filter\:brightness\(1\)contrast\(1\)\]:hover {
+  filter: brightness(1)contrast(1);
+}
+
+.hover\:\[filter\:brightness\(10\)contrast\(0\)\]:hover {
+  filter: brightness(10)contrast(0);
+}
+
+.hover\:\[filter\:brightness\(10\)contrast\(1\)\]:hover {
+  filter: brightness(10)contrast(1);
+}
+
+.hover\:\[filter\:brightness\(5\)contrast\(0\)\]:hover {
+  filter: brightness(5)contrast(0);
+}
+
+.hover\:\[filter\:brightness\(5\)contrast\(1\)\]:hover {
+  filter: brightness(5)contrast(1);
 }
 
 .hover\:before\:-left-\[16\%\]:hover::before {
@@ -6224,6 +6289,39 @@ video {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  .group\/item:hover .group-hover\/item\:md\:blur-\[3px\] {
+    --tw-blur: blur(3px);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:brightness-200 {
+    --tw-brightness: brightness(2);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:brightness-0 {
+    --tw-brightness: brightness(0);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:brightness-\[50\%\] {
+    --tw-brightness: brightness(50%);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:invert {
+    --tw-invert: invert(100%);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:filter {
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:\[filter\:brightness\(0\)contrast\] {
+    filter: brightness(0)contrast;
+  }
+
   .group:hover .md\:\*\:group-hover\:scale-100 > * {
     --tw-scale-x: 1;
     --tw-scale-y: 1;
@@ -6238,6 +6336,21 @@ video {
   .group\/item:hover .\*\:group-hover\/item\:md\:text-white > * {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+  }
+
+  .group\/item:hover .\*\:group-hover\/item\:md\:brightness-200 > * {
+    --tw-brightness: brightness(2);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:hover\:brightness-0:hover {
+    --tw-brightness: brightness(0);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+  }
+
+  .group\/item:hover .group-hover\/item\:md\:hover\:invert:hover {
+    --tw-invert: invert(100%);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
   }
 }
 

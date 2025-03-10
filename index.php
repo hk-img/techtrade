@@ -147,8 +147,8 @@ $metaTags = '
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
                   <div><h3 class="text-white md:text-xl text-lg font-bold">Equity</h3></div>
-                  <div class="*:size-8 *:text-white">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M19 12h-2v3h-3v2h5v-5zM7 9h3V7H5v5h2V9zm14-6H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16.01H3V4.99h18v14.02z"></path></svg>
+                  <div class="*:size-12 *:text-white">
+                    <img src="assets/img/icon/equity.webp" alt="equity">
                   </div>
                 </div>
                 <div class="text-white text-sm leading-6">A DEMAT Account (Dematerialized Account) is essential for investors and traders to Convenience in trading and managing securities. electronic form. Below are the comprehensive services provided with a DEMAT account.
@@ -168,8 +168,8 @@ $metaTags = '
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
                   <div><h3 class="text-white md:text-xl text-lg font-bold">Futures & Options</h3></div>
-                  <div class="*:size-8 *:text-white">
-                    <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M12 21h-7a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v7"></path><path d="M3 10h18"></path><path d="M10 3v18"></path><path d="M19.001 19m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"></path><path d="M19.001 15.5v1.5"></path><path d="M19.001 21v1.5"></path><path d="M22.032 17.25l-1.299 .75"></path><path d="M17.27 20l-1.3 .75"></path><path d="M15.97 17.25l1.3 .75"></path><path d="M20.733 20l1.3 .75"></path></svg>
+                  <div class="*:size-12 *:text-white">
+                   <img src="assets/img/icon/future-options.webp" alt="future-options">
                   </div>
                 </div>
                 <div class="text-white text-sm leading-6">Futures and Options (F&O) are derivatives that allow traders to speculate on the price movements of underlying assets like stocks, indices, commodities, and currencies. These instruments provide opportunities for profit, risk management. 
@@ -189,8 +189,8 @@ $metaTags = '
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
                   <div><h3 class="text-white md:text-xl text-lg font-bold">Demat A/C</h3></div>
-                  <div class="*:size-8 *:text-white">
-                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm10 5c1.66 0 3-1.34 3-3s-1.34-3-3-3-3 1.34-3 3 1.34 3 3 3zm0-4c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm6-5H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm-9.31 14a5.977 5.977 0 0 1 6.62 0h-6.62zm9.31-.27C18.53 14.06 16.4 13 14 13s-4.53 1.06-6 2.73V4h12v11.73z"></path></svg>
+                  <div class="*:size-12 *:text-white">
+                   <img src="assets/img/icon/demat-account.webp" alt="demat-a/c">
                   </div>
                 </div>
                 <div class="text-white text-sm leading-6">A Demat (Dematerialized) Account is an electronic account that allows investors to hold, buy, and sell securities in digital form. It eliminates the need for physical share certificates, ensuring a seamless and secure way to invest.
@@ -396,26 +396,23 @@ $metaTags = '
         <div class="steps-sec">
           <div class="w-full flex flex-wrap lg:flex-nowrap gap-y-2 lg:justify-center justify-around py-12 lg:gap-0">
             <div class="relative group/item lg:w-1/4 w-[17.5rem]">
-              <div class="overflow-hidden relative block aspect-square opacity-100 rounded-full bg-[#F4F4F4] border-4 border-[#f4f4f4] duration-300 cursor-pointer   group-hover/item:md:md:bg-themeColor1  group-hover/item:md:border-themeColor1">
+              <div class="overflow-hidden relative block aspect-square opacity-100 rounded-full bg-[#F4F4F4] border-4 border-[#f4f4f4] duration-300 cursor-pointer group-hover/item:md:bg-themeColor1  group-hover/item:md:border-themeColor1">
                 <div class="inner-bx-circle">
                   <span
                   class="absolute -left-2/4 top-[-58%] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300 
                    group-hover/item:text-white  group-hover/item:md:bg-[#336EBD]"></span>
                   <div
                     class="static-content text-center relative duration-300 pt-14 lg:pt-10">
-                    <span
-                      class="*:size-12 flex items-center justify-center relative *:text-themeColor2 *:group-hover/item:md:text-white">
-                      <svg stroke="currentColor" fill="currentColor"
-                        stroke-width="0" viewBox="0 0 640 512" height="12.5rem"
-                        width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path
-                          d="M610.5 373.3c2.6-14.1 2.6-28.5 0-42.6l25.8-14.9c3-1.7 4.3-5.2 3.3-8.5-6.7-21.6-18.2-41.2-33.2-57.4-2.3-2.5-6-3.1-9-1.4l-25.8 14.9c-10.9-9.3-23.4-16.5-36.9-21.3v-29.8c0-3.4-2.4-6.4-5.7-7.1-22.3-5-45-4.8-66.2 0-3.3.7-5.7 3.7-5.7 7.1v29.8c-13.5 4.8-26 12-36.9 21.3l-25.8-14.9c-2.9-1.7-6.7-1.1-9 1.4-15 16.2-26.5 35.8-33.2 57.4-1 3.3.4 6.8 3.3 8.5l25.8 14.9c-2.6 14.1-2.6 28.5 0 42.6l-25.8 14.9c-3 1.7-4.3 5.2-3.3 8.5 6.7 21.6 18.2 41.1 33.2 57.4 2.3 2.5 6 3.1 9 1.4l25.8-14.9c10.9 9.3 23.4 16.5 36.9 21.3v29.8c0 3.4 2.4 6.4 5.7 7.1 22.3 5 45 4.8 66.2 0 3.3-.7 5.7-3.7 5.7-7.1v-29.8c13.5-4.8 26-12 36.9-21.3l25.8 14.9c2.9 1.7 6.7 1.1 9-1.4 15-16.2 26.5-35.8 33.2-57.4 1-3.3-.4-6.8-3.3-8.5l-25.8-14.9zM496 400.5c-26.8 0-48.5-21.8-48.5-48.5s21.8-48.5 48.5-48.5 48.5 21.8 48.5 48.5-21.7 48.5-48.5 48.5zM224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm201.2 226.5c-2.3-1.2-4.6-2.6-6.8-3.9l-7.9 4.6c-6 3.4-12.8 5.3-19.6 5.3-10.9 0-21.4-4.6-28.9-12.6-18.3-19.8-32.3-43.9-40.2-69.6-5.5-17.7 1.9-36.4 17.9-45.7l7.9-4.6c-.1-2.6-.1-5.2 0-7.8l-7.9-4.6c-16-9.2-23.4-28-17.9-45.7.9-2.9 2.2-5.8 3.2-8.7-3.8-.3-7.5-1.2-11.4-1.2h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c10.1 0 19.5-3.2 27.2-8.5-1.2-3.8-2-7.7-2-11.8v-9.2z"></path></svg>
+                    <span class="*:size-12 flex items-center justify-center relative">
+                      <img src="assets/img/icon/account.webp" alt="open your a/c"  
+                          class="transition duration-300 group-hover/item:md:filter group-hover/item:md:brightness-0 group-hover/item:md:invert">
                     </span>
+
                     <div class="lg:pt-[20%] pt-[10%] p-2">
                     <h4
                       class="text-black lg-max-xl:text-xl text-base font-bold pt-2 group-hover/item:md:text-white">Open
                       Your Account</h4>
-                    <div
-                      class="mt-2 sm:text-base text-slate-600 text-sm leading-6 px-3 lg:max-xl:text-[0.813rem]  group-hover/item:text-white">“Register
+                    <div class="mt-2 sm:text-base text-slate-600 text-sm leading-6 px-3 lg:max-xl:text-[0.813rem]  group-hover/item:text-white">“Register
                       effortlessly and verify your account to kickstart your
                       trading journey.”</div>
                   </div>
@@ -444,16 +441,10 @@ $metaTags = '
                  group-hover/item:md:text-white  group-hover/item:md:bg-[#336EBD] 
                 "></span>
                 <div class="static-content text-center relative pt-14 lg:pt-10">
-                  <span
-                    class="*:size-12 flex items-center justify-center duration-300 relative *:text-themeColor2 *:group-hover/item:md:text-white">
-                    <svg stroke="currentColor" fill="none" stroke-width="2"
-                      viewBox="0 0 24 24" stroke-linecap="round"
-                      stroke-linejoin="round" height="12.5rem" width="12.5rem"
-                      xmlns="http://www.w3.org/2000/svg"><path
-                        d="M12 13a3 3 0 1 0 0 -6a3 3 0 0 0 0 6z"></path><path
-                        d="M6.201 18.744a4 4 0 0 1 3.799 -2.744h4a4 4 0 0 1 3.798 2.741"></path><path
-                        d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.269 2.269 0 0 1 -2.184 0l-6.75 -4.27a2.225 2.225 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98h-.033z"></path></svg>
-                  </span>
+                    <span class="*:size-12 flex items-center justify-center relative">
+                      <img src="assets/img/icon/market.webp" alt="choose your market"  
+                          class="transition duration-300 group-hover/item:md:filter group-hover/item:md:brightness-0 group-hover/item:md:invert">
+                    </span>
                   <div class="lg:pt-[20%] pt-[10%] p-2">
                   <h4
                     class="text-black lg-max-xl:text-xl text-base font-bold pt-2 group-hover/item:md:text-white">Choose
@@ -487,15 +478,10 @@ $metaTags = '
                 class="absolute -left-2/4 top-[-58%] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300 
                  group-hover/item:md:text-white  group-hover/item:md:bg-[#336EBD]"></span>
                 <div class="static-content text-center relative pt-14 lg:pt-10">
-                  <span
-                    class="*:size-12 flex items-center justify-center relative *:text-themeColor2 *:group-hover/item:md:text-white">
-                    <svg stroke="currentColor" fill="none" stroke-width="2"
-                      viewBox="0 0 24 24" stroke-linecap="round"
-                      stroke-linejoin="round" height="12.5rem" width="12.5rem"
-                      xmlns="http://www.w3.org/2000/svg"><path
-                        d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1"></path><path
-                        d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4"></path></svg>
-                  </span>
+                <span class="*:size-12 flex items-center justify-center relative">
+                      <img src="assets/img/icon/wallet.webp" alt="wallet"  
+                          class="transition duration-300 group-hover/item:md:filter group-hover/item:md:brightness-0 group-hover/item:md:invert">
+                    </span>
                   <div class="lg:pt-[20%] pt-[10%] p-2">
                   <h4
                     class="text-black lg-max-xl:text-xl text-base font-bold pt-2 group-hover/item:md:text-white">Fund
@@ -530,17 +516,10 @@ $metaTags = '
                   class="absolute -left-2/4 top-[-58%] translate-x-2/4 inline-block w-full h-full bg-white text-center rounded-full text-sm leading-7 text-black font-semibold pt-5 duration-300 
                  group-hover/item:md:text-white  group-hover/item:md:bg-[#336EBD]"></span>
                 <div class="static-content text-center relative pt-14 lg:pt-10">
-                  <span
-                    class="*:size-12 flex items-center justify-center relative *:text-themeColor2 *:group-hover/item:md:text-white">
-                    <svg stroke="currentColor" fill="none" stroke-width="2"
-                      viewBox="0 0 24 24" stroke-linecap="round"
-                      stroke-linejoin="round" height="12.5rem" width="12.5rem"
-                      xmlns="http://www.w3.org/2000/svg"><path
-                        d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"></path><path
-                        d="M9 3m0 2a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v0a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2z"></path><path
-                        d="M14 11h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5"></path><path
-                        d="M12 17v1m0 -8v1"></path></svg>
-                  </span>
+                <span class="*:size-12 flex items-center justify-center relative">
+                      <img src="assets/img/icon/money.webp" alt="make money"  
+                          class="transition duration-300 group-hover/item:md:filter group-hover/item:md:brightness-0 group-hover/item:md:invert">
+                    </span>
                   <div class="lg:pt-[20%] pt-[10%] p-2">
                   <h4
                     class="text-black lg-max-xl:text-xl text-base font-bold pt-2 group-hover/item:md:text-white">Trade

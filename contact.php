@@ -5,12 +5,11 @@
           <h1 class="text-xl lg:text-[2.5rem]  font-heading font-bold">Contact Us</h1>
           <p class="lg:text-[1.125rem] text-[#1B1E31] font-serif font-medium">
             Get in touch with us for any queries, complaints, feedbacks or suggestions.
-
           </p>
           <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
             <li>Home</li>
             <li class="-mt-2">.</li>
-            <li class="font-bold text-[#1B1E31]"><a href="contact"> Contact Us</a></li>
+            <li class="font-bold text-[#1B1E31]"><a href="contact">Contact Us</a></li>
           </ul>
         </div>
         <img src="assets/img/contactbg.png" alt="" class="w-1/2 lg:w-[35%]" >
@@ -160,7 +159,7 @@
   
                           <thead class="bg-[#1B1E31] font-serif  text-lg font-bold text-white ">
                               <tr>
-                                  <th class="p-5 text-left   ">Details of </th>
+                                  <th class="p-5 text-left ">Details of </th>
                                   <th class="p-5 text-left ">Contact Person</th>
                                   <th class=" p-5 text-left  ">Address</th>
                                   <th class="p-5 text-left ">Contact No.</th>
@@ -182,36 +181,34 @@
                           </tbody>
                           <tbody class="text-sm font-serif  ">
                               <tr class="bg-white">
-                                  <td class="p-5">Customer care</td>
-                                  <td class="p-5">Mr. Boby Jha</td>
-                                  <td class="p-5">F-116, City Plaza, Space <br> Cinema, Bani Park, Jaipur, <br> Rajasthan
-                                      – 302016</td>
-                                  <td class="p-5">0141-3561934</td>
-                                  <td class="p-5">boby.jha@techtrade.in</td>
-                                  <td class="p-5">09:00 AM TO 05:00
-                                      PM</td>
+                                  <td class="p-5">Head of Client Servicing</td>
+                                  <td class="p-5">Mr. Ajay Kumar Yogi</td>
+                                  <td class="p-5">F-116, City Plaza, Space Cinema, Bani Park, Jaipur, Rajasthan – 302016</td>
+                                  <td class="p-5">0141-4051456</td>
+                                  <td class="p-5">ajay.kumar@techtrade.in	</td>
+                                  <td class="p-5">09:00 AM TO 05:00 PM</td>
                               </tr>
                           </tbody>
-                          <tbody class="text-sm  font-serif ">
+                          <tbody class="text-sm  font-serif">
                               <tr class="bg-[#F6F6F6]">
-                                  <td class="p-5">Customer care</td>
-                                  <td class="p-5">Mr. Boby Jha</td>
+                                  <td class="p-5">Compliance Officer</td>
+                                  <td class="p-5">Miss Sapna Chouhan</td>
                                   <td class="p-5">F-116, City Plaza, Space <br> Cinema, Bani Park, Jaipur, <br> Rajasthan
                                       – 302016</td>
-                                  <td class="p-5">0141-3561934</td>
-                                  <td class="p-5">boby.jha@techtrade.in</td>
+                                  <td class="p-5">0141-3561934/7792022561</td>
+                                  <td class="p-5">sapna.chauhan@techtrade.in</td>
                                   <td class="p-5">09:00 AM TO 05:00
                                       PM</td>
                               </tr>
                           </tbody>
                           <tbody class="text-sm font-serif  ">
                               <tr class="bg-white">
-                                  <td class="p-5">Customer care</td>
-                                  <td class="p-5">Mr. Boby Jha</td>
+                                  <td class="p-5">CEO</td>
+                                  <td class="p-5">Praveen Kumar Agarwal</td>
                                   <td class="p-5">F-116, City Plaza, Space <br> Cinema, Bani Park, Jaipur, <br> Rajasthan
                                       – 302016</td>
-                                  <td class="p-5">0141-3561934</td>
-                                  <td class="p-5">boby.jha@techtrade.in</td>
+                                  <td class="p-5">7792022561</td>
+                                  <td class="p-5">praveen.agarwal@techtrade.in</td>
                                   <td class="p-5">09:00 AM TO 05:00
                                       PM</td>
                               </tr>

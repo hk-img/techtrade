@@ -918,14 +918,14 @@ $metaTags = '
           <div class="relative flex flex-col mb-5">
               <input class="peer/mm hidden" type="radio" checked="" name="mmMenu" id="mmCompany1">
               <label for="mmCompany1" class="flex items-center gap-x-[0.125rem] bg-gray-100 sm:text-base text-sm capitalize font-medium relative z-10 text-gray-800 py-4 px-6 rounded-md peer-checked/mm:rounded-b-none after:absolute sm:after:h-3 sm:after:w-3 after:w-2 after:h-2 sm:after:right-7 after:right-5 sm:after:top-[1.6rem] after:top-[1.75rem] after:border-solid after:border-gray-800 after:border-t-0 after:border-r-2 after:border-b-2 after:border-l-0 after:inline-block after:rotate-45 after:bg-contain after:peer-checked/mm:rotate-[-135deg] peer-checked/mm:w-full peer-checked/mm:after:top-[2.1rem]">
-                  <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">01</span><h3 class="font-semibold">What is cryptocurrency trading?</h3>
+                  <span class="rounded-full bg-themeColor2 flex justify-center items-center text-base w-10 h-10 p-2 me-3 leading-8 text-white">01</span><h3 class="font-semibold"> What is trading?</h3>
               </label>
               <div class="w-full mt-[-2.688rem] rounded-md bg-gray-100 p-6 peer-checked/mm:block hidden text-gray-900 sm:text-base text-sm py-3 pt-4">
                 <div class="grid grid-cols-1 flex-wrap w-full gap-4 ">
                     <div class="w-full text-xs xl:text-sm pt-8">
                         <div class="flex items-center gap-x-3 py-2 relative">
                             <div class="flex-auto text-slate-700 sm:text-sm text-sm font-serif ">
-                              A trading strategy is a set of rules and techniques for analyzing markets and executing trades, such as trend-following, mean-reversion, or breakout strategies.
+                            Trading is the act of buying and selling financial instruments such as stocks, forex, commodities, or cryptocurrencies in financial markets with the goal of making a profit.
                             </div>
                         </div>
                     </div>

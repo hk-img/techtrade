@@ -177,52 +177,50 @@
        </section>
 
        <section class="w-full relative mb-[120px] py-6 overflow-hidden rounded-[57px] bg-cover bg-center" style="background-image: url('assets/img/invest-grabg.png');">
-        <div class="2xl:px-24 3xl:px-36 lg:pb-3 lg:h-auto h-full py-4 px-6 lg:px-8 justify-center items-center lg:w-full mx-auto flex flex-col">
+        <div class="2xl:px-24 3xl:px-36 lg:pb-3 lg:h-auto h-full py-4 px-6 lg:px-8 justify-start items-center lg:w-full mx-auto flex flex-col">
             
             <div class="gap-5 w-full h-full grid grid-cols-1 lg:grid-cols-3 ">
-                <div class="flex lg:w-full h-auto bg-white py-4 px-3 shadow justify-center items-center shadow-[#004AAD26] rounded-[10px] flex-col">
-                    <div class="flex flex-row gap-4  ">
-                      <span class="w-10 h-10 rounded-full text-center bg-[#004AAD] font-heading font-semibold text-[22px] text-white flex items-center justify-center">
+                <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow text-start justify-start items-start shadow-[#004AAD26] rounded-[10px] flex-col">
+                    <div class="flex flex-row gap-4">
+                      <div class="inline-flex justify-center items-center rounded-full bg-themeColor1 text-white text-center size-10 text-2xl p-5">
                         1
-                    </span>
-                        <div class="lg:w-auto  h-auto"> 
+                      </div>
+                        <div class="lg:w-auto h-auto"> 
                             <h1 class="font-heading font-semibold text-sm lg:text-lg text-[#133240]">
                                 For step by step procedures for filing a complaint:
                             </h1>    
                         </div>
                     </div>
-                    <button class=" px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm">File a Complaint</button>
+                    <button class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</button>
                 </div>
 
-                <div class="flex lg:w-full h-auto bg-white py-4 px-3 shadow justify-center items-center shadow-[#004AAD26] rounded-[10px] flex-col">
-                  <div class="flex flex-row items-start justify-start gap-4">
-                    <span class="w-10 h-10 rounded-full text-center bg-[#004AAD] font-heading font-semibold text-[22px] text-white flex items-center justify-center">
-                      2
-                  </span>
-                      <div class="lg:w-auto  h-auto"> 
+                <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow justify-center items-start shadow-[#004AAD26] rounded-[10px] flex-col">
+                  <div class="flex flex-row items-center justify-start gap-4">
+                      <div class="inline-flex justify-center items-center rounded-full bg-themeColor1 text-white text-center size-10 text-2xl p-5">
+                        2
+                      </div>
+                      <div class="lg:w-auto h-auto"> 
                           <h1 class="font-heading font-semibold text-sm lg:text-lg text-[#133240]">
                             Authorized Persons Details
-
                           </h1>    
                       </div>
                   </div>
-                  <button class=" px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm">File a Complaint</button>
+                  <button class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</button>
               </div>
 
-                <div class="flex lg:w-full h-auto bg-white py-4 px-3 shadow justify-center items-center shadow-[#004AAD26] rounded-[10px] flex-col">
+                <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow justify-center items-start shadow-[#004AAD26] rounded-[10px] flex-col">
                   <div class="flex flex-row gap-4">
-                    <span class="w-10 h-10 rounded-full text-center bg-[#004AAD] font-heading font-semibold text-[22px] text-white flex items-center justify-center">
-                      3
-                  </span>
+                      <div class="inline-flex justify-center items-center rounded-full bg-themeColor1 text-white text-center size-10 text-2xl p-5">
+                        3
+                      </div>
                       <div class="lg:w-auto  h-auto"> 
                           <h1 class="font-heading font-semibold text-sm lg:text-lg text-[#133240]">
                               For step by step procedures for filing a complaint:
                           </h1>    
                       </div>
                   </div>
-                  <button class=" px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm">File a Complaint</button>
+                  <button class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</button>
               </div>
-                
             </div>
         </div>
     </section>

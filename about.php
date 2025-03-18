@@ -103,7 +103,7 @@
         </div>
       </div>
 
-      <div class="relative w-full h-[28rem] px-4 lg:px-10 border-l border-r overflow-hidden">
+      <div class="relative w-full h-full px-4 lg:px-10 border-l border-r overflow-hidden">
         <img src="assets/img/intro-img.jpg" alt="About Image" class="w-full h-full object-cover aspect-sqaure">
       </div>
       <div
@@ -132,7 +132,7 @@
     <div class="flex lg:flex-row flex-col space-x-0 space-y-4 lg:space-y-0 lg:space-x-[100px] py-[60px] justify-between items-stretch">
       <div class="flex flex-col shadow py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-auto">
           <div class="lg:w-80 w-1/2 overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
-            <img src="assets/img/founder-img1.jpg" alt="" class="w-full aspect-square">
+            <img src="assets/img/founder-img1.jpg" alt="" class="w-full object-cover object-top">
           </div>
           <div class=" flex flex-col py-6 text-center justify-center">
             <div class="font-bold font-heading text-[22px] text-[#1B1E31]">Praveen Kumar Agarwal</div>
@@ -146,7 +146,7 @@
       </div>
       <div class="flex flex-col shadow  py-4 lg:px-4 px-4 items-center rounded-[25px] shadow-[#0000001A] lg:w-full lg:h-auto">
         <div class="lg:w-80 w-1/2 overflow-hidden rounded-[20px] border border-[#DDDDDD] ">
-          <img src="assets/img/founder-img2.jpg" alt="" class="w-full aspect-square">
+          <img src="assets/img/founder-img2.jpg" alt="" class="w-full object-cover object-top">
         </div>
         <div class=" flex flex-col py-6 text-center justify-center">
           <div class="font-bold font-heading text-[22px] text-[#1B1E31]">Sharmila Agarwal</div>

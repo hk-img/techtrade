@@ -4,8 +4,8 @@
       class="2xl:px-24 3xl:px-36  lg:pb-3  px-6 lg:px-8  w-full mx-auto flex items-center justify-between flex-col lg:flex-row relative z-10">
       <div class="flex flex-col justify-start  font-serif space-y-3 text-black lg:text-left text-left">
         <div class="text-xl lg:text-[2.5rem]  font-serif font-bold">About Us</div>
-        <p class="lg:text-[1.125rem] font-serif font-medium"> We are available in 2 states and 2 cities in India
-        </p>
+        <!-- <p class="lg:text-[1.125rem] font-serif font-medium">
+        </p> -->
         <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
           <li class="font-semibold">Home</li>
           <li class="-mt-2">.</li>
@@ -35,27 +35,13 @@
       </div>
 
       <div class=" lg:w-full">
-        <div class="lg:text-base text-sm font-medium font-serif text-[#666666] py-2">Founded in <b>1995</b> by <b>Mr. Harsh Agrawal</b> and <b>Mrs. Mala Agrawal,</b> our journey began as a small enterprise with a vision to make trading accessible and seamless. Over the years, we have grown into a trusted name in the financial industry, driven by innovation, integrity, and a customer-first approach.<br>
-        Today, under the leadership of <b>Mr. Praveen Agrawal</b>, we are backed by a dynamic team of experienced professionals and young visionaries. Our passion for trading and commitment to continuous learning empower us to deliver the best-in-class financial services.
-        </div>
-        <div class="lg:text-base text-sm font-medium font-serif text-[#666666]">As a corporate member of NSE (Cash & Derivatives) and a registered Depository Participant with NSDL, we offer a comprehensive suite of trading solutions, including:
-          <div class="flex flex-row py-1 pt-2 space-x-2">
-                    <span class="w-[16px] py-1 h-[15px] text-[#3F3D56] px-3 "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path></svg></span>
-                     <div class="font-serif lg:text-base text-sm font-medium text-[#666666]"><b>Online Trading</b> – Effortlessly buy and sell shares & commodities.
-                     </div>
-          </div>
-          <div class="flex flex-row py-1 space-x-2">
-                    <span class="w-[16px] py-1 h-[15px] text-[#3F3D56] px-3 "><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M17.47 250.9C88.82 328.1 158 397.6 224.5 485.5c72.3-143.8 146.3-288.1 268.4-444.37L460 26.06C356.9 135.4 276.8 238.9 207.2 361.9c-48.4-43.6-126.62-105.3-174.38-137z"></path></svg></span>
-                     <div class="font-serif lg:text-base text-sm font-medium text-[#666666]"><b>Internet & Telephonic Trading</b> – Trade conveniently, anytime, anywhere.
-                     </div>
-          </div>
-        </div>
-        <div class="lg:text-base text-sm font-medium font-serif text-[#666666] py-2">Specializing in <b>retail broking,</b> we serve investors across <b>Rajasthan,</b> <b>Punjab,</b> and <b>Chandigarh</b> through our extensive branch network. Our core values—<b>transparency, reliability, and technological excellence</b>—define the way we operate, ensuring that every client experiences <b>a secure, efficient, and professional trading environment.</b>
+        <div class="lg:text-base text-sm font-medium font-serif text-[#666666] py-2">
+          Established in <strong>1995</strong>, our organization has evolved from a small enterprise into a prominent name in market trade.Under the leadership of Mr. Praveen Agrawal, we are driven by a team of dedicated and skilled professionals who bring a blend of experience and fresh perspectives. Our commitment to continuous learning, innovation, and cutting-edge technology ensures a seamless and professional client experience.</div>
+        <div class="lg:text-base text-sm font-medium font-serif text-[#666666] py-2">
+          As a corporate member of NSE through the Cash and Derivatives segments and a registered Depository Participant with NSDL, we uphold the highest standards of reliability and security in trading.
+          We offer comprehensive trading solutions, including online trading for shares and commodities, along with internet and telephone-based trading options for maximum convenience.
         <br>
-       
-        With a legacy of trust and a vision for the future, we continue to set new benchmarks in the financial sector, empowering investors with the tools and expertise they need to succeed.
-        <br> <br>
-        <span class="font-semibold">Join us and experience trading like never before!</span>
+          With an extensive network of branches across Rajasthan, Punjab, and Chandigarh, Haryana we have established ourselves as leaders in retail broking. Our core values of transparency, integrity, and excellence guide us in delivering outstanding customer service and leveraging the latest technology to meet the evolving needs of our clients.
         </div>
       </div>
     </div>
@@ -68,7 +54,7 @@
           <div class="lg:text-4xl text-2xl font-bold font-serif leading-[45px] text-white">Our Mission and <br> Vision
           </div>
           <div class="lg:text-sm text-xs font-normal font-serif leading-[21px] text-white">
-          We are committed to providing reliable trading solutions, leveraging the latest technology to enhance decision-making, and empowering our clients with expert insights and tools.
+            We strive to deliver innovative and reliable trading solutions, utilizing cutting-edge technology to optimize decision-making. Our goal is to empower clients with expert insights, advanced tools, and a seamless trading experience.
           </div>
         </div>
         <div
@@ -87,7 +73,7 @@
             </span>
             <div class="flex flex-col w-auto h-auto justify-center items-center text-center">
               <div class="font-poppins font-semibold text-xl text-[#004AAD] py-2">Our Mission</div>
-              <div class="font-serif text-sm text-[#666666] font-normal">Our mission is to provide businesses and investors with cutting-edge solutions that enhance decision-making, optimize efficiency, and foster long-term success in the ever-evolving financial markets.</div>
+              <div class="font-serif text-sm text-[#666666] font-normal">Our mission is to empower businesses and investors with innovative solutions that drive informed decision-making, improve efficiency, and support sustainable success in the dynamic world of financial markets.</div>
             </div>
           </div>
           <div
@@ -97,7 +83,8 @@
             </span>
             <div class="flex flex-col w-full h-auto justify-center items-center text-center">
               <div class="font-poppins font-semibold text-xl text-[#004AAD] py-2">Our Vision</div>
-              <div class="font-serif text-sm text-[#666666] font-normals">Our vision is to be a global leader in innovative and technology-driven trading solutions. We aim to empower businesses and investors with seamless, efficient, and transparent trading experiences.</div>
+              <div class="font-serif text-sm text-[#666666] font-normals">Our vision is to be a globally recognized leader in advanced, technology-driven trading solutions. We strive to provide businesses and investors with seamless, efficient, and transparent trading experiences, setting new standards in the financial industry.
+              </div>
             </div>
           </div>
         </div>

@@ -27,29 +27,23 @@
 
 
 
-      <section class="w-full pt-[70px] relative bg-white">
+      <section class="w-full pt-[50px] relative bg-white">
         <div class="2xl:px-24 3xl:px-36 lg:pb-3 px-6 lg:px-8 lg:w-full mx-auto  flex flex-col space-y-[22px] ">
          
-             
-          <div class="flex h-full w-full py-5  text-start">
-            <h1 class="font-serif font-normal text-sm lg:text-base  leading-8 text-[#666666]">As per SEBI Circular no. SEBI/HO/MIRSD/POD-1/P/CIR/2024/4 dated January 12, 2024 and Exchange Circular no. NSE/INSP/61529 dated April 8, 2024 and BSE Notice No: 20240408-12 dated April 8, 2024 on the subject “Ease of Doing Investments by Investors – Facility of voluntary Freezing/ Blocking of Trading Accounts by Clients”.
-                In accordance with the Regulatory Guidelines, we would like to highlight the procedure for freezing/blocking access to your Trading Account and the</h1>  
-
+          <div class="flex h-full w-full py-3 text-start">
+            <h1 class="font-serif font-normal text-sm lg:text-base leading-8 text-[#666666]">As per SEBI Circular no. SEBI/HO/MIRSD/POD-1/P/CIR/2024/4 dated January 12, 2024 and Exchange Circular no. NSE/INSP/61529 dated April 8, 2024 and BSE Notice No: 20240408-12 dated April 8, 2024 on the subject “Ease of Doing Investments by Investors – Facility of voluntary Freezing/ Blocking of Trading Accounts by Clients”.<br><br>
+            In accordance with the Regulatory Guidelines, we would like to highlight the procedure for freezing/blocking access to your Trading Account and the process to re-enable it.</h1>  
           </div>
 
-          <div class="pb-[34px]">
-            <h1 class="font-heading text-xl lg:text-2xl font-bold text-black">
+          <h1 class="font-heading text-xl lg:text-2xl font-bold text-black">
                 <span class="text-[#C85103]">Process for</span>
                 Freezing/Blocking Access to Trading Account:
             </h1>
-          </div>
 
          <div class="flex flex-col space-y-[2px]">
-          <div class=" py-4">
-            <h1 class="font-serif font-medium text-sm lg:text-base  leading-8 text-[#3F3D56]">   
+         <h1 class="font-serif font-medium text-sm lg:text-base  leading-8 text-[#3F3D56]">   
               Choose any one mode of communication from the options given below:
             </h1>  
-          </div>
 
           <div class="flex space-x-4 flex-row">
             <span class="w-6 h-6 rounded-full bg-[#C5D8F3] text-center ">1</span>
@@ -92,33 +86,19 @@
               Further, in case of any pending orders, they will be cancelled, and open positions will be squared off. For such cases, we will send confirmation of the action taken  <br> along with contract expiry details within one hour of freezing or blocking access to your trading account.
             </h1>
           </div>
-         
-
          </div>
-            
-         
         </div>
        </section>
-      <section class="w-full pt-[20px] mb-[141px] relative bg-white" >
-        <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8    lg:w-full mx-auto  flex flex-col space-y-[22px] ">
-         
-             
-       
-
-          <div class="pb-[34px]">
-            <h1 class="font-heading text-xl lg:text-2xl font-bold text-black">
-                <span class="text-[#C85103]">   Process for</span>
-                Freezing/Blocking Access to Trading Account:
-            </h1>
-          </div>
-
+      <section class="w-full pt-3 pb-6 relative bg-white">
+        <div class="2xl:px-24 3xl:px-36 lg:pb-3  px-6 lg:px-8 lg:w-full mx-auto  flex flex-col space-y-[22px] ">
+        
+        <h1 class="font-heading text-xl lg:text-2xl font-bold text-black">
+          <span class="text-[#C85103]">Process for</span>Unfreezing/Unblocking of Trading Account
+        </h1>
          <div class="flex flex-col space-y-[2px]">
-
-          <div class=" py-4">
-            <h1 class="font-serif font-medium text-sm lg:text-base  leading-8 text-[#3F3D56]">   
-              Choose any one mode of communication from the options given below:
-            </h1>  
-          </div>
+         <h1 class="font-serif font-medium text-sm lg:text-base  leading-8 text-[#3F3D56]">   
+            Choose any one mode of communication from the options given below:
+        </h1>  
 
           <div class="flex space-x-4 flex-row">
             <span class="w-6 h-6 rounded-full bg-[#C5D8F3] text-center ">1</span>

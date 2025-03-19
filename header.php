@@ -41,6 +41,19 @@
                    <div class="absolute top-[4.688rem] rounded-xl -left-20 transition-all max-w-[28.125rem] shadow-lg z-10 border-[0.031rem] border-secondary bg-white/90 backdrop-blur-lg opacity-0 invisible group-hover:md:opacity-100 group-hover:md:visible duration-300 group-hover:-translate-y-3 after:absolute after:!w-full after:!-top-10 after:!h-10 after:left-0">
                     <div class="grid grid-cols-2 lg:flex lg:flex-nowrap w-full gap-4 xl:p-2 items-stretch text-[0.813rem] leading-7">
                         <div class="w-full flex flex-col p-3">
+                        <div class="relative group/hvr">
+                                <div class="flex-auto">
+                                      <a href="javascript:;" class="text-[0.813rem] text-black font-medium flex items-center duration-300 leading-tight whitespace-nowrap px-2 py-3 rounded-md group-hover/hvr:md:bg-[#f0f6ff]">
+                                        <div class="flex items-center gap-2">
+                                            <span class="*:size-5 *:text-themeColor1 mr-2">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"></path><path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"></path></svg>                                            </span>
+                                            <div>
+                                              <span class="font-bold text-sm font-serif duration-300 group-hover/hvr:md:text-themeColor1">Authorised Person Details</span>
+                                            </div>
+                                        </div>
+                                      </a>
+                                </div>
+                            </div>                        
                             <div class="relative group/hvr">
                                 <div class="flex-auto ">
                                       <a href="account-opening-process" class="text-[0.813rem] text-black font-medium flex items-center duration-300 leading-tight whitespace-nowrap px-2 py-3 rounded-md group-hover/hvr:md:bg-[#f0f6ff]">
@@ -523,6 +536,14 @@
                                 </div>
                                 <div class="mb-2 p-2 ">
                                   <div class="flex-auto">
+                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Authorised Person Details
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2">
+                                  <div class="flex-auto">
                                     <a href="downloads" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       Downloads
                                       <span class="absolute inset-0 z-[1]"></span>
@@ -622,7 +643,7 @@
                                     </a>
                                   </div>
                                 </div>
-                                <div class="mb-2 p-2 ">
+                                <div class="mb-2 p-2">
                                   <div class="flex-auto">
                                     <a href="https://www.cdslindia.com/index.html" target="_blank"class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       CDSL
@@ -631,7 +652,7 @@
                                   </div>
                                 </div>
 
-                                <div class="mb-2 p-2 ">
+                                <div class="mb-2 p-2">
                                   <div class="flex-auto">
                                     <a href="https://www.evoting.nsdl.com/" target="_blank" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       NDSL
@@ -639,7 +660,7 @@
                                     </a>
                                   </div>
                                 </div>
-                                <div class="mb-2 p-2 ">
+                                <div class="mb-2 p-2">
                                   <div class="flex-auto">
                                     <a href="https://smartodr.in/login" target="_blank" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       Smart ODR
@@ -647,7 +668,7 @@
                                     </a>
                                   </div>
                                 </div>
-                                <div class="mb-2 p-2 ">
+                                <div class="mb-2 p-2">
                                   <div class="flex-auto">
                                     <a href="kmp" target="_blank" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       KMP
@@ -709,7 +730,7 @@
                               <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
                                 <div class="mb-2 p-2 ">
                                   <div class="flex-auto">
-                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    <a href="https://backoffice.techtrade.in:8085/capexweb/capexweb/" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       Client login
                                       <span class="absolute inset-0 z-[1]"></span>
                                     </a>

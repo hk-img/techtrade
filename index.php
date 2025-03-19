@@ -111,7 +111,7 @@ $metaTags = '
                       <div class="subtitle text-[#6E6E6E] font-semibold">About Us</div>
                       <h2 class=" text-black font-bold text-2xl md:text-2xl lg:text-4xl text-balance">
                           Welcome to Sanchit Financial &
-                          with <span class=" text-themeColor2">
+                           <span class=" text-themeColor2">
                               Management Services Ltd.</span>
                       </h2>
                   </div>
@@ -142,8 +142,8 @@ $metaTags = '
           </h2>
         </div>
         <div class="w-full flex flex-wrap lg:flex-nowrap *:lg:w-1/3 *:w-full gap-8 py-12 items-stretch">
-          <div class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col">
-            <div class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow">
+          <div class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col" style="background: linear-gradient(45deg, #004aad, #c85103);">
+            <div class="bg-themeColor2 bg-gradient p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow" style="background: linear-gradient(45deg, #004aad, #c85103);">
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
                   <div><h3 class="text-white md:text-xl text-lg font-bold">Equity</h3></div>
@@ -161,10 +161,9 @@ $metaTags = '
               </a>
             </div>
           </div>
-          <div
-            class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col">
+          <div class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col" style="background: linear-gradient(45deg, #004aad, #c85103);">
             <div
-              class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow">
+              class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow" style="background: linear-gradient(45deg, #004aad, #c85103);">
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
                   <div><h3 class="text-white md:text-xl text-lg font-bold">Futures & Options</h3></div>
@@ -182,13 +181,12 @@ $metaTags = '
               </a>
             </div>
           </div>
-          <div
-            class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col">
+          <div class="bg-[#953F07] z-10 opacity-100 md:rounded-md rounded-xl max-md:px-4 duration-300 ease-in-out pt-5 overflow-hidden shadow-lg group flex flex-col" style="background: linear-gradient(45deg, #004aad, #c85103);">
             <div
-              class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow">
+              class="bg-themeColor2 p-4 md:rounded-md rounded-xl flex duration-300 justify-between group-hover:md:shadow-2xl group-hover:md:scale-95 grow" style="background: linear-gradient(45deg, #004aad, #c85103);">
               <div class="relative flex flex-col gap-3 p-2">
                 <div class="flex gap-16 justify-between items-center">
-                  <div><h3 class="text-white md:text-xl text-lg font-bold">Demat A/C</h3></div>
+                  <div><h3 class="text-white md:text-xl text-lg font-bold">Commodity</h3></div>
                   <div class="*:size-12 *:text-white">
                    <img src="assets/img/icon/demat-account.webp" alt="demat-a/c">
                   </div>
@@ -196,7 +194,6 @@ $metaTags = '
                 <div class="text-white text-sm leading-6">A Demat (Dematerialized) Account is an electronic account that allows investors to hold, buy, and sell securities in digital form. It eliminates the need for physical share certificates, ensuring a seamless and secure way to invest.
                 </div>
               </div>
-              
             </div>
             <div class="text-white px-6 flex items-center justify-end p-3">
               <a href="javascript:;" class="*:size-6 text-base text-white inline-flex items-center gap-2 font-semibold *:rotate-[45deg]">More
@@ -212,7 +209,7 @@ $metaTags = '
         <div class="heading text-center">
           <div class="subtitle text-themecolor3 font-semibold">Why Choose Us</div>
           <h2 class="max-md:text-2xl max-xl:text-3xl text-4xl font-bold text-black">
-          Innovating Solutions<span class=" text-themeColor2">for Your Success</span>
+          Innovating Solutions <span class=" text-themeColor2">for Your Success</span>
           </h2>
         </div>
         <div class="flex flex-col space-y-3 pt-10">

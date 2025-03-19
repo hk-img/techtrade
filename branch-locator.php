@@ -9,7 +9,7 @@
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
               <li>Home</li>
               <li class="-mt-2">.</li>
-              <li class="font-bold text-[#1B1E31]"><a href="branch-locator"> Branch Locator</a></li>
+              <li class="font-bold text-[#1B1E31]"><a href="branch-locator">Branch Locator</a></li>
             </ul>
           </div>
           <img src="assets/img/branchbg.png" alt="" class="w-1/2 lg:w-[35%]" >
@@ -21,71 +21,11 @@
              <img src="assets/img/headbg2.png" alt=""  class="w-[90%] top-[35px] left-[150px] absolute    z-0" >
              <img src="assets/img/headbg3.png" alt=""  class=" w-[60%] left-[6px] -bottom-[81px]  absolute    z-0" >
       </div>
-    <section class="w-full bg-white pt-[60px] pb-[38px]">
-        <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto flex flex-col space-y-5 lg:space-y-5 ">
-            <div class="">
-                <h1 class="lg:text-2xl  text-[#1B1E31] font-bold"> Punjab</h1>
-            </div>
-
-            <div class="w-full border rounded-lg overflow-hidden">
-                <div class="max-w-full overflow-x-auto">
-                    <table class="w-full min-w-[1100px] font-serif">
-                        <thead class="bg-[#1B1E31] text-lg font-bold text-white">
-                            <tr>
-                                <th class="px-6 py-5 text-left w-1/5">Branch Office</th>
-                                <th class="px-14 py-5 text-left w-1/5">City</th>
-                                <th class="px-6 py-5 text-left w-1/5">Contact Person</th>
-                                <th class="px-6 py-5 text-left w-1/5">Designation</th>
-                                <th class="px-6 py-5 text-left flex justify-end ">
-                                    <span class="w-40">Contact Number</span>
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody class="text-sm font-medium ">
-                            <tr class="bg-[#F6F6F6]">
-                                <td class="px-6 py-5">Shop No.4 Tilak Nagar Shivala Road,amritsar, Punjab – 143001</td>
-                                <td class="px-14 py-5">Amritsar</td>
-                                <td class="px-6 py-5">Raj Kumar Chawala</td>
-                                <td class="px-6 py-5">Branch Manager</td>
-                                <td class="px-6 py-8 text-left flex justify-end">
-                                    <span class="w-40">0183-2502148
-                                    </span>
-                                </td>
-                            </tr>
-
-                            <tr class="">
-                                <td class="px-6 py-5">1333 /viii-12 Namak Mandi Namak Mandi, Amritsar, Punjab – 143001
-                                </td>
-                                <td class="px-14 py-5">Amritsar</td>
-                                <td class="px-6 py-5">Amarpal Singh</td>
-                                <td class="px-6 py-5">Branch Manager</td>
-                                <td class="px-6 py-8 text-left flex justify-end">
-                                    <span class="w-40 text-left">0183-2502148</span>
-                                </td>
-                            </tr>
-                            <tr class="bg-[#F6F6F6]">
-                                <td class="px-6 py-5">2483/6 Dal Mandi Naya Katra Naya Katra,amritsar, Punjab – 143001
-                                </td>
-                                <td class="px-14 py-5">Amritsar</td>
-                                <td class="px-6 py-5">Pradeep Kumar Banura</td>
-                                <td class="px-6 py-5">Branch Manager</td>
-                                <td class="px-6 py-8 text-left flex justify-end">
-                                    <span class="w-40">0183-2502148</span>
-                                </td>
-                            </tr>
-
-                        </tbody>
-
-
-                    </table>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="w-full bg-white">
+    
+    <section class="w-full bg-white pt-[60px] ">
         <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto flex flex-col space-y-5 lg:space-y-7 ">
-            <div class="flex flex-col space-y-5 lg:space-y-5">
-                <h1 class="lg:text-2xl  text-[#1B1E31] font-bold"> Rajasthan</h1>
+            <div class="flex flex-col space-y-5 lg:space-y-5 py-4">
+                <h1 class="lg:text-2xl  text-[#1B1E31] font-bold">Rajasthan</h1>
                 <div class="w-full border rounded-lg overflow-hidden">
                     <div class="max-w-full overflow-x-auto">
                         <table class="w-full min-w-[1100px] font-serif">

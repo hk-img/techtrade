@@ -1,0 +1,207 @@
+.product-detail .section-title.style-1 {
+    font-size: 22px;
+  }
+  
+  .product-more-infor {
+    padding: 0 0 0px 14px;
+  
+        & li {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            margin: 0 0 10px;
+            position: relative;
+  
+        .product-more-infor li ::before {
+            position: absolute;
+            left: -14px;
+            top: 9px;
+            content: "";
+            height: 6px;
+            width: 6px;
+            border-radius: 100%;
+            background-color: #9b9b9b;
+        }
+  
+        & span {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 165px;
+            flex: 0 0 165px;
+            display: inline-block;
+        }
+  
+        &:last-child {
+            margin: 0 0 0;
+        }
+    }
+}
+
+.detail-extralink {
+
+    & > div {
+            display: inline-block;
+            vertical-align: top;
+    }
+            
+ 
+     & .detail-qty {
+         margin: 0 6px 15px 0;
+         background: #fff;
+         border: 2px solid #aa1818 !important;
+         font-size: 16px;
+         font-weight: 700;
+         color: #aa1818;
+         border-radius: 5px;
+         padding: 11px 20px 11px 30px;
+         max-width: 90px;
+     }
+ }
+
+.detail-qty {
+    max-width: 80px;
+    padding: 9px 20px;
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+  
+    & > a {
+        font-size: 16px;
+        position: absolute;
+        right: 8px;
+        color: #aa1818;
+  
+        &:hover {
+            color: #29A56C;
+        }
+  
+        &.qty-up {
+            top: 0;
+        }
+        
+        &.qty-down {
+            bottom: -4px;
+        }
+    }
+}
+
+    input.qty-val {
+        border: 0;
+        border-radius: 0;
+        height: unset;
+        padding: 0 !important;
+    }
+
+
+ .product-extra-link2{
+
+ & a {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+    display: inline-block;
+    height: 50px;
+    line-height: 55px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    width: 50px;
+    margin: 0 5px;
+    transition: all 0.5s ease-out 0s;
+    -webkit-transition: all 0.5s ease-out 0s;
+  
+    &:hover {
+        background-color: #aa1818;
+        color: #fff;
+  
+       & i {
+            opacity: 1;
+        }
+    }
+        
+  & i {
+    font-size: 18px;
+    opacity: 0.6;
+  }
+}
+  
+ & .button.button-add-to-cart {
+    position: relative;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: 0;
+    height: 50px;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+  
+    & i {
+        margin-right: 10px;
+    }
+}
+ }
+  
+  .product-info {
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    padding: 40px 50px;
+  }
+  
+  .tab-style3 .nav-tabs .nav-item a.active, .tab-style3 .nav-tabs .nav-item a:hover {
+    color: #aa1818;
+    -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .tab-style3 .nav-tabs li.nav-item a {
+    display: block;
+    padding: 13px 24px !important;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Quicksand", sans-serif;
+    text-transform: none;
+    font-size: 17px;
+    border-radius: 30px;
+    border: 1px solid #ececec;
+    background: #fff;
+    color: #7E7E7E;
+  }
+  
+  .tab-content.shop_info_tab {
+    margin-top: 40px;
+  }
+  
+  .tab-pane .comments-area {
+    padding-top: 0;
+    border: 0;
+  }
+  
+  .product-color-red {
+    background: #ff596d;
+  }
+  
+  .product-color-yellow {
+    background: #ffdb33;
+  }
+  
+  .product-color-white {
+    background: #ffffff;
+  }
+  
+  .product-color-orange {
+    background: #ffbb51;
+  }
+  
+  .product-color-cyan {
+    background: #80e6ff;
+  }
+  
+  .product-color-green {
+    background: #38cf46;
+  }
+  
+  .product-color-purple {
+    background: #ff8ff8;
+  }
+  

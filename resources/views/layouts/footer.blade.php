@@ -165,7 +165,7 @@
     
     <div class="footer-btm bg-themeColor1 p-2">
       <div class="2xl:px-24 3xl:px-36 lg:pb-3 py-3 px-6 lg:px-8 w-full mx-auto">
-        <div class="text-white font-normal text-sm text-center font-serif">Copyright © 2024 Sanchit Financial</span> & Management Services Limited.</div>
+        <div class="text-white font-normal text-sm text-center font-serif">Copyright © {{date('Y')}} Sanchit Financial</span> & Management Services Limited.</div>
       </div>
     </div>
 

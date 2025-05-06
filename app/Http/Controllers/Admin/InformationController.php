@@ -65,14 +65,14 @@ class InformationController extends Controller
 
     public function contact(Request $request){
 
-        $result = \App\Models\Contact::get();
+        $result = \App\Models\Contact::orderBy('id','DESC')->get();
         return view('admin.contact',compact('result'));
 
     }
     
     public function carrier(Request $request){
 
-        $result = \App\Models\Carrier::get();
+        $result = \App\Models\Carrier::orderBy('id','DESC')->get();
         return view('admin.carrier',compact('result'));
 
     }

@@ -63,7 +63,7 @@ use \App\Models\Brand;
 
 	Route::get('/login',function(){
 		return redirect('admin/login');
-	});
+	})->name('login');
 
 	//Reset Password
 

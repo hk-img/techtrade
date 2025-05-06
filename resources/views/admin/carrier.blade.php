@@ -55,15 +55,15 @@
                                                         style="width: 85px;"
                                                         aria-label=" Action : activate to sort column ascending"> Experience
                                                     </th>
-                                                    <th class="center sorting exclude-export" tabindex="0"
+                                                    <!-- <th class="center sorting exclude-export" tabindex="0"
                                                         aria-controls="DataTables_Table_0" rowspan="1" colspan="1"
                                                         style="width: 85px;"
                                                         aria-label=" Action : activate to sort column ascending"> Message
-                                                    </th>
+                                                    </th> -->
                                                     <th class="center sorting exclude-export" tabindex="0"
                                                         aria-controls="DataTables_Table_0" rowspan="1" colspan="1"
                                                         style="width: 85px;"
-                                                        aria-label=" Action : activate to sort column ascending"> Attcahment
+                                                        aria-label=" Action : activate to sort column ascending"> Attachment
                                                     </th>
                                                 </tr>
                                             </thead>
@@ -78,7 +78,7 @@
                                                             <td class="center">{{ $value['mobile'] }}</td>														
                                                             <td class="center">{{ $value['qualification'] }}</td>														
                                                             <td class="center">{{ $value['experience'] }}</td>														
-                                                            <td class="center">{{ $value['message'] }}</td>				
+                                                            <!-- <td class="center">{{ $value['message'] }}</td>				 -->
                                                             <td class="center">@if(!empty($value['resumeCareer']))<a target="_blank" href="{{asset($value['resumeCareer'])}}" >Download File</a>@else - @endif</td>				
 														</tr>
 													@endforeach
@@ -93,7 +93,7 @@
                                                     <th class="center" rowspan="1" colspan="1"> Mobile </th>
                                                     <th class="center" rowspan="1" colspan="1"> Qualification </th>
                                                     <th class="center" rowspan="1" colspan="1"> Experience </th>
-                                                    <th class="center" rowspan="1" colspan="1"> Message </th>
+                                                    <th class="center" rowspan="1" colspan="1"> Attachment </th>
                                                 </tr>
                                             </tfoot>
                                         </table>

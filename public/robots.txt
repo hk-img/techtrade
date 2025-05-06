@@ -1,0 +1,7 @@
+User-agent: *
+
+Allow: https://www.healthfirstpharmacy.in/
+Disallow: /cpanel
+Disallow: /admin
+
+Sitemap: https://www.healthfirstpharmacy.in/sitemap.xml

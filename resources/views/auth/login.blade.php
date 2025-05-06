@@ -12,7 +12,7 @@
 <body>
     <div class="workSpace">
         <div class="left">
-            <img class="img-fluid" style="width:284px;height:92px;" src="{{ asset('images/techtrade.png') }}" alt="">
+            <img class="img-fluid" style="width:284px;height:92px;" src="{{asset('assets/img/logo.png')}}" alt="">
             <h1 class="logo">Welcome to TECHTRADE</h1>
         </div>
         <div class="right">

@@ -11,7 +11,7 @@
                 Get in touch with us for any queries, complaints, feedbacks or suggestions.
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="contact">Contact Us</a></li>
             </ul>
@@ -27,7 +27,7 @@
 <section class="w-full py-12 relative bg-white">
     <div class="2xl:px-24 lg:3xl:px-36 lg:pb-3 lg:w-full mx-auto">
         <div class="flex flex-col space-y-3 justify-center items-center">
-            <h1 class="lg:text-lg text-base font-heading text-gray-500">contact Us</h1>
+            <h1 class="lg:text-lg text-base font-heading text-gray-500">Contact Us</h1>
 
             <h2 class="lg:text-4xl text-xl font-heading text-black font-bold text-center">
                 <span class="lg:text-4xl text-xl font-bold text-[#C85103]">We're</span> Here To Help - Get In Touch <br />
@@ -234,8 +234,8 @@
                                 Cinema, Bani Park, Jaipur, <br />
                                 Rajasthan – 302016
                             </td>
-                            <td class="p-5">7792022561</td>
-                            <td class="p-5">praveen.agarwal@techtrade.in</td>
+                            <td class="p-5">7300006530</td>
+                            <td class="p-5">Praveen@techtrade.in</td>
                             <td class="p-5">09:00 AM TO 05:00 PM</td>
                         </tr>
                     </tbody>
@@ -318,8 +318,8 @@
                         <tr class="bg-[#F6F6F6] font-serif">
                             <td class="p-5">Praveen Kumar Agarwal</td>
                             <td class="p-5">CEO</td>
-                            <td class="p-5">7792022561</td>
-                            <td class="p-5">praveen.agarwal@techtrade.in</td>
+                            <td class="p-5">7300006530</td>
+                            <td class="p-5">Praveen@techtrade.in</td>
                         </tr>
                     </tbody>
                     <tbody class="text-sm">

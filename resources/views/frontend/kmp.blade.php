@@ -11,7 +11,7 @@
                 Know about all Key Managerial Personnel including the Compliance Officer.
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="kmp">KMP</a></li>
             </ul>
@@ -45,8 +45,9 @@
                         <tr class="bg-[#F6F6F6]">
                             <td class="p-5">Praveen Kumar Agarwal</td>
                             <td class="p-5">CEO</td>
-                            <td class="p-5">7792022561</td>
-                            <td class="p-5">praveen.agarwal@techtrade.in</td>
+                            <td class="p-5">7300006530</td>
+                            <td class="p-5">Praveen@techtrade.in
+                            </td>
                         </tr>
 
                         <tr class="">
@@ -57,7 +58,7 @@
                         </tr>
                         <tr class="bg-[#F6F6F6]">
                             <td class="p-5">Sapna Chouhan</td>
-                            <td class="p-5">31 March 2025 Compliance Officer</td>
+                            <td class="p-5">Compliance Officer</td>
                             <td class="p-5">7792022561</td>
                             <td class="p-5">sapna.chauhan@techtrade.in</td>
                         </tr>

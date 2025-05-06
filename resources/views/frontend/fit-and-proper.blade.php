@@ -11,7 +11,7 @@
                 Regulation 19 and 20 of the Securities Contracts (Regulation)(Stock Exchanges And Clearing Corporations)Regulations,2018
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="fit-and-proper-declaration">Fit and Proper Declaration</a></li>
             </ul>

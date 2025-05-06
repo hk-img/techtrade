@@ -11,7 +11,7 @@
                 Now freeze unfreeze your trading accounts easily.
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="freeze-unfreeze-trading-account">Freeze Unfreeze Trading A/c</a></li>
             </ul>

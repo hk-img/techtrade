@@ -11,9 +11,9 @@
                 Get in touch with us for any queries, complaints, feedbacks or suggestions..
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
-                <li class="font-bold text-[#1B1E31]">How to Download</li>
+                <li class="font-bold text-[#1B1E31]"><a href="{{url('product')}}">How to Download</a></li>
             </ul>
         </div>
         <img src="assets/img/products.webp" alt="" class="w-[84%] lg:w-[35%]" />
@@ -33,13 +33,12 @@
             <div class="py-5 flex flex-col space-y-3 justify-center">
                 <h1 class="text-2xl lg:text-4xl font-medium text-start">
                     Download Now and Get <br />
-                    Start Immeeditly
+                    Start  Immediately
                 </h1>
                 <p class="text-[rgb(0 74 173 )] text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita omnis labore ipsum eos nobis sed laboriosam ad eligendi obcaecati dolores adipisci dolore aperiam nam vero repellat distinctio cumque, ipsam at!
-                </p>
+                    Experience seamless mobile access to all your essential tools, data, and insights—right at your fingertips. Whether you're on the go or working remotely, our app ensures you stay productive and connected at all times.                </p>
                 <div>
-                    <button class="px-5 py-3 lg:py-4 flex justify-center items-center space-x-2 border border-black rounded-md font-semibold">
+                    <a href="https://play.google.com/store/search?q=techtrade&c=apps&hl=en" class="w-fit px-5 py-3 lg:py-4 flex justify-center items-center space-x-2 border border-black rounded-md font-semibold">
                         <span>
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1rem" width="1rem" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -48,7 +47,7 @@
                             </svg>
                         </span>
                         <span>App Store</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -56,13 +55,12 @@
             <div class="py-5 px-6 flex flex-col space-y-3 justify-center">
                 <h1 class="text-2xl lg:text-4xl font-medium text-start">
                     Download Now and Get <br />
-                    Start Immeeditly
+                    Start  Immediately
                 </h1>
                 <p class="text-[rgb(0 74 173 )] text-base">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita omnis labore ipsum eos nobis sed laboriosam ad eligendi obcaecati dolores adipisci dolore aperiam nam vero repellat distinctio cumque, ipsam at!
-                </p>
+                    Experience seamless mobile access to all your essential tools, data, and insights—right at your fingertips. Whether you're on the go or working remotely, our app ensures you stay productive and connected at all times.                </p>
                 <div>
-                    <button class="px-5 py-3 lg:py-4 flex justify-center items-center space-x-2 border border-black rounded-md font-semibold">
+                    <a href="https://play.google.com/store/search?q=techtrade&c=apps&hl=en" class="px-5 w-fit py-3 lg:py-4 flex justify-center items-center space-x-2 border border-black rounded-md font-semibold">
                         <span>
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -71,7 +69,7 @@
                             </svg>
                         </span>
                         <span>Play Store</span>
-                    </button>
+                    </a>
                 </div>
             </div>
             <div class="flex justify-center items-center">

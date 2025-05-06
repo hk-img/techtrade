@@ -11,7 +11,7 @@
                 Listed here are some important forms, documents and software setups.
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.2rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="text-[#1B1E31] font-bold"><a href="downloads">Downloads</a></li>
             </ul>
@@ -34,7 +34,7 @@
                             <path d="M19 9l-7 7-7-7"></path>
                         </svg>
                     </div>
-                    <div class="grid   overflow-hidden transition-all duration-500 max-h-0" id="content-{{$key}}">
+                    <div class="grid overflow-hidden transition-all duration-500 max-h-0" id="content-{{$key}}">
                         <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
                             @foreach($value->children as $child)
                                 <a href="{{$child['link']}}" target="_blank">

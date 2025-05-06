@@ -9,7 +9,7 @@
                 We are available in 2 states and 2 cities in India
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="branch-locator">Branch Locator</a></li>
             </ul>

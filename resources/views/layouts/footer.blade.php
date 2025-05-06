@@ -143,23 +143,22 @@
         <li>4. Investors may please refer to the Exchange’s Frequently Asked Questions (FAQs) issued vide circular reference NSE/INSP/45191 dated July 31, 2020 and NSE/INSP/45534 dated August 31, 2020 and other guidelines issued from time to time in this regard.</li>
         <li>5.Check your Securities in the consolidated account statement issued by NSDL every month.</li>
         </ul>
-      <div class="py-2">
-      Kindly note that as per NSE circulars nos: NSE/INVG/36333 dated November 17, 2018, NSE/INVG/37765 dated May 15.2018 and BSE circular nos: 2017 1117-18 dated November 17, 2018, 2018 0515-39 dated May 15.2018, trading in securities in which unsolicited messages are being circulated is restricted. The list of such stocks are available on the website of NSE & BSE. Investors are advised not to blindly follow the unfounded rumors, Tips given in social networks, SMS, WhatsApp, Blogs etc. and invest only after conducting appropriate analysis of respective companies.
-      </div>
-      <div class="py-2">
-        “The Stock Exchange, Mumbai is not in any manner answerable, responsible or liable to any person or persons for any acts of omission or the commission, errors, mistakes and/or violation, actual or perceived, by us or our partners, agents, associates, etc., of any of the Rules, Regulations, Bye-laws of the Stock Exchange, Mumbai, SEBI Act or any other laws in force from time to time. The Stock Exchange, Mumbai is not answerable, responsible or liable for any information on this Website or for any services rendered by our employees, our servants, and us.”
-      </div>
-      <div class="flex items-center gap-3 text-sm px-2 py-2 flex-wrap lg:flex-nowrap">
-        <span class="font-bold">IMPORTANT LINKS: </span>
-        @if(!empty($links))
-          @foreach($links as $link)
-            <span>{{$link->name}}</span>
-          @endforeach
-        @endif
-      </div>
-    
-        </div>
-        </div>
+  <div class="py-2">
+  Kindly note that as per NSE circulars nos: NSE/INVG/36333 dated November 17, 2018, NSE/INVG/37765 dated May 15.2018 and BSE circular nos: 2017 1117-18 dated November 17, 2018, 2018 0515-39 dated May 15.2018, trading in securities in which unsolicited messages are being circulated is restricted. The list of such stocks are available on the website of NSE & BSE. Investors are advised not to blindly follow the unfounded rumors, Tips given in social networks, SMS, WhatsApp, Blogs etc. and invest only after conducting appropriate analysis of respective companies.
+  </div>
+  <div class="py-2">
+    “The Stock Exchange, Mumbai is not in any manner answerable, responsible or liable to any person or persons for any acts of omission or the commission, errors, mistakes and/or violation, actual or perceived, by us or our partners, agents, associates, etc., of any of the Rules, Regulations, Bye-laws of the Stock Exchange, Mumbai, SEBI Act or any other laws in force from time to time. The Stock Exchange, Mumbai is not answerable, responsible or liable for any information on this Website or for any services rendered by our employees, our servants, and us.”
+  </div>
+    <div class="flex items-center gap-3 text-sm px-2 py-2 flex-wrap lg:flex-nowrap">
+      <span class="font-bold">IMPORTANT LINKS: </span>
+      @if(!empty($links))
+        @foreach($links as $link)
+          <a targte="_blank" href={{$link->link}}>{{$link->name}}</a>
+        @endforeach
+      @endif
+    </div>
+    </div>
+    </div>
       </div>
     </footer>
     

@@ -183,38 +183,29 @@ const contentDiv = document.getElementById('content');
 const contents = {
   1: `
     <div class="flex flex-col">
-      <div class="lg:w-[1140px] w-full lg:h-[96px]">
+      <div class="lg:w-[1140px] w-full py-2">
         <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+          For Trading & Demat Account related queries contact our customer service at cs@techtrade.in or calls us on below number:      
         </h1>
       </div>
-      <div class="lg:w-[924px] pt-6 lg:h-[24px]">
-        <h1 class="font-serif text-[#666666] font-medium text-base">
-         For Trading & Demat Account related queries contact our customer service at info@techtrade.in or calls us on below number:
-        </h1>
-      </div>
-      <div class="flex flex-row py-[23px] space-x-9">
+      <div class="flex flex-row py-4 space-x-9">
         <h1 class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</h1>
-        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 6:00pm)</h1>
+        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 5:00pm)</h1>
       </div>
     </div>
   `,
   2: `
     <div class="flex flex-col">
        <div class="flex flex-col">
-      <div class="lg:w-[1140px] w-full lg:h-[96px]">
+      <div class="lg:w-[1140px] w-full h-auto py-2">
         <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
-           2Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+           If you do not receive a satisfactory response at Level 1 within 3 working days, you may write to us at boby.jha@techtrade.in  or calls us on below numbers:
         </h1>
       </div>
-      <div class="lg:w-[924px] pt-6 lg:h-[24px]">
-        <h1 class="font-serif text-[#666666] font-medium text-base">
-         For Trading & Demat Account related queries contact our customer service at info@techtrade.in or calls us on below number:
-        </h1>
-      </div>
-      <div class="flex flex-row py-[23px] space-x-9">
-        <h1 class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</h1>
-        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 6:00pm)</h1>
+
+      <div class="flex flex-row py-4 space-x-9">
+        <h1 class="font-serif text-[#666666] font-medium text-base">Call: 7792022531</h1>
+        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 5:00pm)</h1>
       </div>
     </div>
     </div>
@@ -222,19 +213,14 @@ const contents = {
   3: `
     <div class="flex flex-col">
       <div class="flex flex-col">
-      <div class="lg:w-[1140px] w-full lg:h-[96px]">
+      <div class="lg:w-[1140px] w-full h-auto py-2">
         <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
-          3Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-        </h1>
+            If you still have not received a satisfactory response at Level 2 within 3 working days, you may contact our Compliance Officer (Mr. Tahir Hussain) at sapna.chouhan@techtrade.in or call on below number:
+         </h1>
       </div>
-      <div class="lg:w-[924px] pt-6 lg:h-[24px]">
-        <h1 class="font-serif text-[#666666] font-medium text-base">
-          For Trading & Demat Account related queries contact our customer service at info@techtrade.in or calls us on below number:
-        </h1>
-      </div>
-      <div class="flex flex-row py-[23px] space-x-9">
-        <h1 class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</h1>
-        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 6:00pm)</h1>
+      <div class="flex flex-row py-4 space-x-9">
+        <h1 class="font-serif text-[#666666] font-medium text-base">Call:7300006530</h1>
+        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 5:00pm)</h1>
       </div>
     </div>
     </div>
@@ -242,19 +228,14 @@ const contents = {
   4: `
     <div class="flex flex-col">
       <div class="flex flex-col">
-      <div class="lg:w-[1140px] w-full lg:h-[96px]">
+      <div class="lg:w-[1140px] w-full h-auto py-2">
         <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
-          4Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+           If you have not received a satisfactory response at Level 3 within 7 working days, you may also approach our CEO (Mr. Praveen Kumar Agarwal) at praveen@techtrade.in or call on below number:
         </h1>
       </div>
-      <div class="lg:w-[924px] pt-6 lg:h-[24px]">
-        <h1 class="font-serif text-[#666666] font-medium text-base">
-       For Trading & Demat Account related queries contact our customer service at info@techtrade.in or calls us on below number:
-        </h1>
-      </div>
-      <div class="flex flex-row py-[23px] space-x-9">
-        <h1 class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</h1>
-        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 6:00pm)</h1>
+      <div class="flex flex-row py-4 space-x-9">
+       <h1 class="font-serif text-[#666666] font-medium text-base">Call:7300006530</h1>
+        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 5:00pm)</h1>
       </div>
     </div>
     </div>
@@ -262,20 +243,26 @@ const contents = {
   5: `
     <div class="flex flex-col">
        <div class="flex flex-col">
-      <div class="lg:w-[1140px] w-full lg:h-[96px]">
+      <div class="lg:w-[1140px] w-full h-auto py-2">
         <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
-         5Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+           In absence of response/complaint not addressed to your satisfaction, you may lodge a complaint with SEBI at
         </h1>
       </div>
-      <div class="lg:w-[924px] pt-6 lg:h-[24px]">
-        <h1 class="font-serif text-[#666666] font-medium text-base">
-         For Trading & Demat Account related queries contact our customer service at info@techtrade.in or calls us on below number:
-        </h1>
+      <div class="lg:w-[924px] flex flex-col gap-y-2">
+      <a href="https://scores.sebi.gov.in/" class="font-serif text-[#666666] font-medium text-base">
+          SEBI : https://scores.sebi.gov.in/
+        </a>
+        <a href="https://investorhelpline.nseindia.com/NICEPLUS/" class="font-serif text-[#666666] font-medium text-base">
+          NSE : https://investorhelpline.nseindia.com/NICEPLUS/
+        </a>
+         <a href="https://bsecrs.bseindia.com/ecomplaint/frmInvestorHome.aspx" class="font-serif text-[#666666] font-medium text-base">
+         BSE : https://bsecrs.bseindia.com/ecomplaint/frmInvestorHome.aspx
+        </a>
+         <a href="https://www.mcxindia.com/Investor-Services" class="font-serif text-[#666666] font-medium text-base">
+          MCX : https://www.mcxindia.com/Investor-Services
+        </a>
       </div>
-      <div class="flex flex-row py-[23px] space-x-9">
-        <h1 class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</h1>
-        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 6:00pm)</h1>
-      </div>
+     
     </div>
     </div>
   `

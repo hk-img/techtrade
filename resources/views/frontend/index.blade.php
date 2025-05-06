@@ -146,12 +146,10 @@
                     </h2>
                 </div>
                 <p class="mt-4 text-sm leading-6 text-slate-600 font-serif">
-                    Sanchit Financial & Management Services Ltd. is a leading financial services company headquartered in Punjab, committed to excellence and focused on client satisfaction. The company has established itself as a trusted
-                    partner for investors seeking to navigate the complexities of the global financial markets.
+                    Sanchit Financial & Management Services Ltd. is a leading financial services company headquartered in Jaipur, committed to excellence and focused on client satisfaction. The company has established itself as a trusted partner for investors seeking to navigate the complexities of the global financial markets.
                     <br />
                     <br />
-                    The company commenced its operations in 1995 and has continuously expanded its presence across India. Our goal is to emerge as a financial powerhouse offering a comprehensive range of solutions, all conveniently
-                    accessible in one place. With expanded reach and enhanced capabilities, we serve clients worldwide with integrity and professionalism.
+                    The company commenced its operations in 1995 and has continuously expanded its presence across India. Our goal is to emerge as a financial powerhouse offering a comprehensive range of solutions, all conveniently accessible in one place. With expanded reach and enhanced capabilities, we serve clients worldwide with integrity and professionalism.
                 </p>
                 <div class="mt-4 flex gap-4">
                     <label

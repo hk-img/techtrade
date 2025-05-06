@@ -11,7 +11,7 @@
                 Learn about our new account opening process
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="account-opening-process"> A/c Opening Process</a></li>
             </ul>

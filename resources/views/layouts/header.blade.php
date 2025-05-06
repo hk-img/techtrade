@@ -35,7 +35,7 @@
                         <div class="w-full flex flex-col p-3">
                         <div class="relative group/hvr">
                                 <div class="flex-auto">
-                                      <a href="javascript:;" class="text-[0.813rem] text-black font-medium flex items-center duration-300 leading-tight whitespace-nowrap px-2 py-3 rounded-md group-hover/hvr:md:bg-[#f0f6ff]">
+                                      <a href="https://drive.google.com/file/d/1-vYGHb-S7BkJHesDZ6fCfH7WHy92eIqq/view" class="text-[0.813rem] text-black font-medium flex items-center duration-300 leading-tight whitespace-nowrap px-2 py-3 rounded-md group-hover/hvr:md:bg-[#f0f6ff]">
                                         <div class="flex items-center gap-2">
                                             <span class="*:size-5 *:text-themeColor1 mr-2">
                                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4m4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5M9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8m1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5"></path><path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96q.04-.245.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"></path></svg>                                            </span>
@@ -290,7 +290,7 @@
     <label for="sideToggle" class="fixed inset-0 -z-[1011] pointer-events-none backdrop-blur-xl bg-theme1 peer-checked/sideToggle:z-[1010] peer-checked/sideToggle:opacity-100 opacity-0 duration-100"></label>
     <div class="fixed flex flex-col h-full inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-black select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-theme1/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
       <div class="flex items-center justify-between">
-        <a href="javascript:;" class="-ml-1.5">
+        <a href="{{url('/')}}" class="-ml-1.5 cursor-pointer">
             <span class="sr-only">Tech Trade</span>
             <img class="h-12 w-auto" width="174" height="48" src="assets/img/logo.png" alt=" Logo">
         </a>
@@ -308,15 +308,14 @@
                       <div class="flex flex-col w-full gap-y-5">
                         <div class="relative flex flex-col gap-y-3">
                         <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmAbout">
-                        <label for="mmAbout" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                        <label for="mmAbout" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
                           <a href ="about">About Us</a>
-                          <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
                         </label>
                
                         </div>
                         <div class="relative flex flex-col gap-y-3">
                           <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmResources">
-                          <label for="mmResources" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          <label for="mmResources" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
                            Resources
                             <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
                           </label>
@@ -333,7 +332,7 @@
                                 </div>
                                 <div class="mb-2 p-2 ">
                                   <div class="flex-auto">
-                                    <a href="javascript:;" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    <a href="https://drive.google.com/file/d/1-vYGHb-S7BkJHesDZ6fCfH7WHy92eIqq/view" class="block text-white font-semibold text-[0.813rem] opacity-80">
                                       Authorised Person Details
                                       <span class="absolute inset-0 z-[1]"></span>
                                     </a>
@@ -377,7 +376,7 @@
                         </div>
                         <div class="relative flex flex-col gap-y-3">
                           <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmImp_links">
-                          <label for="mmImp_links" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          <label for="mmImp_links" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
                           Important Links
                             <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
                           </label>
@@ -511,14 +510,14 @@
                         </div>  
                         <div class="relative flex flex-col gap-y-3">
                           <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmProducts">
-                          <label for="mmProducts" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
-                            Products 
+                          <label for="mmProducts" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
+                            <a href="{{url('product')}}"> Products </a>
                           </label>
                         </div>   
                         
                         <div class="relative flex flex-col gap-y-3">
                           <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmBackoffice">
-                          <label for="mmBackoffice" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          <label for="mmBackoffice" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
                            Back Office
                             <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
                           </label>
@@ -556,58 +555,57 @@
                           </div>
                         </div>
                         <div class="relative flex flex-col gap-y-3">
-                          <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmAbout">
-                          <label for="mmAbout" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
-                            <a href ="contact">Contact Us</a>
-                            <svg class="h-5 w-5 ml-auto flex-none text-white" stroke="currentColor" fill="currentColor" stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="12.5rem" width="12.5rem" xmlns="http://www.w3.org/2000/svg"><path d="M5.8 9.7l6.2 6.3 6.2-6.3c.2-.2.3-.5.3-.7s-.1-.5-.3-.7c-.2-.2-.4-.3-.7-.3h-11c-.3 0-.5.1-.7.3-.2.2-.3.4-.3.7s.1.5.3.7z"></path></svg>
+                          <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmContact">
+                          <label for="mmContact" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
+                            <a href ="{{url('contact-us')}}">Contact Us</a>
                           </label>
-                  <div class="w-full peer-checked/mm:block hidden">
-                    <div class="grid grid-cols-1 flex-wrap w-full gap-4">
-                      <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
-                        <div class="mb-2 p-2 ">
-                          <div class="flex-auto">
-                            <a href="investor-grievance" class="block text-white font-semibold text-[0.813rem] opacity-80">
-                              Investor Grievance
-                              <span class="absolute inset-0 z-[1]"></span>
-                            </a>
+                          <div class="w-full peer-checked/mm:block hidden">
+                            <div class="grid grid-cols-1 flex-wrap w-full gap-4">
+                              <div class="w-full text-xs xl:text-sm *:flex *:items-center *:gap-x-3 *:py-1 *:relative">
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="investor-grievance" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Investor Grievance
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="branch-locator" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    Branch Locator
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="careers" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                    Career                            
+                                    <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="mb-2 p-2 ">
+                                  <div class="flex-auto">
+                                    <a href="contact" class="block text-white font-semibold text-[0.813rem] opacity-80">
+                                      Contact
+                                      <span class="absolute inset-0 z-[1]"></span>
+                                    </a>
+                                  </div>
+                                </div>
+                              
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div class="mb-2 p-2 ">
-                          <div class="flex-auto">
-                            <a href="branch-locator" class="block text-white font-semibold text-[0.813rem] opacity-80">
-                            Branch Locator
-                              <span class="absolute inset-0 z-[1]"></span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="mb-2 p-2 ">
-                          <div class="flex-auto">
-                            <a href="careers" class="block text-white font-semibold text-[0.813rem] opacity-80">
-                            Career                            
-                            <span class="absolute inset-0 z-[1]"></span>
-                            </a>
-                          </div>
-                        </div>
-                        <div class="mb-2 p-2 ">
-                          <div class="flex-auto">
-                            <a href="contact" class="block text-white font-semibold text-[0.813rem] opacity-80">
-                              Contact
-                              <span class="absolute inset-0 z-[1]"></span>
-                            </a>
-                          </div>
-                        </div>
-                       
-                      </div>
-                    </div>
-                  </div>
                           </div>
                         <div class="relative flex flex-col gap-y-3">
-                          <a href="" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          <a href="https://ekyc.techtrade.in/register" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
                            Open A Demat A/C
                           </a>
                         </div>
                         <div class="relative flex flex-col gap-y-3">
-                          <a href="https://trading.techtrade.in/login" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white">
+                          <a href="https://trading.techtrade.in/login" class="flex items-center gap-x-[0.125rem] text-sm font-bold text-white cursor-pointer">
                            Start Trading
                           </a>
                         </div>

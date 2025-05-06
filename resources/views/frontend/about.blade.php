@@ -10,7 +10,7 @@
             <!-- <p class="lg:text-[1.125rem] font-serif font-medium">
         </p> -->
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li class="font-semibold">Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="about">About Us</a></li>
             </ul>
@@ -201,9 +201,9 @@
     <div class="2xl:px-24 3xl:px-36 lg:pb-3 flex flex-col px-6 lg:px-8 w-full justify-center items-center">
         <div class="heading text-center">
             <div class="subtitle text-themecolor3 font-semibold">Client’ s feedback</div>
-            <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold">
-                Customer Reviews
-                <span class="text-themeColor2"> & Experiences</span>
+            <h2 class="max-md:text-2xl/tight max-xl:text-3xl/tight text-4xl/tight text-black font-bold mx-auto lg:w-3/5 w-full">
+                Client Reviews for Sanchit Financial and 
+                <span class="text-themeColor2">Management Services Limited</span>
             </h2>
         </div>
         <div class="w-full">
@@ -211,82 +211,103 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide bg-white p-7 flex items-center justify-center">
                         <div class="flex rounded-[10px] border border-[#DBDBDB] py-6 h-auto px-9 shadow-[#0000001A] shadow flex-col">
-                            <div class="flex lg:w-[250px] space-x-2 lg:h-auto flex-row">
-                                <div class="w-[65px] h-[65px] rounded-full overflow-hidden">
+                            <div class="flex items-center space-x-2 lg:h-auto flex-row">
+                                {{-- <div class="w-[65px] h-[65px] rounded-full overflow-hidden">
                                     <img src="assets/img/aboutgirl2.jpg" alt="" class="h-full w-full" />
-                                </div>
-
-                                <div class="flex flex-col">
-                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Amenda Wigh</div>
-                                    <div class="text-[14px] font-medium font-serif text-[#C85103]">United Arab Emirates</div>
+                                </div> --}}
+                                <div class="flex flex-col gap-y-2">
+                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Manju Gupta</div>
+                                    <div class="inline-flex items-center gap-1 *:size-5 *:text-[#FBB204] *:last-[#d9d9d9]">
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#d9d9d9" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="w-auto py-6 h-auto">
-                                <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">
-                                    “Tech Trade has completely transformed our trading experience. The platform is fast, reliable, and easy to use, making it perfect for both beginners and experienced traders.”
+                            <div class="w-auto py-3 h-auto">
+                                <div class="lg:text-base text-sm font-normal font-serif leading-[30px] text-[#666666]">
+                                    "I am truly impressed by the dedication and professionalism of Sanchit Financial and Management Services Limited. Their team is knowledgeable, responsive, and always ready to guide me with the best financial advice. A trustworthy brokerage firm I would highly recommend!"
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide bg-white p-7 flex items-center justify-center">
                         <div class="flex rounded-[10px] border border-[#DBDBDB] py-6 lg:h-auto px-9 shadow-[#0000001A] shadow flex-col">
-                            <div class="flex lg:w-auto space-x-2 lg:h-auto flex-row">
-                                <div class="w-[65px h-[65px] rounded-full overflow-hidden">
+                            <div class="flex lg:w-auto items-center space-x-2 h-full flex-row">
+                                {{-- <div class="w-[65px h-[65px] rounded-full overflow-hidden">
                                     <img src="assets/img/aboutmen2.jpg" alt="" class="h-full w-full" />
-                                </div>
+                                </div> --}}
 
-                                <div class="flex flex-col">
-                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">William Brooks</div>
-                                    <div class="text-[14px] font-medium font-serif text-[#C85103]">USA</div>
+                                <div class="flex flex-col gap-y-2">
+                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Arpit</div>
+                                    <div class="inline-flex items-center gap-1 *:size-5 *:text-[#FBB204] *:last-[#d9d9d9]">
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#d9d9d9" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                    </div>                                
                                 </div>
                             </div>
 
-                            <div class="w-auto py-6 h-auto">
+                            <div class="w-auto py-3 h-auto">
                                 <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">
-                                    “I have tried several trading platforms, but none compare to Tech Trade. Their technology-driven solutions provide real-time insights, security, and a user-friendly interface that makes trading
-                                    stress-free.”
+                                    "Sanchit Financial has completely changed my perspective on investing. Their personalized approach and transparent communication have made me feel confident and secure with my financial decisions. Excellent service!"
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide bg-white p-7 flex items-center justify-center">
                         <div class="flex rounded-[10px] border border-[#DBDBDB] py-6 h-auto px-9 shadow-[#0000001A] shadow flex-col">
-                            <div class="flex lg:w-[250px] space-x-2 lg:h-auto flex-row">
-                                <div class="w-[65px] h-[65px] rounded-full overflow-hidden">
+                            <div class="flex lg:w-[250px] items-center space-x-2 lg:h-auto flex-row">
+                                {{-- <div class="w-[65px] h-[65px] rounded-full overflow-hidden">
                                     <img src="assets/img/aboutgirl2.jpg" alt="" class="h-full w-full" />
-                                </div>
+                                </div> --}}
 
-                                <div class="flex flex-col">
-                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Amenda Wigh</div>
-                                    <div class="text-[14px] font-medium font-serif text-[#C85103]">United Arab Emirates</div>
+                                <div class="flex flex-col gap-y-2">
+                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Ankit</div>
+                                    <div class="inline-flex items-center gap-1 *:size-5 *:text-[#FBB204] *:last-[#d9d9d9]">
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#d9d9d9" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M288 376.4l.1-.1 26.4 14.1 85.2 45.5-16.5-97.6-4.8-28.7 20.7-20.5 70.1-69.3-96.1-14.2-29.3-4.3-12.9-26.6L288.1 86.9l-.1 .3 0 289.2zm175.1 98.3c2 12-3 24.2-12.9 31.3s-23 8-33.8 2.3L288.1 439.8 159.8 508.3C149 514 135.9 513.1 126 506s-14.9-19.3-12.9-31.3L137.8 329 33.6 225.9c-8.6-8.5-11.7-21.2-7.9-32.7s13.7-19.9 25.7-21.7L195 150.3 259.4 18c5.4-11 16.5-18 28.8-18s23.4 7 28.8 18l64.3 132.3 143.6 21.2c12 1.8 22 10.2 25.7 21.7s.7 24.2-7.9 32.7L438.5 329l24.6 145.7z"></path></svg>                                    </div>                                
                                 </div>
                             </div>
 
-                            <div class="w-auto py-6 h-auto">
-                                <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">
-                                    “Tech Trade has completely transformed our trading experience. The platform is fast, reliable, and easy to use, making it perfect for both beginners and experienced traders.”
+                            <div class="w-auto py-3 h-auto">
+                                <div class="lg:text-base text-sm font-normal font-serif leading-[30px] text-[#666666]">
+                                    "What sets Sanchit Financial apart is their commitment to client satisfaction. They take the time to understand your goals and offer tailored solutions that actually deliver results. A great experience overall!"
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="swiper-slide bg-white p-7 flex items-center justify-center">
                         <div class="flex rounded-[10px] border border-[#DBDBDB] py-6 lg:h-auto px-9 shadow-[#0000001A] shadow flex-col">
-                            <div class="flex lg:w-auto space-x-2 lg:h-auto flex-row">
-                                <div class="w-[65px h-[65px] rounded-full overflow-hidden">
+                            <div class="flex lg:w-auto items-center space-x-2 lg:h-auto flex-row">
+                                {{-- <div class="w-[65px h-[65px] rounded-full overflow-hidden">
                                     <img src="assets/img/aboutmen2.jpg" alt="" class="h-full w-full" />
-                                </div>
+                                </div> --}}
 
-                                <div class="flex flex-col">
-                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">William Brooks</div>
-                                    <div class="text-[14px] font-medium font-serif text-[#C85103]">USA</div>
+                                <div class="flex flex-col gap-y-2">
+                                    <div class="text-[22px] font-semibold font-heading text-[#1B1E31]">Monu Kumar Jangid
+                                    </div>
+                                    <div class="inline-flex items-center gap-1 *:size-5 *:text-[#FBB204] *:last-[#d9d9d9]">
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#FBB204" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                        <svg stroke="currentColor" fill="#d9d9d9" stroke-width="0" viewBox="0 0 576 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"></path></svg>
+                                    </div>                                
                                 </div>
                             </div>
 
-                            <div class="w-auto py-6 h-auto">
-                                <div class="text-base font-normal font-serif leading-[30px] text-[#666666]">
-                                    “I have tried several trading platforms, but none compare to Tech Trade. Their technology-driven solutions provide real-time insights, security, and a user-friendly interface that makes trading
-                                    stress-free.”
+                            <div class="w-auto py-3 h-auto">
+                                <div class="lg:text-base text-sm font-normal font-serif leading-[30px] text-[#666666]">
+                                    "From the very first interaction, I felt I was in good hands. Sanchit Financial and Management Services Limited has proven to be a reliable partner in my financial journey. Highly professional, honest, and efficient!"
                                 </div>
                             </div>
                         </div>

@@ -11,7 +11,7 @@
                 Get in touch with us for any queries, complaints, feedbacks or suggestions..
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="font-bold text-[#1B1E31]"><a href="investor-grievance">Investor Grievance</a></li>
             </ul>
@@ -81,7 +81,6 @@
                     </div>
 
                     <div data-level="5" class="level-btn px-6 py-4 rounded-md items-center gap-3 flex flex-row justify-between bg-white cursor-pointer shrink-0">
-                        <h1 class="text-lg text-black font-serif font-semibold">05</h1>
                         <h1 class="text-lg text-black font-serif font-semibold">Scores</h1>
                         <span class="text-black">
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1.1em" width="1.1em" xmlns="http://www.w3.org/2000/svg">
@@ -93,22 +92,20 @@
                 </div>
             </div>
 
-            <div id="content" class="pt-8 px-5 lg:px-16">
+            <div id="content" class="py-6 px-5 lg:px-10">
                 <div class="flex flex-col">
                     <div class="w-full h-auto lg:h-auto">
-                        <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                            it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                        </h1>
+                        
                     </div>
-                    <div class="lg:w-[924px] pt-6 lg:h-auto">
-                        <h1 class="font-serif text-[#666666] font-medium text-base">
-                            For Trading & Demat Account related queries contact our customer service at info@techtrade.in or calls us on below number:
-                        </h1>
+                    <div class="lg:w-[924px] py-2 h-auto">
+                        <div class="font-serif text-[#666666] font-medium text-base">
+                            For Trading & Demat Account related queries contact our customer service at cs@techtrade.in or calls us on below number:
+                        </div>
                     </div>
-                    <div class="flex flex-col lg:flex-row pt-[30px] space-x-0 lg:space-y-0 space-y-2 lg:space-x-9">
-                        <h1 class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</h1>
-                        <h1 class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 6:00pm)</h1>
+                    <div class="flex flex-col lg:flex-row py-2 space-x-0 lg:space-y-0 space-y-2 lg:space-x-9">
+                        <div class="font-serif text-[#666666] font-medium text-base">Call: 0141-3561934</div>
+                        <div class="font-serif text-[#666666] font-medium text-base">(Monday-Friday from 9:00am to 5:00pm)
+                        </div>
                     </div>
                 </div>
             </div>
@@ -179,7 +176,7 @@
                         </h1>
                     </div>
                 </div>
-                <a href="#" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
+                <a href="https://drive.google.com/file/d/1JpKiDawLnQin_OPutJwojU9zUmsdH5XN/view?usp=sharing" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
             </div>
 
             <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow justify-center items-start shadow-[#004AAD26] rounded-[10px] flex-col">
@@ -193,7 +190,7 @@
                         </h1>
                     </div>
                 </div>
-                <a href="#" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
+                <a href="https://drive.google.com/file/d/1065rujCX5oadQw2k_AKJNsu3FFs3MEsr/view?usp=sharing" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
             </div>
 
             <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow justify-center items-start shadow-[#004AAD26] rounded-[10px] flex-col">
@@ -207,7 +204,7 @@
                         </h1>
                     </div>
                 </div>
-                <a href="#" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
+                <a href="https://drive.google.com/file/d/1-vYGHb-S7BkJHesDZ6fCfH7WHy92eIqq/view?usp=sharing" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
             </div>
             <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow justify-center items-start shadow-[#004AAD26] rounded-[10px] flex-col">
                 <div class="flex flex-row gap-4">
@@ -220,7 +217,7 @@
                         </h1>
                     </div>
                 </div>
-                <a href="#" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
+                <a href="https://drive.google.com/file/d/1-vYGHb-S7BkJHesDZ6fCfH7WHy92eIqq/view?usp=sharing" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
             </div>
             <div class="flex lg:w-full h-auto bg-white py-6 px-4 shadow justify-center items-start shadow-[#004AAD26] rounded-[10px] flex-col">
                 <div class="flex flex-row gap-4">
@@ -233,7 +230,7 @@
                         </h1>
                     </div>
                 </div>
-                <a href="#" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
+                <a href="https://smartodr.in/login" class="px-3 py-3 bg-[#004AAD] rounded-[5px] text-white font-serif font-semibold lg:text-base text-sm lg:mt-5 mt-2">File a Complaint</a>
             </div>
         </div>
     </div>

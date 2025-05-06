@@ -11,7 +11,7 @@
                 Shape Financial markets with us - join our expert team !
             </p>
             <ul class="flex font-serif space-x-2 items-center lg:text-[1.125rem]">
-                <li>Home</li>
+                <li><a href="{{url('/')}}">Home</a></li>
                 <li class="-mt-2">.</li>
                 <li class="text-[#1B1E31] font-bold"><a href="careers">Careers</a></li>
             </ul>

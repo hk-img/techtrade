@@ -216,7 +216,7 @@ const contents = {
       <div class="lg:w-[1140px] w-full h-auto py-2">
         <h1 class="font-serif text-[#666666] font-medium text-base leading-8">
             If you still have not received a satisfactory response at Level 2 within 3 working days, you may contact our Compliance Officer (Mrs. Sapna Chouhan) at sapna.chouhan@techtrade.in or call on below number:
-         </h1>
+        </h1>
       </div>
       <div class="flex flex-row py-4 space-x-9">
         <h1 class="font-serif text-[#666666] font-medium text-base">Call:7300006530</h1>
